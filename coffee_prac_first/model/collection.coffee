@@ -1,1 +1,1 @@
-#Lists = new Meteor.Collection "Lists"
+this.Lists = new Meteor.Collection "Lists"

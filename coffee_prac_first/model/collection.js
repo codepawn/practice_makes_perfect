@@ -1,1 +1,1 @@
-Lists = new Mongo.Collection('lists');
+//Lists = new Mongo.Collection('lists');

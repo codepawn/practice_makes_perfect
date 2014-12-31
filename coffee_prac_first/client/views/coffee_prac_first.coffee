@@ -10,4 +10,3 @@ Template.hello.events
     alert 'hello coffee script'
 
 Template.hello.rendered = ->
-  console.log 'goo'
