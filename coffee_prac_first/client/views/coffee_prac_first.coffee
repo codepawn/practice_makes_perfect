@@ -2,15 +2,17 @@ Router.route '/', ->
   this.render 'hello'
 
 Session.setDefault 'counter', 0
-Session.setDefault 'dice', 0
-Session.setDefault 'zeroOne', 0
-Session.setDefault 'oneToTen', 0
+Session.setDefault 'dice'
+Session.setDefault 'zeroOne'
+Session.setDefault 'oneToTen'
+Session.setDefault 'opposite'
 
 Template.hello.helpers
   counter: -> Session.get 'counter'
   dice: -> Session.get 'dice'
   zeroOne: -> Session.get 'zeroOne'
   oneToTen: -> Session.get 'oneToTen'
+  opposite: -> Session.get 'opposite'
 
 Template.hello.events
   'click button[name=counter]': ->
@@ -20,6 +22,11 @@ Template.hello.events
     alert 'hello coffee script'
   'click button[name=hw2]': ->
     alert "it's awesome"
+
+  'click button[name=oppo]': ->
+    Session.set 'opposite', true
+  'click button[name=oppo2]': ->
+    Session.set 'opposite', false
 
   'click button[name=triger]': ->
     console.log Math.floor Math.random() * 6 + 1
