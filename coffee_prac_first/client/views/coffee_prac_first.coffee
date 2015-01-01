@@ -3,9 +3,14 @@ Router.route '/', ->
 
 Session.setDefault 'counter', 0
 Session.setDefault 'dice', 0
+Session.setDefault 'zeroOne', 0
+Session.setDefault 'oneToTen', 0
 
 Template.hello.helpers
   counter: -> Session.get 'counter'
+  dice: -> Session.get 'dice'
+  zeroOne: -> Session.get 'zeroOne'
+  oneToTen: -> Session.get 'oneToTen'
 
 Template.hello.events
   'click button[name=counter]': ->
@@ -23,30 +28,32 @@ Template.hello.events
   'click button[name=triger3]': ->
     console.log x for x in [1..10]
   'click button[name=triger4]': ->
-    y = (x for x in [1..10])
-    console.log y
+    console.log (x for x in [1..10])
 
   'click button[name=triger5]': (evt, tmpl) ->
     x = parseInt tmpl.find('input[name=first]').value
     y = parseInt tmpl.find('input[name=second]').value
-    z = x + y
-    console.log "The anwer is #{z}"
-
+    console.log "The anwer is #{x + y}"
   'click button[name=triger6]': (evt, tmpl)->
     x = parseInt tmpl.find('input[name=first]').value
     y = parseInt tmpl.find('input[name=second]').value
-    z = x - y
-    console.log "The anwer is #{z}"
+    console.log "The anwer is #{x - y}"
   'click button[name=triger7]': (evt, tmpl)->
     x = parseInt tmpl.find('input[name=first]').value
     y = parseInt tmpl.find('input[name=second]').value
-    z = x * y
-    console.log "The anwer is #{z}"
+    console.log "The anwer is #{x * y}"
   'click button[name=triger8]': (evt, tmpl)->
     x = parseInt tmpl.find('input[name=first]').value
     y = parseInt tmpl.find('input[name=second]').value
-    z = x / y
-    console.log "The anwer is #{z}"
+    console.log "The anwer is #{x / y}"
+
+  'click button[name=triger9]': ->
+    Session.set 'dice', Math.floor Math.random() * 6 + 1
+  'click button[name=triger10]': ->
+    Session.set 'zeroOne', Math.floor Math.random() * 2
+  'click button[name=triger11]': ->
+    Session.set 'oneToTen', (x for x in [1..10])
+
 
 Template.hello.rendered = ->
 
