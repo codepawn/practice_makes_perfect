@@ -7,6 +7,3 @@
 meteor-platform
 autopublish
 insecure
-coffeescript
-iron:router
-ian:bootstrap-3

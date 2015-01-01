@@ -1,11 +1,40 @@
 <template name="hello">
-  <h1>Coffee script makes evertings easyier!</h1>
 
-  <button name="counter">Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-  <button class="btn" name="hw">hw</button>
-  <button name="triger" >tr</button>
-  <button name="triger2" >tr2</button>
-  <button name="triger3" >tr3</button>
-  <button name="triger4" >tr4</button>
+  <h1 class="well">Coffee script makes evertings easyier!</h1>
+
+  <div class="well">
+    <h2>Count</h2>
+    <button class="btn" name="counter">Click</button>
+    <p>You've pressed the button {{counter}} times.</p>
+  </div>
+
+  <div class="well">
+    <h2>Alert</h2>
+    <button class="btn" name="hw">hello coffee</button>
+    <button class="btn" name="hw2">it's awesome</button>
+  </div>
+
+  <div class="well">
+    <h1>Log Cal</h1>
+    <button class="btn" name="triger">random 1 to 6</button>
+    <button class="btn" name="triger2">random 0 or 1</button>
+    <button class="btn" name="triger3">1 to 10 row</button>
+    <button class="btn" name="triger4">1 to 10 col</button>
+  </div>
+
+
+  <div class="well">
+    <h1>Arithmetic</h1>
+
+    <div>
+      <input name="first" type="number"/>
+      <input name="second" type="number"/>
+    </div>
+
+    <button class="btn" name="triger5">Addition</button>
+    <button class="btn" name="triger6">Subtraction</button>
+    <button class="btn" name="triger7">multiplication</button>
+    <button class="btn" name="triger8">division</button>
+  </div>
+
 </template>
