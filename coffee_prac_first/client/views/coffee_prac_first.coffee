@@ -6,6 +6,7 @@ Session.setDefault 'dice'
 Session.setDefault 'zeroOne'
 Session.setDefault 'oneToTen'
 Session.setDefault 'opposite'
+Session.setDefault 'ari'
 
 Template.hello.helpers
   counter: -> Session.get 'counter'
@@ -13,6 +14,7 @@ Template.hello.helpers
   zeroOne: -> Session.get 'zeroOne'
   oneToTen: -> Session.get 'oneToTen'
   opposite: -> Session.get 'opposite'
+  ari: -> Session.get 'ari'
 
 Template.hello.events
   'click button[name=counter]': ->
@@ -61,6 +63,22 @@ Template.hello.events
   'click button[name=triger11]': ->
     Session.set 'oneToTen', (x for x in [1..10])
 
+  'click button[name=triger12]': (evt, tmpl) ->
+    x = parseInt tmpl.find('input[name=first1]').value
+    y = parseInt tmpl.find('input[name=second2]').value
+    Session.set 'ari', x + y
+  'click button[name=triger13]': (evt, tmpl)->
+    x = parseInt tmpl.find('input[name=first1]').value
+    y = parseInt tmpl.find('input[name=second2]').value
+    Session.set 'ari', x - y
+  'click button[name=triger14]': (evt, tmpl)->
+    x = parseInt tmpl.find('input[name=first1]').value
+    y = parseInt tmpl.find('input[name=second2]').value
+    Session.set 'ari', x * y
+  'click button[name=triger15]': (evt, tmpl)->
+    x = parseInt tmpl.find('input[name=first1]').value
+    y = parseInt tmpl.find('input[name=second2]').value
+    Session.set 'ari', x / y
 
 Template.hello.rendered = ->
 
