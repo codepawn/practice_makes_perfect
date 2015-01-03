@@ -11,3 +11,4 @@ Router.configure({
  *  Example:
  *  Router.route('/', {name: 'home'});
 */
+Router.route('/', {name: 'items.index'});
