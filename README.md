@@ -1,7 +1,8 @@
 practice_makes_perfect
 ======================
 
-Code everydays
+Coding everydays
 
-
-  
+- coffeescript
+- meteor.js
+- em
