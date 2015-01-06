@@ -1,8 +1,13 @@
+Session.setDefault 'count', 0
 Session.setDefault 'progressBar', 30
 Session.setDefault 'progressBar3', 90
 Session.setDefault 'progressBar2', 80
-# Main: Event Handlers and Helpers
-Template.Main.events
+
+Template.ProgressBars.events
+
+  'click button[name=count]': ->
+    Session.set 'count', Session.get('count') + 1
+
   'click button[name=add]': ->
     if Session.get('progressBar') > 99
       Session.set 'progressBar', 0
@@ -24,7 +29,6 @@ Template.Main.events
     else
       Session.set 'progressBar', Session.get('progressBar') - 5
 
-
   'click button[name=random]': ->
     value = Math.floor(Math.random() * 100) + 1
     Session.set 'progressBar2', value
@@ -36,7 +40,11 @@ Template.Main.events
     else
       Session.set 'progressBar3', Session.get('progressBar3') + value
 
-Template.Main.helpers
+Template.ProgressBars.helpers
+
+  count: ->
+    Session.get 'count'
+
   progress: ->
     Session.get 'progressBar'
   progress2: ->
@@ -44,14 +52,8 @@ Template.Main.helpers
   progress3: ->
     Session.get 'progressBar3'
 
-# Example:
-#   items: ->
-#
+Template.ProgressBars.created = ->
 
-# Main: Lifecycle Hooks
-Template.Main.created = ->
+Template.ProgressBars.rendered = ->
 
-Template.Main.rendered = ->
-
-Template.Main.destroyed = ->
-
+Template.ProgressBars.destroyed = ->
