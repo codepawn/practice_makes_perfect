@@ -8,6 +8,7 @@ blaze-tools@1.0.2
 boilerplate-generator@1.0.2
 callback-hook@1.0.2
 check@1.0.3
+coffeescript@1.0.5
 ddp@1.0.13
 deps@1.0.6
 ejson@1.0.5
@@ -17,6 +18,7 @@ geojson-utils@1.0.2
 html-tools@1.0.3
 htmljs@1.0.3
 http@1.0.9
+ian:bootstrap-3@3.3.1
 id-map@1.0.2
 insecure@1.0.2
 iron:controller@1.0.6
