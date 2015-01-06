@@ -11,6 +11,10 @@ Template.Main.events
 # Example:
 #  "click .selector": (e, tmpl) ->
 #
+  'click button[name=random]': ->
+    a = Math.floor(Math.random() * 100) + 1
+    Session.set 'progressBar', Session.get('progressBar') - a
+
 
 Template.Main.helpers
   progress: ->
@@ -26,3 +30,4 @@ Template.Main.created = ->
 Template.Main.rendered = ->
 
 Template.Main.destroyed = ->
+
