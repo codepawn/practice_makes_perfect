@@ -1,67 +1,68 @@
 <template name="ProgressBars">
 
+
   <div class="col-sm-4">
+    <div class="thumbnail">
+      <p>Sessions</p>
 
-    <p>Sessions</p>
-
-    <div>
-      <button class="btn btn-warning" name="count">Click <span class="badge">{{count}}</span></button>
-    </div>
-
-    <br/>
-
-    <div>
-      <button name='add' class="btn btn-danger">Add + 1</button>
-      <button name='add2' class="btn btn-danger">Add + 5</button>
-      <button name='sub' class="btn btn-danger">Sub - 1</button>
-      <button name='sub2' class="btn btn-danger">Sub - 5</button>
-    </div>
-    <br/>
-
-    <div class="progress">
-      <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0"
-           aria-valuemax="100%" style="width: {{progress}}%">
-          {{progress}}% Complete
+      <div>
+        <button class="btn btn-warning" name="count">Click <span class="badge">{{count}}</span></button>
       </div>
-    </div>
 
-    <div class="progress">
-      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0"
-           aria-valuemax="100" style="width: {{progress}}%">
+      <br/>
+
+      <div>
+        <button name='add' class="btn btn-danger">Add + 1</button>
+        <button name='add2' class="btn btn-danger">Add + 5</button>
+        <button name='sub' class="btn btn-danger">Sub - 1</button>
+        <button name='sub2' class="btn btn-danger">Sub - 5</button>
       </div>
-    </div>
+      <br/>
 
-    <div>
-      <button name='random' class="btn btn-danger">Random</button>
-    </div>
-    <br/>
-
-    <div class="progress">
-      <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="0" aria-valuemin="0"
-           aria-valuemax="100" style="width: {{progress2}}%">
-          {{progress2}}% Complete
+      <div class="progress">
+        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+             aria-valuemax="100%" style="width: {{progress}}%">
+            {{progress}}% Complete
+        </div>
       </div>
-    </div>
 
-    <div class="progress">
-      <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-           aria-valuemax="100" style="width: {{progress2}}%">
-        100%
+      <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0"
+             aria-valuemax="100" style="width: {{progress}}%">
+        </div>
       </div>
-    </div>
 
-    <div>
-      <button name='random2' class="btn btn-danger">Random Add ver</button>
-    </div>
-    <br/>
-
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="500"
-           style="width: {{progress3}}%;">
-          {{progress3}}
+      <div>
+        <button name='random' class="btn btn-danger">Random</button>
       </div>
-    </div>
+      <br/>
 
+      <div class="progress">
+        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+             aria-valuemax="100" style="width: {{progress2}}%">
+            {{progress2}}% Complete
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+             aria-valuemax="100" style="width: {{progress2}}%">
+          100%
+        </div>
+      </div>
+
+      <div>
+        <button name='random2' class="btn btn-danger">Random Add ver</button>
+      </div>
+      <br/>
+
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="500"
+             style="width: {{progress3}}%;">
+            {{progress3}}
+        </div>
+      </div>
+
+    </div>
   </div>
-
 </template>

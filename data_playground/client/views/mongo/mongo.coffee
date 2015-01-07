@@ -1,13 +1,10 @@
-# Mongo: Event Handlers and Helpers
+-# Mongo: Event Handlers and Helpers
 Template.Mongo.events
-# Example:
-#  "click .selector": (e, tmpl) ->
-#
+  'click button[name=count]':->
+
 
 Template.Mongo.helpers
-# Example:
-#   items: ->
-#
+  count:-> Mongocount.find().count()
 
 # Mongo: Lifecycle Hooks
 Template.Mongo.created = ->
