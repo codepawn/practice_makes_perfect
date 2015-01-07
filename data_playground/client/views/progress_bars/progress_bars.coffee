@@ -19,12 +19,12 @@ Template.ProgressBars.events
     else
       Session.set 'progressBar', Session.get('progressBar') + 5
   'click button[name=sub]': ->
-    if Session.get('progressBar') < 0
+    if Session.get('progressBar') < 1
       Session.set 'progressBar', 100
     else
       Session.set 'progressBar', Session.get('progressBar') - 1
   'click button[name=sub2]': ->
-    if Session.get('progressBar') < 0
+    if Session.get('progressBar') < 1
       Session.set 'progressBar', 100
     else
       Session.set 'progressBar', Session.get('progressBar') - 5
@@ -38,7 +38,11 @@ Template.ProgressBars.events
     if Session.get('progressBar3') > 99
       Session.set 'progressBar3', 0
     else
-      Session.set 'progressBar3', Session.get('progressBar3') + value
+      max = Session.get('progressBar3') + value
+      if value + max > 100
+        Session.set 'progressBar3', 100
+      else
+        Session.set 'progressBar3', max
 
 Template.ProgressBars.helpers
 
