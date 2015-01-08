@@ -1,5 +1,7 @@
 # Articles: Event Handlers and Helpers
 Template.Articles.events
+  'click button[name=remove]':->
+    Articles.remove({_id:this._id})
 # Example:
 #  "click .selector": (e, tmpl) ->
 #
