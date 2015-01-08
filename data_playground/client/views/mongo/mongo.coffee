@@ -12,3 +12,4 @@ Template.Mongo.created = ->
 Template.Mongo.rendered = ->
 
 Template.Mongo.destroyed = ->
+

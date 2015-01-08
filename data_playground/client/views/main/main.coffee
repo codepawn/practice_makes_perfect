@@ -6,6 +6,9 @@ Template.Main.events
 
 Template.Main.helpers
 
+  articles:->
+    Articles.find()
+
 # Example:
 #   items: ->
 #

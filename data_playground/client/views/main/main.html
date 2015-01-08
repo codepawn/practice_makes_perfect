@@ -1,10 +1,18 @@
 <template name="Main">
 
   <div class="container">
+
+    <input type="hidden" name="updated" value="{{updated}}" id="updated"/>
+
+
+
     <div class="row">
+        {{#each articles}}
+            {{> Articles}}
+        {{/each}}
+
 
         {{> ProgressBars}}
-
 
         {{> Mongo}}
 

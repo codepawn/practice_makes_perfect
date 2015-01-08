@@ -6,7 +6,11 @@ Session.setDefault 'progressBar2', 80
 Template.ProgressBars.events
 
   'click button[name=count]': ->
-    Session.set 'count', Session.get('count') + 1
+    if Session.get('count') is 20
+      console.log 'Plz stop click it'
+      Session.set 'count', 0
+    else
+      Session.set 'count', Session.get('count') + 1
 
   'click button[name=add]': ->
     if Session.get('progressBar') > 99
