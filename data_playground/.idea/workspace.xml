@@ -26,61 +26,41 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/views/main/main.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.14678179" vertical-offset="0" max-vertical-offset="1274">
-                  <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+                <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="476">
+                  <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/views/main/main.coffee">
+          <file leaf-file-name="mongo.coffee" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/client/views/mongo/mongo.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="476">
-                  <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+                <state vertical-scroll-proportion="0.19645609" vertical-offset="0" max-vertical-offset="1298">
+                  <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="articles.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server/collections/articles.coffee">
+          <file leaf-file-name="fileupload.coffee" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/views/fileUpload/fileupload.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="493">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state vertical-scroll-proportion="-6.8" vertical-offset="0" max-vertical-offset="459">
+                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="mongocount.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server/collections/mongocount.coffee">
+          <file leaf-file-name="file.coffee" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server/methods/file.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.84" vertical-offset="0" max-vertical-offset="493">
-                  <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="articles.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/both/collections/articles.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="187">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="progress_bars.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/views/progress_bars/progress_bars.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="1241">
-                  <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+                <state vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="391">
+                  <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
@@ -90,31 +70,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="mongo.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/views/mongo/mongo.html">
+          <file leaf-file-name="fileupload.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/client/views/fileUpload/fileupload.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="340">
-                  <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="2" selection-end-column="27" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="master_layout.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/views/layouts/master_layout/master_layout.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-29.423077" vertical-offset="0" max-vertical-offset="1241">
-                  <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="27" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="articles.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/client/views/articles/articles.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.14417887" vertical-offset="0" max-vertical-offset="1297">
-                  <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+                <state vertical-scroll-proportion="0.17039321" vertical-offset="0" max-vertical-offset="1297">
+                  <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -131,15 +91,22 @@
         <option value="$PROJECT_DIR$/client/app.html" />
         <option value="$PROJECT_DIR$/client/views/meteordefault/meteordefault.coffee" />
         <option value="$PROJECT_DIR$/client/app.css" />
-        <option value="$PROJECT_DIR$/client/views/meteordefault/meteordefault.html" />
         <option value="$PROJECT_DIR$/client/views/progress_bars/progress_bars.html" />
         <option value="$PROJECT_DIR$/client/views/mongo/mongo.html" />
-        <option value="$PROJECT_DIR$/client/views/mongo/mongo.coffee" />
         <option value="$PROJECT_DIR$/client/views/progress_bars/progress_bars.coffee" />
         <option value="$PROJECT_DIR$/client/views/layouts/master_layout/master_layout.html" />
         <option value="$PROJECT_DIR$/client/views/main/main.coffee" />
-        <option value="$PROJECT_DIR$/client/views/main/main.html" />
         <option value="$PROJECT_DIR$/client/views/articles/articles.html" />
+        <option value="$PROJECT_DIR$/config/development/settings.json" />
+        <option value="$PROJECT_DIR$/client/views/meteordefault/meteordefault.html" />
+        <option value="$PROJECT_DIR$/client/views/fileUpload/fileUpload.html" />
+        <option value="$PROJECT_DIR$/client/views/fileUpload/meteordefault.coffee" />
+        <option value="$PROJECT_DIR$/client/views/main/main.html" />
+        <option value="$PROJECT_DIR$/server/methods/file.coffee" />
+        <option value="$PROJECT_DIR$/client/views/fileUpload/fileupload.coffee" />
+        <option value="$PROJECT_DIR$/client/app.coffee" />
+        <option value="$PROJECT_DIR$/client/views/fileUpload/fileupload.html" />
+        <option value="$PROJECT_DIR$/client/views/mongo/mongo.coffee" />
       </list>
     </option>
   </component>
@@ -211,7 +178,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
+              <option name="myItemId" value="methods" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -222,60 +189,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data_playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,12 +233,12 @@
     <property name="options.lastSelected" value="editing.templates" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/code/todos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../coworker_dairy_app" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="arti&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/articles/articles.html&#10;main&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/main/main.coffee&#10;lay&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/layouts/master_layout/master_layout.html&#10;pro&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/progress_bars/progress_bars.coffee&#10;mongo&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/mongo/mongo.coffee&#10;mon&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/mongo/mongo.html&#10;mete&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/meteordefault/meteordefault.coffee&#10;me&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/meteordefault/meteordefault.html&#10;Mon&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/mongo/mongo.html&#10;rout&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/both/router/routes.coffee&#10;app&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/app.html&#10;ma&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/main/main.coffee&#10;rou&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/both/router/routes.coffee" />
+    <property name="SearchEverywhereHistoryKey" value="mongo&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/both/collections/mongocount.coffee&#10;mon&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/server/collections/mongocount.coffee&#10;main&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/main/main.html&#10;me&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/meteordefault/meteordefault.coffee&#10;mete&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/meteordefault/meteordefault.html&#10;setting&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/config/development/settings.json&#10;meteo&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/meteordefault/meteordefault.coffee&#10;arti&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/articles/articles.html&#10;lay&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/layouts/master_layout/master_layout.html&#10;pro&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/progress_bars/progress_bars.coffee&#10;Mon&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/mongo/mongo.html&#10;rout&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/both/router/routes.coffee&#10;app&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/app.html&#10;ma&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/client/views/main/main.coffee&#10;rou&#9;FILE&#9;file:///Users/hyunahn/git/practice_makes_perfect/data_playground/both/router/routes.coffee" />
     <property name="editorconfig.notification" value="Applied .editorconfig settings" />
   </component>
   <component name="RunManager">
@@ -429,7 +342,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/views/meteordefault/meteordefault.coffee">
+    <entry file="file://$PROJECT_DIR$/client/views/fileUpload/fileupload.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="323">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
@@ -456,7 +369,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/meteordefault/meteordefault.html">
+    <entry file="file://$PROJECT_DIR$/client/views/fileUpload/fileupload.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -509,22 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/meteordefault/meteordefault.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039321512" vertical-offset="0" max-vertical-offset="1297">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/meteordefault/meteordefault.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039291218" vertical-offset="0" max-vertical-offset="1298">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1300">
@@ -552,23 +449,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/mongo/mongo.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19645609" vertical-offset="0" max-vertical-offset="1298">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/both/collections/mongocount.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06666667" vertical-offset="0" max-vertical-offset="1275">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/collections/articles.coffee">
+    <entry file="file://$PROJECT_DIR$/config/development/env.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1300">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -576,26 +457,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/collections/mongocount.coffee">
+    <entry file="file://$PROJECT_DIR$/config/development/settings.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.84" vertical-offset="0" max-vertical-offset="493">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/both/collections/articles.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1300">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1274">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/progress_bars/progress_bars.coffee">
+    <entry file="file://$PROJECT_DIR$/client/views/layouts/master_layout/master_layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="1241">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.58982265" vertical-offset="0" max-vertical-offset="1297">
+          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/articles/articles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14417887" vertical-offset="0" max-vertical-offset="1297">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/main/main.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.117873654" vertical-offset="0" max-vertical-offset="1298">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -608,42 +497,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/main/main.coffee">
+    <entry file="file://$PROJECT_DIR$/client/views/progress_bars/progress_bars.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="476">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.1440678" vertical-offset="0" max-vertical-offset="1298">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/main/main.html">
+    <entry file="file://$PROJECT_DIR$/server/methods/file.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14678179" vertical-offset="0" max-vertical-offset="1274">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="391">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/layouts/master_layout/master_layout.html">
+    <entry file="file://$PROJECT_DIR$/client/views/fileUpload/fileupload.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.423077" vertical-offset="0" max-vertical-offset="1241">
-          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="27" />
+        <state vertical-scroll-proportion="-6.8" vertical-offset="0" max-vertical-offset="459">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1298">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/fileUpload/fileupload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17039321" vertical-offset="0" max-vertical-offset="1297">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/collections/mongocount.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17333333" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/mongo/mongo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="340">
+        <state vertical-scroll-proportion="0.01310717" vertical-offset="0" max-vertical-offset="1297">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="2" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/articles/articles.html">
+    <entry file="file://$PROJECT_DIR$/client/views/main/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14417887" vertical-offset="0" max-vertical-offset="1297">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="476">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/collections/articles.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1300">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/collections/likes.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1300">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/collections/mongocount.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.053333335" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/both/collections/articles.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1300">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/both/collections/likes.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1300">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/both/collections/mongocount.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06538462" vertical-offset="0" max-vertical-offset="1300">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/mongo/mongo.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19645609" vertical-offset="0" max-vertical-offset="1298">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>

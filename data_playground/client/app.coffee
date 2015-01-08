@@ -1,3 +1,5 @@
+Meteor.startup ->
+    loadFilePicker('AjKDH1VmIRpOkieA95PsZz')
 #
 # Client App Namespace
 #
