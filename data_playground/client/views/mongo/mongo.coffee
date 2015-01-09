@@ -10,6 +10,6 @@ Template.Mongo.helpers
 Template.Mongo.created = ->
 
 Template.Mongo.rendered = ->
-
+  Meteor.subscribe 'mongocount'
 Template.Mongo.destroyed = ->
 

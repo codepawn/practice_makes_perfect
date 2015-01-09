@@ -1,14 +1,10 @@
-
 # Main: Event Handlers and Helpers
 Template.Main.events
-
-
+# Example:
+#  "click .selector": (e, tmpl) ->
+#
 
 Template.Main.helpers
-
-  articles:->
-    Articles.find()
-
 # Example:
 #   items: ->
 #
@@ -17,7 +13,5 @@ Template.Main.helpers
 Template.Main.created = ->
 
 Template.Main.rendered = ->
-  Meteor.subscribe 'articles'
 
 Template.Main.destroyed = ->
-
