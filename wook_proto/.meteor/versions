@@ -12,8 +12,10 @@ ddp@1.0.13
 deps@1.0.6
 ejson@1.0.5
 fastclick@1.0.2
+filepicker-plus@0.0.0
 follower-livedata@1.0.3
 geojson-utils@1.0.2
+handlebars@1.0.2
 html-tools@1.0.3
 htmljs@1.0.3
 http@1.0.9
