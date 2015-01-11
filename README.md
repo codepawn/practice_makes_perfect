@@ -8,4 +8,3 @@ Coding everydays
 - em
 
 
-http://playgroun.meteor.com/
