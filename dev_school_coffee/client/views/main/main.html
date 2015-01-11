@@ -1,0 +1,20 @@
+<template name="Main">
+
+  <p>{{listName}}</p>
+
+    {{#each list}}
+        {{>userList}}
+    {{/each}}
+
+
+</template>
+
+<template name="userList">
+
+  <ul>
+    <li>{{no}}</li>
+    <li>{{name}}</li>
+    <li>{{email}}</li>
+  </ul>
+
+</template>

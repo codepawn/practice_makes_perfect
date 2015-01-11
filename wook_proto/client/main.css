@@ -150,3 +150,12 @@ footer a {
 .example-tiles a:hover {
   background-color: #ddd;
 }
+
+li.is-loading img,
+li.is-broken img {
+  opacity: 0;
+}
+li.is-loading {
+  background-color: black;
+  background-image: url('http://desandro.github.io/imagesloaded/assets/loading.gif');
+}
