@@ -10,3 +10,7 @@ Router.configure
 #   Router.route "/",
 #     name: "home"
 #
+
+Router.route '/', ->
+  this.render 'Main'
+  

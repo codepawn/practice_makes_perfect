@@ -11,3 +11,4 @@ iron:router
 filepicker-plus
 mrt:jquery-imagesloaded
 jquery
+coffeescript

@@ -4,12 +4,16 @@ Template.Main.events
 #  "click .selector": (e, tmpl) ->
 #
 
+
 Template.Main.helpers
 # Example:
 #   items: ->
 #
-
+  items:->
+    Pics.find()
 # Main: Lifecycle Hooks
+
+
 Template.Main.created = ->
 
 Template.Main.rendered = ->
