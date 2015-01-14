@@ -49,5 +49,4 @@ Template.Main.rendered = function () {
   //})(jQuery);
   //
 
-
 };
