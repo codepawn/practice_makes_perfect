@@ -3,6 +3,9 @@ Template.Items.events
 # Example:
 #  "click .selector": (e, tmpl) ->
 #
+  'click button[name=rm]':->
+    Pics.remove({_id:this._id})
+
 
 Template.Items.helpers
 # Example:

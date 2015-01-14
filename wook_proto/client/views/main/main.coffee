@@ -4,14 +4,11 @@ Template.Main.events
 #  "click .selector": (e, tmpl) ->
 #
   'click button[name=add]':->
-    i = Math.random()
+    i = Math.floor Math.random() * 12
     count = Pics.find().count() + 1
-    if i < 0.5
-      Pics.insert({src:'http://cfile236.uf.daum.net/image/277A28355193812D1941BD',width:200,no:count})
-    else
-      Pics.insert({src:'http://pds7.egloos.com/pds/200801/02/44/e0080644_477a71aa4cfe6.jpg',width:200,no:count})
+    Pics.insert({src:"sample-images/image_#{i}.jpg",width:200,no:count})
   'click button[name=rm]':->
-    Pics.reset()
+    Pics.remove({_id:this._id})
 
 
 Template.Main.helpers
