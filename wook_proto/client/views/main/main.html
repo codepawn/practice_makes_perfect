@@ -1,11 +1,13 @@
 <template name="Main">
 
   <p>hello world</p>
+  <button class="btn btn-danger" name="add">Add</button>
+  <button class="btn btn-danger" name="rm">Remove</button>
 
   <div id="container">
     <ul id="myContent">
       {{#each items}}
-        <li>{{> Items}}</li>
+        <li class="item">{{> Items}}</li>
       {{/each}}
     </ul>
   </div>
