@@ -1,0 +1,19 @@
+<template name="blogInsert">    
+    <div class="container">
+        <!--Breadcrumbs-->
+        <ol class="breadcrumb">
+            <li><a href="{{pathFor 'sitesIndex'}}">Home</a></li>
+            <li><a href="{{pathFor 'blogIndex'}}">Blog</a></li>
+            <li class="active">insert</li>
+        </ol>
+
+        <div id="basic-form">
+            <div class="title">
+                <h3 class="pull-left">Insert Blog</h3>
+            </div>
+            <div class="clearfix"></div>
+
+            {{> blog_form}}  
+        </div>        
+    </div>
+</template>

@@ -1,0 +1,33 @@
+<template name="blog_form">
+    <form id="blog_form"> 
+        <div class="form-group {{#if error 'title'}}has-error{{/if}}">
+<label for="title" class="control-label">Title *</label>
+<input type="text" id="title" value="{{title}}" placeholder="Title" class="form-control">
+<span class="help-block">{{error "title"}}</span>
+</div>
+<div class="form-group {{#if error 'date'}}has-error{{/if}}">
+<label for="date" class="control-label">Date *</label>
+<input type="text" id="date" value="{{meteorisFormatterDate date 'L'}}" placeholder="Date" class="form-control">
+<span class="help-block">{{error "date"}}</span>
+</div>
+<div class="form-group {{#if error 'boolean'}}has-error{{/if}}">
+<label for="boolean" class="control-label">Boolean *</label>
+<input type="text" id="boolean" value="{{boolean}}" placeholder="Boolean" class="form-control">
+<span class="help-block">{{error "boolean"}}</span>
+</div>
+<div class="form-group {{#if error 'number'}}has-error{{/if}}">
+<label for="number" class="control-label">Number *</label>
+<input type="number" id="number" value="{{number}}" placeholder="Number" class="form-control">
+<span class="help-block">{{error "number"}}</span>
+</div>
+<div class="form-group {{#if error 'discription'}}has-error{{/if}}">
+<label for="discription" class="control-label">Discription *</label>
+<input type="text" id="discription" value="{{discription}}" placeholder="Discription" class="form-control">
+<span class="help-block">{{error "discription"}}</span>
+</div>
+
+        <button id="btnSave" type="submit" class="btn btn-success">Submit</button>                
+        <a href="{{pathFor 'blogIndex'}}" class="btn btn-default">Back</a>                        
+    </form>
+</template>
+
