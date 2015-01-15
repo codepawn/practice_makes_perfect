@@ -7,6 +7,8 @@ Template.Main.events
     i = Math.floor Math.random() * 12
     count = Pics.find().count() + 1
     Pics.insert({src:"sample-images/image_#{i}.jpg",width:200,no:count})
+
+
   'click button[name=rm]':->
     Pics.remove({_id:this._id})
 
@@ -16,7 +18,7 @@ Template.Main.helpers
 #   items: ->
 #
   items:->
-    Pics.find()
+    Pics.find({},{sort:{no:-1}})
 # Main: Lifecycle Hooks
 
 

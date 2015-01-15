@@ -1,10 +1,11 @@
 <template name="Main">
 
-  <p>hello world</p>
-  <button class="btn btn-danger" name="add">Add</button>
-  <button class="btn btn-danger" name="rm">Remove</button>
+  <!--<button class="btn btn-danger" name="rm">Remove</button>-->
 
     {{#masonryContainer columnWidth=1 transitionDuration="0.1s" gutter=2 id="MasonryContainer" }}
+        {{#masonryElement "MasonryContainer"}}
+          <button class="btn btn-danger" name="add">Add</button>
+        {{/masonryElement}}
         {{#each items}}
             {{#masonryElement "MasonryContainer"}}
                 {{> Items}}
