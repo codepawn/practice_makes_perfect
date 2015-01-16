@@ -3,22 +3,27 @@ Template.Main.events
 # Example:
 #  "click .selector": (e, tmpl) ->
 #
-  'click button[name=add]':->
+  'click button[name=add]': ->
     i = Math.floor Math.random() * 12
     count = Pics.find().count() + 1
-    Pics.insert({src:"sample-images/image_#{i}.jpg",width:200,no:count})
+    createdAt = (new Date())
+    Pics.insert
+      src: "sample-images/image_#{i}.jpg"
+      width: 200
+      no: count
+      createdAt: createdAt
 
 
-  'click button[name=rm]':->
-    Pics.remove({_id:this._id})
+  'click button[name=rm]': ->
+    Pics.remove({_id: this._id})
 
 
 Template.Main.helpers
 # Example:
 #   items: ->
 #
-  items:->
-    Pics.find({},{sort:{no:-1}})
+  items: ->
+    Pics.find({}, {sort: {createdAt: -1}})
 # Main: Lifecycle Hooks
 
 
