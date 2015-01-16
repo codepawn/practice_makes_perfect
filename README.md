@@ -1,7 +1,9 @@
 practice_makes_perfect
 ======================
 
-Coding everydays
+Coding everydays with No! excuse
+
+Even a smallthings
 
 - coffeescript
 - meteor.js
