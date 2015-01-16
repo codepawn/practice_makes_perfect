@@ -8,3 +8,10 @@ Coding everydays
 - em
 
 http://pinadd.meteor.com/
+
+todos
+- infinity scrolling
+- subscribe limit
+- sorting by algoritm
+- likes button
+- users func
