@@ -17,3 +17,5 @@ todos
 - sorting by algoritm
 - likes button
 - users func
+- loding bar
+- Facebook login
