@@ -6,12 +6,16 @@ Template.Main.events
   'click button[name=add]': ->
     i = Math.floor Math.random() * 12
     count = Pics.find().count() + 1
-    createdAt = (new Date())
+    createdAtM = new Date().getMinutes()
+    createdAtS = new Date().getSeconds()
+
     Pics.insert
       src: "sample-images/image_#{i}.jpg"
       width: 200
       no: count
-      createdAt: createdAt
+      createdAt: new Date
+      createdAtM: createdAtM
+      createdAtS: createdAtS
 
 
   'click button[name=rm]': ->
@@ -23,7 +27,7 @@ Template.Main.helpers
 #   items: ->
 #
   items: ->
-    Pics.find({}, {sort: {createdAt: -1}})
+    Pics.find {}, sort: no: 1
 # Main: Lifecycle Hooks
 
 
