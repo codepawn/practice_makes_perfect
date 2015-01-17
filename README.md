@@ -9,8 +9,6 @@ Even a smallthings
 - meteor.js
 - em
 
-http://pinadd.meteor.com/
-
 todos
 - infinity scrolling
 - subscribe limit
