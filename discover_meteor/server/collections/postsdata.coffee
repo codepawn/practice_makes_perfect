@@ -1,9 +1,9 @@
 #
 # Add query methods like this:
-#  Pics.findPublic = ->
-#    Pics.find is_public: true
+#  Postsdata.findPublic = ->
+#    Postsdata.find is_public: true
 #
-Pics.allow
+Postsdata.allow
   insert: (userId, doc) ->
     true
 
@@ -13,7 +13,7 @@ Pics.allow
   remove: (userId, doc) ->
     true
 
-Pics.deny
+Postsdata.deny
   insert: (userId, doc) ->
     false
 

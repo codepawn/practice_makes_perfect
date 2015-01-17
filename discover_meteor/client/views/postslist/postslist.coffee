@@ -8,6 +8,8 @@ Template.Postslist.helpers
 # Example:
 #   items: ->
 #
+  posts: ->
+   Postsdata.find {}, sort:{createAt:1}
 
 # Postslist: Lifecycle Hooks
 Template.Postslist.created = ->
@@ -15,3 +17,10 @@ Template.Postslist.created = ->
 Template.Postslist.rendered = ->
 
 Template.Postslist.destroyed = ->
+
+
+Template.postItem.helpers
+  domain: ->
+    a = document.createElement('a')
+    a.href = this.url
+    a.hostname

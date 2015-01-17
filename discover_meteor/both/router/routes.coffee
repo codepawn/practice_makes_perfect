@@ -12,5 +12,5 @@ Router.configure
 #
 
 Router.route '/', ->
-  this.render 'Main'
+  this.render 'Postslist'
   
