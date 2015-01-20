@@ -10,3 +10,5 @@ Router.configure
 #   Router.route "/",
 #     name: "home"
 #
+Router.route "/",
+  name: "tangerine"

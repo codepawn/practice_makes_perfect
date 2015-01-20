@@ -1,4 +1,4 @@
-Meteor.subscribe 'Postsdata'
+
 
 #
 # Client App Namespace
