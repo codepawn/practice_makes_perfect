@@ -15,4 +15,8 @@ Router.configure
 
 Router.route '/', ->
   this.render 'Postslist'
-  
+
+Router.route "post/:_id",
+  name: "post.item",
+  data: ->
+    Postsdata.findOne(this.params._id)
