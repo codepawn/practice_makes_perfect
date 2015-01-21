@@ -13,8 +13,11 @@ Router.configure
 #     name: "home"
 #
 
-Router.route '/', ->
-  this.render 'Postslist'
+
+Router.map ->
+  @route 'Postslist',
+    path: '/'
+
 
 Router.route "post/:_id",
   name: "post.item",
