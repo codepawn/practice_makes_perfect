@@ -5,7 +5,7 @@
       "extension": ".html"
     },
     "css": {
-      "create": true,
+      "create": false,
       "extension": ".css"
     },
     "js": {
