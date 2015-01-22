@@ -10,3 +10,4 @@ coffeescript
 iron:router
 twbs:bootstrap
 sacha:spin
+alethes:pages
