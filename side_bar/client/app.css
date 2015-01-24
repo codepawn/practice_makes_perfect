@@ -1,0 +1,17 @@
+/*****************************************************************************/
+/* Global CSS Styles */
+/*****************************************************************************/
+
+
+
+#fixed-top span.sb-toggle-left {
+    float: left;
+    color: white;
+    padding: 10px;
+}
+
+#fixed-top span.sb-toggle-right {
+    float: right;
+    color: white;
+    padding: 10px;
+}
