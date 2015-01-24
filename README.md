@@ -17,3 +17,5 @@ todos
 - users func
 - loding bar
 - Facebook login
+
+http://sidebarforfix.meteor.com
