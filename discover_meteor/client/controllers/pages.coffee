@@ -1,4 +1,4 @@
-@PostsItemController = RouteController.extend(
+@PagesController = RouteController.extend(
   waitOn: ->
 
   data: ->

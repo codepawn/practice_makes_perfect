@@ -5,11 +5,18 @@ Router.configure
   loadingTemplate: "Loading"
   notFoundTemplate: "NotFound"
 
+Router.route "/",
+  name: "posts.list"
 
 Router.route "post/:_id",
   name: "post.item",
   data: ->
     Postsdata.findOne(this.params._id)
 
-Router.route "/",
-  name: "posts.item"
+Router.route "Infinity",
+  path: 'infinity'
+  name: "infinity"
+
+Router.route "Pages",
+  path: 'pages'
+  name: "pages"

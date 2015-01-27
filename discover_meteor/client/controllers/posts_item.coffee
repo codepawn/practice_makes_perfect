@@ -1,4 +1,4 @@
-@PostsItemController = RouteController.extend(
+@PostsListController = RouteController.extend(
   waitOn: ->
     Meteor.subscribe 'Postsdata'
 

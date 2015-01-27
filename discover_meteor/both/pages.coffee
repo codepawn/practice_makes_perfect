@@ -1,3 +1,5 @@
 @Pages = new Meteor.Pagination Postsdata,
   infinite: true
-  itemTemplate: "PostsList"
+  itemTemplate: "PostsItem"
+
+
