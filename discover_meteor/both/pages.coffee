@@ -2,4 +2,3 @@
   infinite: true
   itemTemplate: "PostsItem"
 
-

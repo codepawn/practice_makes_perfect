@@ -5,11 +5,7 @@
 # but you can also edit it by hand.
 
 meteor-platform
+autopublish
 insecure
 coffeescript
 iron:router
-sacha:spin
-alethes:pages
-less
-ian:bootstrap-3
-meteorhacks:fast-render
