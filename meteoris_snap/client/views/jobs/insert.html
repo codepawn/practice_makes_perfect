@@ -1,0 +1,19 @@
+<template name="jobsInsert">    
+    <div class="container">
+        <!--Breadcrumbs-->
+        <ol class="breadcrumb">
+            <li><a href="{{pathFor 'sitesIndex'}}">Home</a></li>
+            <li><a href="{{pathFor 'jobsIndex'}}">Jobs</a></li>
+            <li class="active">insert</li>
+        </ol>
+
+        <div id="basic-form">
+            <div class="title">
+                <h3 class="pull-left">Insert Jobs</h3>
+            </div>
+            <div class="clearfix"></div>
+
+            {{> jobs_form}}  
+        </div>        
+    </div>
+</template>

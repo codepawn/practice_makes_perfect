@@ -1,0 +1,19 @@
+<template name="employeesInsert">    
+    <div class="container">
+        <!--Breadcrumbs-->
+        <ol class="breadcrumb">
+            <li><a href="{{pathFor 'sitesIndex'}}">Home</a></li>
+            <li><a href="{{pathFor 'employeesIndex'}}">Employees</a></li>
+            <li class="active">insert</li>
+        </ol>
+
+        <div id="basic-form">
+            <div class="title">
+                <h3 class="pull-left">Insert Employees</h3>
+            </div>
+            <div class="clearfix"></div>
+
+            {{> employees_form}}  
+        </div>        
+    </div>
+</template>
