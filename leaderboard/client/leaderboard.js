@@ -1,7 +1,3 @@
-Router.route('/', function () {
-  this.render('hello');
-});
-
 Template.leaderboard.helpers({
   players: function () {
     return Players.find({}, {sort: {score: -1, name: 1}});
