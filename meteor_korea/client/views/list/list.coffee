@@ -9,7 +9,7 @@ Template.List.events
     $(evt.target).hide()
 
   'click button[name=rm]':->
-    Users.remove()
+    Users.remove _id: @_id
 
 
 

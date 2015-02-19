@@ -10,5 +10,9 @@ Router.configure
 #   Router.route "/",
 #     name: "home"
 #
-Router.route "/",
-  name: "Main"
+Router.map ->
+  @route "/",
+    name: "main"
+
+  @route "nametable",
+    name: "name.table"
