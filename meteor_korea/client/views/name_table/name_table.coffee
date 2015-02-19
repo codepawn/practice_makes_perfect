@@ -9,6 +9,13 @@ Template.NameTable.events
       no: noValue
       name: nameValue
       email: emailValue
+    , (error, result)->
+        if error
+          alert 'Wrong!'
+        else
+          tmpl.find('input[name=email]').value = ''
+          tmpl.find('input[name=name]').value = ''
+          tmpl.find('input[name=no]').value = ''
 
 Template.NameTable.helpers
   count: ->
