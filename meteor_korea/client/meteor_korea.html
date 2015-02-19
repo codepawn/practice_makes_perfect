@@ -1,25 +1,3 @@
 <head>
   <title>korean meteor</title>
 </head>
-
-<body>
-<p>body</p>
-{{> hello}}
-</body>
-
-<template name="hello">
-  <p>hello tem</p>
-
-  <p>{{helper}}</p>
-    {{#each count}}
-        {{>list}}
-    {{/each}}
-</template>
-
-<template name="list">
-  <tr>
-    <td>no : {{no}}</td>
-    <td>name : {{name}}</td>
-    <td>email : {{email}}</td>
-  </tr>
-</template>
