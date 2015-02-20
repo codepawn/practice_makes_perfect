@@ -9,7 +9,7 @@ coffeescript
 fourseven:scss
 twbs:bootstrap
 iron:router
-autopublish
 aldeed:simple-schema
 aldeed:collection2
 aldeed:autoform
+pcel:loading

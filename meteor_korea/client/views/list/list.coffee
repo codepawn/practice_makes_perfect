@@ -8,15 +8,13 @@ Template.List.events
   'click button[name=hide]': (evt)->
     $(evt.target).hide()
 
-  'click button[name=rm]':->
+  'click button[name=rm]': ->
     Users.remove _id: @_id
 
 
-
 Template.List.helpers
-# Example:
-#   items: ->
-#
+  isActivate: ->
+
 
 # List: Lifecycle Hooks
 Template.List.created = ->

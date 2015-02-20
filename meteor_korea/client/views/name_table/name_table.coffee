@@ -10,17 +10,16 @@ Template.NameTable.events
       name: nameValue
       email: emailValue
     , (error, result)->
-        if error
-          alert 'Wrong!'
-        else
-          tmpl.find('input[name=email]').value = ''
-          tmpl.find('input[name=name]').value = ''
-          tmpl.find('input[name=no]').value = ''
+      if error
+        alert error
+      else
+        tmpl.find('input[name=email]').value = ''
+        tmpl.find('input[name=name]').value = ''
+        tmpl.find('input[name=no]').value = ''
 
 Template.NameTable.helpers
   count: ->
-    Users.find({}, {sort: {no: -1}})
-
+    @counter
 
 # NameTable: Lifecycle Hooks
 Template.NameTable.created = ->

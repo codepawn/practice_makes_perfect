@@ -2,7 +2,7 @@
 
 Router.configure
   layoutTemplate: "MasterLayout"
-  loadingTemplate: "Loading"
+  loadingTemplate: "loading"
   notFoundTemplate: "NotFound"
 
 #

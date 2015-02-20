@@ -12,9 +12,9 @@ Schemas.Users = new SimpleSchema
     label: 'Name'
     max: 20
   email:
-    type: String
-    label:'Email'
+    label: 'Email'
+    regEx: SimpleSchema.RegEx.Email
     optional: true
-    max: 20
+    type: String
 
 Users.attachSchema(Schemas.Users);

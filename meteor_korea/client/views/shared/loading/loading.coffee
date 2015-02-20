@@ -1,17 +1,14 @@
-# Loading: Event Handlers and Helpers
-Template.Loading.events
-# Example:
-#  "click .selector": (e, tmpl) ->
-#
+Template.loading.rendered = ->
+  if !Session.get('loadingSplash')
+    @loading = window.pleaseWait(
+      logo: '/images/Meteor-logo.png'
+      backgroundColor: '#7f8c8d'
+      loadingHtml: message + spinner)
+    Session.set 'loadingSplash', true
 
-Template.Loading.helpers
-# Example:
-#   items: ->
-#
+Template.loading.destroyed = ->
+  if @loading
+    @loading.finish()
 
-# Loading: Lifecycle Hooks
-Template.Loading.created = ->
-
-Template.Loading.rendered = ->
-
-Template.Loading.destroyed = ->
+message = '<p class="loading-message">Loading Message</p>'
+spinner = '<div class="sk-spinner sk-spinner-rotating-plane"></div>'
