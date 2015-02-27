@@ -19,4 +19,7 @@ todos
 - Facebook login
 
 http://sidebarforfix.meteor.com
+
 http://sidebarforfix2.meteor.com
+
+projecthumew.meteor.com
