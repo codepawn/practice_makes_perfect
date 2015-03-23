@@ -2,8 +2,17 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/caffeine/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/discover_fifth/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/discover_meteor/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/humew/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/mason/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/meteor_reference_tuto/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/meteoris_snap/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/my_first/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/orion_core/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/scraping/.meteor/local" />
+      <excludeFolder url="file://$MODULE_DIR$/snap/.meteor/local" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
