@@ -1,5 +1,30 @@
 <template name="Main">
-  <p>hello world</p>
 
-  <button class="btn btn-default">Click</button>
+  <header class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">Microscope</a>
+    </div>
+  </header>
+
+  <div id="main" class="row-fluid">
+    {{> PostsList}}
+  </div>
+
+</template>
+
+<template name="PostsList">
+
+  <div class="posts">
+    {{#each posts}}
+      {{> postItem}}
+    {{/each}}
+  </div>
+</template>
+
+<template name="PostItem">
+  <div class="post">
+    <div class="post-content">
+      <h3><a href="{{url}}">{{title}}</a><span>{{domain}}</span></h3>
+    </div>
+  </div>
 </template>
