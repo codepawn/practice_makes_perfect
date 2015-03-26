@@ -1,6 +1,17 @@
 <template name="MasterLayout">
   <div class="container">
-    <p>master</p>
+    <ul class="nav nav-tabs">
+      <li role="presentation" class="active">
+        <a href="{{pathFor 'main'}}">Home</a>
+      </li>
+      <li role="presentation">
+        <a href="{{pathFor 'block'}}">Block</a>
+      </li>
+      <li role="presentation">
+        <a href="#">Messages</a>
+      </li>
+    </ul>
+
     {{>yield}}
   </div>
 </template>

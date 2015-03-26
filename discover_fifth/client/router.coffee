@@ -7,3 +7,7 @@ Router.map ->
   @route "Main",
     path: "/"
     name: "main"
+
+  @route 'Block',
+    path: 'block'
+    name: 'block'
