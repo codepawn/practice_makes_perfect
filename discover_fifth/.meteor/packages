@@ -5,9 +5,11 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
 insecure
 iron:router
 coffeescript
 mizzao:bootstrap-3
 fourseven:scss
+aldeed:collection2
+aldeed:autoform
+msavin:mongol

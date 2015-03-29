@@ -16,7 +16,8 @@ postsData = [
 Template.PostsList.events
 
 Template.PostsList.helpers
-  posts: postsData
+  posts: ->
+    Posts.find()
 
 Template.PostsList.created = ->
 
