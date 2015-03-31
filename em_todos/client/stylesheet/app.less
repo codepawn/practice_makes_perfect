@@ -1,0 +1,63 @@
+/* CSS declarations go here */
+body {
+  font-size: 14pt;
+  color: #777;
+}
+
+.container {
+  margin: 20px auto;
+  width: 940px;
+}
+
+.login {
+  margin: 20px 0px;
+}
+
+.todos-panel {
+}
+
+.create-todo input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18pt;
+  height: 24pt;
+  line-height: 24pt;
+}
+
+.todos-count {
+  clear: both;
+  overflow: hidden;
+  margin: 20px 0px;
+  color: lighten(#777, 20%);
+}
+
+.todos-list {
+  list-style: none;
+  clear: both;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+.todo-item {
+  clear: both;
+  float: left;
+  padding: 10px 0px;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+
+  &.done {
+    .subject {
+      text-decoration: line-through;
+    }
+  }
+
+  .done {
+    float: left;
+  }
+
+  .subject {
+    float: left;
+    padding-left: 20px;
+  }
+}

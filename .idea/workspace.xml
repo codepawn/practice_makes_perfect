@@ -2,11 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="766f771a-5085-4bed-8f48-54f60c3bb92f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/discover_fifth/both/collection.coffee" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/discover_fifth/client/router.coffee" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discover_fifth/.meteor/packages" afterPath="$PROJECT_DIR$/discover_fifth/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discover_fifth/client/view/posts_list.coffee" afterPath="$PROJECT_DIR$/discover_fifth/client/view/posts_list.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discover_fifth/.meteor/versions" afterPath="$PROJECT_DIR$/discover_fifth/.meteor/versions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ppillip_meteor_korea" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/.meteor/.finished-upgraders" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/.meteor/.finished-upgraders" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/.meteor/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/.meteor/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/client/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/client/collections/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/client/lib/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/client/stylesheets/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/client/templates/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/lib/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/lib/collections/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/lib/controllers/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/packages/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/private/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/public/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/server/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/server/collections/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/server/controllers/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/server/lib/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/bin/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/build/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/config/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/.meteor/.id" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/.meteor/.id" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/build/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/client/app.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/client/stylesheet/app.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/server/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/both/both.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/.iron/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/client/controler.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/client/default/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/.idea/em_todos.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/config/development/env.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/discover_fifth/client/extend.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/client/head.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/client/head.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/client/templates/home/home.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/client/templates/home/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/client/templates/home/home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/lib/controllers/home_controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/client/templates/shared/loading/loading.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/client/stylesheets/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/client/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/client/templates/layouts/master_layout/master_layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/client/templates/layouts/master_layout/master_layout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/lib/methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/server/methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/client/templates/shared/not_found/not_found.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/npm-debug.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/.meteor/packages" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/.meteor/packages" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/.meteor/platforms" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/.meteor/platforms" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/discover_fifth/server/pub.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/server/publish.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/.meteor/release" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/.meteor/release" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/both/route.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/discover_fifth/both/router.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/lib/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/config/development/settings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/.meteor/versions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iron_test_create/app/.meteor/versions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/discover_fifth/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em_todos/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/practice_makes_perfect.iml" afterPath="$PROJECT_DIR$/.idea/practice_makes_perfect.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discover_fifth/.idea/workspace.xml" afterPath="$PROJECT_DIR$/discover_fifth/.idea/workspace.xml" />
     </list>
@@ -79,6 +148,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -114,12 +184,11 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/discover_fifth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
@@ -202,7 +271,13 @@
       <option name="project" value="LOCAL" />
       <updated>1427364911543</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Basic Pub, Sub">
+      <created>1427600421043</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1427600421043</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -220,14 +295,14 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -242,11 +317,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ppillip_meteor_korea" />
+    </ignored-roots>
     <MESSAGE value="Begin again" />
     <MESSAGE value="Begin again #2" />
     <MESSAGE value="Begin again #3" />
     <MESSAGE value="Few changes, nav bar added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Few changes, nav bar added" />
+    <MESSAGE value="Basic Pub, Sub" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Pub, Sub" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
