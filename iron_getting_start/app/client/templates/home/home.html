@@ -1,10 +1,17 @@
 <template name="Home">
   <div>
     <p>Todos :</p>
+    {{#if currentUser}}
+      <form action="">
+        <input class="form-control" name="todoInput" type="text" placeholder="Todos"/>
+      </form>
+      {{else}}
+      <form action="">
+        <input class="form-control" readonly name="todoInput" type="text" placeholder="Todos"/>
+      </form>
+    {{/if}}
 
-    <form action="">
-      <input class="form-control" name="todoInput" type="text" placeholder="Todos"/>
-    </form>
+
   </div>
 
   <table class="table table-condensed">

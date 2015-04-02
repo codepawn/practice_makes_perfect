@@ -4,11 +4,11 @@
 if Meteor.isServer
   Todos.allow
     insert: (userId, doc) ->
-      true
+      userId is doc.user_id
     update: (userId, doc, fieldNames, modifier) ->
-      true
+      userId is doc.user_id
     remove: (userId, doc) ->
-      true
+      userId is doc.user_id
 
   Todos.deny
     insert: (userId, doc) ->
