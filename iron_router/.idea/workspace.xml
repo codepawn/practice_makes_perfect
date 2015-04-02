@@ -21,26 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home_controller.coffee" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.109375">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="master_layout.coffee" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="master_layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,13 +31,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="routes.coffee" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/lib/routes.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.15625">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home_controller.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/lib/controllers/home_controller.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
+        <option value="$PROJECT_DIR$/app/lib/controllers/home_controller.coffee" />
       </list>
     </option>
   </component>
@@ -128,7 +128,7 @@
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="mast&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/layouts/master_layout/master_layout.html&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/layouts/master_layout/master_layout.coffee&#10;contro&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/controllers/home_controller.coffee" />
+    <property name="SearchEverywhereHistoryKey" value="homecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/controllers/home_controller.coffee&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/routes.coffee&#10;mast&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/layouts/master_layout/master_layout.html&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/layouts/master_layout/master_layout.coffee&#10;contro&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/controllers/home_controller.coffee" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -187,6 +187,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.046875">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614">
@@ -195,18 +203,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.coffee">
+    <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
+    <entry file="file://$PROJECT_DIR$/app/lib/routes.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.109375">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.15625">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

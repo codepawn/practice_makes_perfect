@@ -2,6 +2,9 @@
   layoutTemplate: 'MasterLayout'
   subscriptions: ->
   action: ->
-    @render 'Home'
-    return
+    if Session.get 'isLoggedIn'
+      @render 'Home'
+    else
+      @render 'Login'
+
 )
