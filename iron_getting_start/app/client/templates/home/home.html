@@ -1,5 +1,14 @@
 <template name="Home">
-  {{#each items }}
-      <li>{{subject}}</li>
-  {{/each}}
+  <table class="table table-condensed">
+    <tbody>
+    {{#each items }}
+      <tr>
+        <td>{{subject}}</td>
+        <td>
+          <button class="btn btn-default" name="remove">rm</button>
+        </td>
+      </tr>
+    {{/each}}
+    </tbody>
+  </table>
 </template>
