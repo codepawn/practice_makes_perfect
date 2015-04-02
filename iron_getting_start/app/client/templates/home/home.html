@@ -14,7 +14,7 @@
         <td>
           <input type="checkbox" name="is_done" {{isDoneCheck}}/>
         </td>
-        <td>{{subject}}</td>
+        <td class="{{isDoneClass}}">{{subject}}</td>
         <td>
           <button class="btn btn-default" name="remove">rm</button>
         </td>
@@ -22,4 +22,7 @@
     {{/each}}
     </tbody>
   </table>
+
+  <p>{{todoCount}} / {{total}}</p>
+
 </template>

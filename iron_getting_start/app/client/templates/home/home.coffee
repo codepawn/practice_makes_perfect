@@ -7,6 +7,7 @@ Template.Home.events
     Todos.insert
       subject: tmpl.find('[name=todoInput]').value
       is_done: false
+      createAt: new Date
     tmpl.find('form').reset()
 
   'click [name=is_done]': (e, tmpl)->
@@ -17,10 +18,23 @@ Template.Home.events
 
 Template.Home.helpers
   items: ->
-    Todos.find()
+    Todos.find {},
+      sort:
+        createAt: -1
 
   isDoneCheck: ->
     if @is_done then 'checked' else ''
+
+  isDoneClass: ->
+    if @is_done then 'done' else ''
+
+  todoCount: ->
+    Todos.find is_done:true
+    .count()
+
+  total:->
+    Todos.find().count()
+
 
 # Home: Lifecycle Hooks 
 Template.Home.created = ->
