@@ -8,6 +8,7 @@ Template.Home.events
       subject: tmpl.find('[name=todoInput]').value
       is_done: false
       createAt: new Date
+      user_id: Meteor.userId()
     tmpl.find('form').reset()
 
   'click [name=is_done]': (e, tmpl)->
