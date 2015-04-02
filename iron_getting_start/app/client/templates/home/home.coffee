@@ -1,6 +1,8 @@
 Template.Home.events
-  'click [name=remove]':->
-    Todos.remove _id:@_id
+  'click [name=remove]': ->
+    Todos.remove _id: @_id
+
+  'click [name=todoInput]': (e, tmpl) ->
 
 Template.Home.helpers
   items: ->
