@@ -7,6 +7,7 @@ Template.Home.events
     Todos.insert
       subject: tmpl.find('[name=todoInput]').value
       is_done: false
+    tmpl.find('form').reset()
 
   'click [name=is_done]': (e, tmpl)->
     Todos.update {_id: @_id},
