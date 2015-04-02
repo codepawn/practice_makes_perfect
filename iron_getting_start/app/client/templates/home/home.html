@@ -1,13 +1,19 @@
 <template name="Home">
   <div>
     <p>Todos :</p>
-    <input class="form-control" name="todoInput" type="text" placeholder="Todos" />
+
+    <form action="">
+      <input class="form-control" name="todoInput" type="text" placeholder="Todos"/>
+    </form>
   </div>
 
   <table class="table table-condensed">
     <tbody>
     {{#each items }}
       <tr>
+        <td>
+          <input type="checkbox" name="is_done" {{isDoneCheck}}/>
+        </td>
         <td>{{subject}}</td>
         <td>
           <button class="btn btn-default" name="remove">rm</button>
