@@ -1,5 +1,17 @@
 @Todos = new Mongo.Collection('todos')
 
+Todos.attachSchema new SimpleSchema
+  subject:
+    type: String
+    label: "Subject"
+    max: 50
+  is_done:
+    type: Boolean
+  createAt:
+    type: Date
+  user_id:
+    type: String
+
 
 if Meteor.isServer
   Todos.allow
