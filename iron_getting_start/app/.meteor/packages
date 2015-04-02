@@ -8,3 +8,9 @@ meteor-platform
 autopublish
 insecure
 iron:router
+coffeescript
+less
+aldeed:collection2
+twbs:bootstrap
+fourseven:scss
+sacha:spin
