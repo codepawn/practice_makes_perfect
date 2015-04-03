@@ -1,6 +1,8 @@
 Template.Blog.events {}
 
-Template.Blog.helpers {}
+Template.Blog.helpers
+  articles: ->
+    Articles.find()
 
 # Blog: Lifecycle Hooks 
 Template.Blog.created = ->
