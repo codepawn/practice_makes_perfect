@@ -15,6 +15,10 @@
 # Items.findOne({_id: this.params._id});
     return
   action: ->
+    console.log "id: #{@params._id}"
+    console.dir @params
     @render 'Blog', {}
     return
 )
+
+
