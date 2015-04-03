@@ -1,3 +1,10 @@
 <template name="BlogNew">
+  {{#contentFor 'breadcrumbs'}}
+    <li>
+      <a href="{{pathFor 'home'}}">Home</a>
+    </li>
+
+    <li>Login</li>
+  {{/contentFor}}
   <h1>Find me in app/client/templates/blog_new/blog_new</h1>
 </template>
