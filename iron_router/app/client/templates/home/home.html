@@ -2,11 +2,25 @@
   <div>
     <a href="/blog/new">New blog</a>
   </div>
-  <ul>
-    {{#each articles }}
-      {{#linkTo route='blog.detail' query='q=search+string' hash='frashfrag'}}
-        <div>{{title}}</div>
-      {{/linkTo}}
+
+  <table class="table">
+    <tbody>
+    {{#each articles}}
+      <tr>
+        <td>{{no}}</td>
+        <td>
+          {{#linkTo route='blog.detail' query='q=search+string' hash='frashfrag'}}
+            {{title}}
+          {{/linkTo}}
+        </td>
+        <td>
+          <a href="{{pathFor 'blog.detail'}}">{{title}}</a>
+        </td>
+
+
+      </tr>
     {{/each}}
-  </ul>
+
+    </tbody>
+  </table>
 </template>

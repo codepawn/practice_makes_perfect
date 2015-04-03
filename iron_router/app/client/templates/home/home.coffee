@@ -2,7 +2,9 @@ Template.Home.events {}
 
 Template.Home.helpers
   articles: ->
-    Articles.find()
+    Articles.find {},
+      sort:
+        no: 1
 
 # Home: Lifecycle Hooks 
 Template.Home.created = ->
