@@ -3,14 +3,10 @@
     <a href="/blog/new">New blog</a>
   </div>
   <ul>
-    <li>
-      <a href="/blog/1">One</a>
-    </li>
-    <li>
-      <a href="/blog/2?q1=v1&q2=v2#hashfrag">Two</a>
-    </li>
-    <li>
-      <a href="/blog/3">Three</a>
-    </li>
+    {{#each articles }}
+      {{#linkTo route='blog.detail' query='q=search+string' hash='frashfrag'}}
+        <div>{{title}}</div>
+      {{/linkTo}}
+    {{/each}}
   </ul>
 </template>
