@@ -1,6 +1,10 @@
 <template name="MasterLayout">
   master layout
 
+  <ol class="breadcrumb">
+    {{>yield 'breadcrumbs'}}
+  </ol>
+
   {{> yield}}
 
   <footer>

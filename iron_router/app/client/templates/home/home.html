@@ -1,4 +1,11 @@
 <template name="Home">
+
+  {{#contentFor 'breadcrumbs'}}
+    <li>
+      <a href="{{pathFor 'home'}}">Home</a>
+    </li>
+  {{/contentFor}}
+
   <div>
     <a href="/blog/new">New blog</a>
   </div>
