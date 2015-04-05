@@ -15,7 +15,6 @@ Iron.Router.plugins.authorize = (router, options)->
       @next()
   , options
 
-
 Router.plugin 'authorize'
 , only: ['blog.new']
 , notAuthorizedRoute: 'home'
@@ -38,3 +37,8 @@ Router.route '/blog/:_id',
   action: 'action'
   where: 'client'
 
+Router.route '/webhooks/stripe',
+  name: 'webhooks.stripe'
+  controller: 'StripeController'
+  action: 'action'
+  where: 'server'
