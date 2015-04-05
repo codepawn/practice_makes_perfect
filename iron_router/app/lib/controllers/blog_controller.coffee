@@ -1,5 +1,6 @@
 @BlogController = RouteController.extend
   subscriptions: ->
+    @subscribe 'article', @params._id
 
   data: ->
     Articles.findOne _id: @params._id
