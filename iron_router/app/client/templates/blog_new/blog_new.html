@@ -4,7 +4,12 @@
       <a href="{{pathFor 'home'}}">Home</a>
     </li>
 
-    <li>Login</li>
+    <li>New article</li>
   {{/contentFor}}
-  <h1>Find me in app/client/templates/blog_new/blog_new</h1>
+
+  <form action="">
+    <input class="form-control" type="text" name="title" placeholder="Title"/>
+    <textarea class="form-control" name="body" id="" cols="30" rows="10" placeholder="Body"></textarea>
+    <input class="btn btn-default" type="submit"/>
+  </form>
 </template>

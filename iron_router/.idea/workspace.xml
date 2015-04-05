@@ -21,11 +21,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="blog_controller.coffee" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/lib/controllers/blog_controller.coffee">
+      <file leaf-file-name="bootstrap.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/server/bootstrap.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js.coffee" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/lib/routes.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.14147018">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog_new.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/blog_new/blog_new.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.807693">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master_layout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -40,18 +70,20 @@
         <option value="$PROJECT_DIR$/app/lib/routes.coffee" />
         <option value="$PROJECT_DIR$/app/lib/collections/articles.coffee" />
         <option value="$PROJECT_DIR$/app/server/bootstrap.coffee" />
-        <option value="$PROJECT_DIR$/app/client/templates/home/home.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/blog/blog.coffee" />
-        <option value="$PROJECT_DIR$/app/lib/routes.js.coffee" />
-        <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
         <option value="$PROJECT_DIR$/app/client/templates/login/login.html" />
         <option value="$PROJECT_DIR$/app/client/templates/blog/blog.html" />
-        <option value="$PROJECT_DIR$/app/client/templates/blog_new/blog_new.html" />
-        <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
         <option value="$PROJECT_DIR$/app/lib/controllers/home_controller.coffee" />
         <option value="$PROJECT_DIR$/app/server/publish.js" />
         <option value="$PROJECT_DIR$/app/lib/controllers/blog_controller.coffee" />
         <option value="$PROJECT_DIR$/app/server/publish.js.coffee" />
+        <option value="$PROJECT_DIR$/app/client/templates/blog_new/blog_new.coffee" />
+        <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/home/home.coffee" />
+        <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/blog_new/blog_new.html" />
+        <option value="$PROJECT_DIR$/app/lib/controllers/blog_new_controller.coffee" />
+        <option value="$PROJECT_DIR$/app/lib/routes.js.coffee" />
       </list>
     </option>
   </component>
@@ -196,6 +228,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iron_router" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iron_router" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -260,7 +314,7 @@
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/server/publish.js.coffee&#10;blogcon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/controllers/blog_controller.coffee&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/controllers/home_controller.coffee&#10;route&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/routes.js.coffee&#10;blogn&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/blog_new/blog_new.html&#10;blog&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/blog/blog.html&#10;login&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/login/login.html&#10;lay&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/layouts/master_layout/master_layout.html&#10;blo&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/blog/blog.html&#10;boot&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/server/bootstrap.coffee&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/layouts/master_layout/master_layout.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/layouts/master_layout/master_layout.html&#10;art&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/collections/articles.coffee&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/routes.js.coffee&#10;homecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/controllers/home_controller.coffee&#10;mast&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/layouts/master_layout/master_layout.html&#10;contro&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/controllers/home_controller.coffee" />
+    <property name="SearchEverywhereHistoryKey" value="rout&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/routes.js.coffee&#10;blog&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/blog_new/blog_new.html&#10;mast&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/layouts/master_layout/master_layout.html&#10;blogcont&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/controllers/blog_new_controller.coffee&#10;homecoff&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/home/home.coffee&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/home/home.html&#10;r&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/routes.js.coffee&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/routes.js.coffee&#10;boot&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/server/bootstrap.coffee&#10;blognewcof&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/blog_new/blog_new.coffee&#10;blogn&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/blog_new/blog_new.html&#10;homecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/controllers/home_controller.coffee&#10;pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/server/publish.js.coffee&#10;blogcon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/controllers/blog_controller.coffee&#10;route&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/routes.js.coffee&#10;login&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/login/login.html&#10;lay&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/layouts/master_layout/master_layout.html&#10;blo&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/blog/blog.html&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/layouts/master_layout/master_layout.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/client/templates/layouts/master_layout/master_layout.html&#10;art&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/collections/articles.coffee&#10;contro&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_router/app/lib/controllers/home_controller.coffee" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -374,34 +428,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/collections/articles.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32258064">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.159375">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/server/bootstrap.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14868805">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5451895">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -414,30 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/blog_new/blog_new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.442">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/routes.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34492755">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/blog/blog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6394984">
@@ -446,26 +452,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63597125">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0730659">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07073509">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -483,15 +473,95 @@
         <state vertical-scroll-proportion="0.30651873">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/controllers/blog_controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20790216">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/collections/articles.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32258064">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5171103">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4201521">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/blog_new/blog_new.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1878453">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/controllers/blog_new_controller.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024355302">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/blog_new/blog_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/server/bootstrap.coffee">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/routes.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14147018">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
           <folding />
         </state>
       </provider>

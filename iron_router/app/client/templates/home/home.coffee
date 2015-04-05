@@ -1,4 +1,6 @@
-Template.Home.events {}
+Template.Home.events
+  'click [name=rm]': ->
+    Articles.remove _id:@_id
 
 Template.Home.helpers
   articles: ->

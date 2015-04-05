@@ -3,6 +3,20 @@ Router.configure
   loadingTemplate: 'Loading'
   notFoundTemplate: 'NotFound'
 
+Iron.Router.plugins.authorize = (router, options)->
+  
+
+Router.onBeforeAction ->
+  if Meteor.loggingIn()
+    console.log "loged"
+  else if !Meteor.user()
+    alert 'Please login'
+    @redirect 'home'
+  else
+    console.log "in the onBeforeAction hook"
+    @next()
+, only: ['blog.new']
+
 Router.route '/',
   name: 'home'
   controller: 'HomeController'
