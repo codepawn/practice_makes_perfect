@@ -14,4 +14,4 @@ twbs:bootstrap
 fourseven:scss
 sacha:spin
 accounts-password
-accounts-ui
+ian:accounts-ui-bootstrap-3
