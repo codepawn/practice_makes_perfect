@@ -17,9 +17,15 @@ Issues.attachSchema new SimpleSchema
     label: "Priority"
     allowedValues: ['High', 'Medium', 'Low']
     optional: true
-  createAt:
+  createdAt:
     type: Date
-    auto
+    autoValue: ->
+      new Date()
+    denyUpdate: true
+  createdBy:
+    type: String
+    autoValue: ->
+      @userId
 
 if Meteor.isServer
   Issues.allow
