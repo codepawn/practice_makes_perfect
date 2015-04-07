@@ -1,3 +1,3 @@
-Meteor.publish 'issues', ->
+Meteor.publish 'issues', (userId) ->
   Issues.find
     createdBy: userId

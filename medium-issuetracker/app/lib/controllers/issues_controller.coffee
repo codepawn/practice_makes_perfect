@@ -1,10 +1,11 @@
 @IssuesController = RouteController.extend(
   subscriptions: ->
-    @subscribe 'issues'
+    @subscribe 'issues', Meteor.userId()
 
   data: ->
+    Issues.findOne _id:@params._id
   edit: ->
-    @render 'InsertIssue', {}
+    @render 'EditIssue', {}
   insert: ->
     @render 'InsertIssue', {}
   list: ->
