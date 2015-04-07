@@ -28,6 +28,9 @@ Template.Home.helpers
 
   selectedClass: ->
     if @_id is Session.get 'selectedPlayer' then "selected" else ''
+  
+  showSelectedPlayer:->
+    Players.findOne Session.get 'selectedPlayer'
 
 Template.Home.created = ->
 
