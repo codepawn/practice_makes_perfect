@@ -3,6 +3,17 @@ Router.configure
   loadingTemplate: 'Loading'
   notFoundTemplate: 'NotFound'
 
+Router.onBeforeAction (->
+  if !Meteor.user()
+    @render 'AccessDenied'
+  else
+    console.log "onBeforeActionWorks"
+    @next()
+), only: [
+  'issuesList'
+  'insertIssue'
+]
+
 Router.route '/',
   name: 'home'
   controller: 'HomeController'
@@ -10,19 +21,19 @@ Router.route '/',
   where: 'client'
 
 Router.route '/issues/:_id',
-  name: 'issues:Id'
-  controller: ':IdController'
-  action: 'action'
+  name: 'editIssue'
+  controller: ':IssuesController'
+  action: 'edit'
   where: 'client'
 
 Router.route 'issues_list',
   name: 'issuesList'
-  controller: 'IssuesListController'
-  action: 'action'
+  controller: 'IssuesController'
+  action: 'list'
   where: 'client'
 
 Router.route 'insert_issue',
   name: 'insertIssue'
-  controller: 'InsertIssueController'
-  action: 'action'
+  controller: 'IssuesController'
+  action: 'insert'
   where: 'client'
