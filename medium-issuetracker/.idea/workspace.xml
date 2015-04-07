@@ -23,21 +23,21 @@
     <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="routes.js.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/lib/routes.js.coffee">
+          <file leaf-file-name="issues_controller.coffee" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/lib/controllers/issues_controller.coffee">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+                  <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="publish.js.coffee" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
+          <file leaf-file-name="edit_issue.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/client/templates/edit_issue/edit_issue.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.04857143">
-                  <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+                <state vertical-scroll-proportion="0.19960861">
+                  <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -47,21 +47,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="issues_list.coffee" pinned="false" current-in-tab="false">
+          <file leaf-file-name="issues_list.coffee" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/client/templates/issues_list/issues_list.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="issues_controller.coffee" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/lib/controllers/issues_controller.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.28977272">
-                  <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+                <state vertical-scroll-proportion="0.15769945">
+                  <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -81,12 +71,14 @@
         <option value="$PROJECT_DIR$/app/client/templates/access_denied/access_denied.html" />
         <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
         <option value="$PROJECT_DIR$/app/client/stylesheets/main.css" />
-        <option value="$PROJECT_DIR$/app/lib/routes.js.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/insert_issue/insert_issue.html" />
-        <option value="$PROJECT_DIR$/app/client/templates/issues_list/issues_list.html" />
         <option value="$PROJECT_DIR$/app/client/templates/issues_list/issues_list.coffee" />
-        <option value="$PROJECT_DIR$/app/lib/controllers/issues_controller.coffee" />
         <option value="$PROJECT_DIR$/app/server/publish.js.coffee" />
+        <option value="$PROJECT_DIR$/app/lib/controllers/issues_controller.coffee" />
+        <option value="$PROJECT_DIR$/app/lib/routes.js.coffee" />
+        <option value="$PROJECT_DIR$/app/client/templates/issues_list/issues_list.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/edit_issue/edit_issue.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/edit_issue/edit_issue.coffee" />
       </list>
     </option>
   </component>
@@ -232,6 +224,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="medium-issuetracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="medium-issuetracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -255,58 +269,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="medium-issuetracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="medium-issuetracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="issues_list" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="medium-issuetracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="medium-issuetracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insert_issue" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,7 +304,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="issuecoff&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/collections/issues.coffee&#10;rout&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/routes.js.coffee&#10;pu&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/server/publish.js.coffee&#10;issuesli&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/client/templates/issues_list/issues_list.html&#10;issuescon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/controllers/issues_controller.coffee&#10;issuescoffee&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/client/templates/issues_list/issues_list.coffee&#10;pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/server/publish.js.coffee&#10;issuecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/controllers/issues_controller.coffee&#10;css&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/client/templates/home/home.css&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/client/templates/home/home.html&#10;idcon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/controllers/:_id_controller.coffee&#10;issu&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/collections/issues.coffee&#10;homecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/controllers/home_controller.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/client/templates/layouts/master_layout/master_layout.html&#10;master&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/client/templates/layouts/master_layout/master_layout.coffee" />
+    <property name="SearchEverywhereHistoryKey" value="issucon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/controllers/issues_controller.coffee&#10;edit&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/client/templates/edit_issue/edit_issue.html&#10;issues&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/collections/issues.coffee&#10;con&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/controllers/issues_controller.coffee&#10;route&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/routes.js.coffee&#10;issu&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/client/templates/issues_list/issues_list.html&#10;issuecoff&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/collections/issues.coffee&#10;rout&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/routes.js.coffee&#10;pu&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/server/publish.js.coffee&#10;issuesli&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/client/templates/issues_list/issues_list.html&#10;issuescon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/controllers/issues_controller.coffee&#10;issuescoffee&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/client/templates/issues_list/issues_list.coffee&#10;pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/server/publish.js.coffee&#10;issuecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/controllers/issues_controller.coffee&#10;css&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/client/templates/home/home.css&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/client/templates/home/home.html&#10;idcon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/controllers/:_id_controller.coffee&#10;homecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/lib/controllers/home_controller.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/client/templates/layouts/master_layout/master_layout.html&#10;master&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/medium-issuetracker/app/client/templates/layouts/master_layout/master_layout.coffee" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -406,12 +368,12 @@
     <frame x="4" y="23" width="766" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329806" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31331593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31331593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -442,14 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.02312925">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16190477">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -502,50 +456,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/collections/issues.coffee">
+    <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0625">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.14571428">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/routes.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/issues_list/issues_list.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/controllers/issues_controller.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28977272">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.23151751">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/issues_list/issues_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6296296">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.8919753">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/client/templates/issues_list/issues_list.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04857143">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.15769945">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/edit_issue/edit_issue.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6014898">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/routes.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6201117">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/collections/issues.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6964618">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/controllers/issues_controller.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/edit_issue/edit_issue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19960861">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>

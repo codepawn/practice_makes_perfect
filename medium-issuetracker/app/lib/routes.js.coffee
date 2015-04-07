@@ -1,39 +1,39 @@
 Router.configure
-  layoutTemplate: 'MasterLayout'
-  loadingTemplate: 'Loading'
-  notFoundTemplate: 'NotFound'
+  layoutTemplate: "MasterLayout"
+  loadingTemplate: "Loading"
+  notFoundTemplate: "NotFound"
 
 Router.onBeforeAction (->
   if !Meteor.user()
-    @render 'AccessDenied'
+    @render "AccessDenied"
   else
     console.log "onBeforeActionWorks"
     @next()
 ), only: [
-  'issuesList'
-  'insertIssue'
+  "issuesList"
+  "insertIssue"
 ]
 
-Router.route '/',
-  name: 'home'
-  controller: 'HomeController'
-  action: 'action'
-  where: 'client'
+Router.route "/",
+  name: "home"
+  controller: "HomeController"
+  action: "action"
+  where: "client"
 
-Router.route '/issues/:_id',
-  name: 'editIssue'
-  controller: ':IssuesController'
-  action: 'edit'
-  where: 'client'
+Router.route "/insert_issue",
+  name: "insertIssue"
+  controller: "IssuesController"
+  action: "insert"
+  where: "client"
 
-Router.route 'issues_list',
-  name: 'issuesList'
-  controller: 'IssuesController'
-  action: 'list'
-  where: 'client'
+Router.route "/issues_list",
+  name: "issuesList"
+  controller: "IssuesController"
+  action: "list"
+  where: "client"
 
-Router.route 'insert_issue',
-  name: 'insertIssue'
-  controller: 'IssuesController'
-  action: 'insert'
-  where: 'client'
+Router.route "/issue/:_id",
+  name: "editIssue"
+  controller: "IssuesController"
+  action: "edit"
+  where: "client"
