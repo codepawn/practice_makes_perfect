@@ -1,10 +1,27 @@
 <template name="Home">
-  <table class="table">
+  <h2>Leaderboard</h2>
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <td>#</td>
+      <td>Name</td>
+      <td>Score</td>
+      <td>Action</td>
+    </tr>
+    </thead>
+    <tbody>
     {{#each players }}
-      <tr>
+      <tr class="player">
+        <td>
+          <!--<input type="checkbox"/>-->
+        </td>
         <td>{{name}}</td>
         <td>{{score}}</td>
+        <td>
+          <button class="btn btn-default">RM</button>
+        </td>
       </tr>
     {{/each}}
+    </tbody>
   </table>
 </template>

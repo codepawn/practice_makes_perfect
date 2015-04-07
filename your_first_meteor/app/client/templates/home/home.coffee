@@ -1,4 +1,9 @@
+Session.set 'selectedPlayer', 'test Session'
+
 Template.Home.events
+  'click .player': ->
+    playerId = @_id
+    Session.set 'selectedPlayer', playerId
 
 Template.Home.helpers
   players: ->
