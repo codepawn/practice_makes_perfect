@@ -11,17 +11,21 @@
     </thead>
     <tbody>
     {{#each players }}
-      <tr class="player">
+      <tr class="player {{selectedClass}}">
         <td>
           <!--<input type="checkbox"/>-->
         </td>
         <td>{{name}}</td>
         <td>{{score}}</td>
         <td>
-          <button class="btn btn-default">RM</button>
+          <button class="btn btn-default" name="rm">RM</button>
         </td>
       </tr>
     {{/each}}
     </tbody>
   </table>
+
+  <button class="btn btn-default" name="increment">Give 5 Point</button>
+  <button class="btn btn-default" name="decrement">Take 5 Point</button>
+
 </template>
