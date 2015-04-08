@@ -1,9 +1,11 @@
 <template name="Home">
   {{#each posts}}
-        <h3>
-          <a href="{{url}}">{{title}}</a>
-          <span>{{domain}}</span>
-          <button name="rm" class="btn btn-default">Rm</button>
-        </h3>
+    <h3>
+      <a href="{{pathFor 'posts.detail'}}">{{title}}</a>
+      <a href="{{url}}">
+        <span>{{domain}}</span>
+      </a>
+      <button name="rm" class="btn btn-default">Rm</button>
+    </h3>
   {{/each}}
 </template>

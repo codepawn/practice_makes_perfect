@@ -8,3 +8,9 @@ Router.route '/',
   controller: 'HomeController'
   action: 'action'
   where: 'client'
+
+Router.route 'posts/:_id',
+  name: 'posts.detail'
+  controller: 'PostsController'
+  action: 'action'
+  where: 'client'
