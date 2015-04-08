@@ -12,6 +12,12 @@ Even a smallthings
 
 http://myfirstleaderboadrd.meteor.com
 
+http://mediumissuetracker.meteor.com
+
+http://ironrouterblog.meteor.com
+
+http://irongettingstart.meteor.com
+
 http://sidebarforfix.meteor.com
 
 http://sidebarforfix2.meteor.com
