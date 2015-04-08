@@ -1,7 +1,7 @@
-@HomeController = RouteController.extend(
+@HomeController = RouteController.extend
   layoutTemplate: 'MasterLayout'
   subscriptions: ->
   action: ->
     @render 'Home'
     return
-)
+
