@@ -9,12 +9,8 @@ Even a smallthings
 - meteor.js
 - iron-cli
 
-todos
-- infinity scrolling
-- subscribe limit
-- likes button
-- Facebook login
 
+http://myfirstleaderboadrd.meteor.com
 
 http://sidebarforfix.meteor.com
 
