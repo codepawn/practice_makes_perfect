@@ -4,6 +4,8 @@ Players.attachSchema new SimpleSchema
     type: String
   score:
     type: Number
+  createdBy:
+    type: String
 
 if Meteor.isServer
   Players.allow
@@ -22,7 +24,7 @@ if Meteor.isServer
     remove: (userId, doc) ->
       false
 
-Players.update
-  '_id': 'ovZvzA7s4v4zicDvs'
-, $set:
-  'name': 'fireFox', 'd': 'e', 'score': 2
+#Players.update
+#  '_id': 'ovZvzA7s4v4zicDvs'
+#, $set:
+#  'name': 'fireFox', 'd': 'e', 'score': 2

@@ -5,9 +5,6 @@ Template.Home.events
     playerId = @_id
     Session.set 'selectedPlayer', playerId
 
-  'click [name=rm]': (e, tmpl) ->
-    Players.remove _id: @_id
-
   'click [name=increment]': (e, tmpl)->
     selectedPlayer = Session.get 'selectedPlayer'
     Players.update selectedPlayer
@@ -18,6 +15,10 @@ Template.Home.events
     Players.update selectedPlayer
     , $inc:
       score: -5
+
+  'click [name=rm]': (e, tmpl) ->
+    Players.remove Session.get 'selectedPlayer'
+
 
 Template.Home.helpers
   players: ->

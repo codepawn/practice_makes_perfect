@@ -1,5 +1,10 @@
 <template name="Home">
+{{> loginButtons}}
+
   <h2>Leaderboard</h2>
+
+  {{>AddPlayerForm}}
+
   <table class="table table-striped">
     <thead>
     <tr>
@@ -17,9 +22,7 @@
         </td>
         <td>{{name}}</td>
         <td>{{score}}</td>
-        <td>
-          <button class="btn btn-default" name="rm">RM</button>
-        </td>
+        <td></td>
       </tr>
     {{/each}}
     </tbody>
@@ -28,5 +31,6 @@
 
   <button class="btn btn-default" name="increment">Give 5 Point</button>
   <button class="btn btn-default" name="decrement">Take 5 Point</button>
+  <button class="btn btn-default" name="rm">Remove</button>
 
 </template>
