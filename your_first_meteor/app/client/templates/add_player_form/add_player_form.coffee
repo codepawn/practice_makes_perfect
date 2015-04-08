@@ -1,11 +1,7 @@
 Template.AddPlayerForm.events
   'submit form': (e, tmpl)->
     e.preventDefault()
-    console.log e.type
-    Players.insert
-      name: e.target.playerName.value
-      score: 0
-      createdBy: Meteor.userId()
+    Meteor.call 'insertPlayerData', e.target.playerName.value
     tmpl.find('form').reset()
 
 Template.AddPlayerForm.helpers {}
