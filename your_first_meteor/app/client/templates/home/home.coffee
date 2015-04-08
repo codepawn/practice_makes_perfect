@@ -6,18 +6,13 @@ Template.Home.events
     Session.set 'selectedPlayer', playerId
 
   'click [name=increment]': (e, tmpl)->
-    selectedPlayer = Session.get 'selectedPlayer'
-    Players.update selectedPlayer
-    , $inc:
-      score: 5
+    Meteor.call 'increment', Session.get 'selectedPlayer'
+
   'click [name=decrement]': ->
-    selectedPlayer = Session.get 'selectedPlayer'
-    Players.update selectedPlayer
-    , $inc:
-      score: -5
+    Meteor.call 'decrement', Session.get 'selectedPlayer'
 
   'click [name=rm]': (e, tmpl) ->
-    Players.remove Session.get 'selectedPlayer'
+    Meteor.call 'removePlayerData', Session.get 'selectedPlayer'
 
 
 Template.Home.helpers
@@ -29,8 +24,8 @@ Template.Home.helpers
 
   selectedClass: ->
     if @_id is Session.get 'selectedPlayer' then "selected" else ''
-  
-  showSelectedPlayer:->
+
+  showSelectedPlayer: ->
     Players.findOne Session.get 'selectedPlayer'
 
 Template.Home.created = ->
