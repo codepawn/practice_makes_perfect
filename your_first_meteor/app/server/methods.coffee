@@ -6,9 +6,8 @@ Meteor.methods
   'sendLogMessage': ->
     console.log "hello world"
 
-  'insertPlayerData':(playerName) ->
-    console.log "work"
+  'insertPlayerData':(playerNameVar) ->
     Players.insert
-      name: playerName
+      name: playerNameVar
       score: 0
-      createBy: Meteor.userId()
+      createdBy: Meteor.userId()
