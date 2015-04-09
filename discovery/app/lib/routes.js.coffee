@@ -4,7 +4,10 @@ Router.configure
   notFoundTemplate: 'NotFound'
   onBeforeAction: ->
     if !Meteor.user()
-      @render 'AccessDenied'
+      if Meteor.loggingIn()
+        @render @Loading
+      else
+        @render 'AccessDenied'
     else
       @next()
 

@@ -1,21 +1,18 @@
 Template.InsertPost.events
   'submit form': (evt, tmpl)->
     evt.preventDefault()
-    url = tmpl.find '#url'
-    .value
-    title = tmpl.find '[name=title]'
-    .value
-    Posts.insert
-      title: title
-      url: url
-    console.log "Sucsses!"
-    tmpl.find 'form'
-    .reset()
-    Router.go 'home'
 
-Template.InsertPost.helpers {}
+    post =
+      url: $(e.target).find('[name=url]').val()
+      title: $(e.target).find('[name=title]').val()
 
-# InsertPost: Lifecycle Hooks 
+    Meteor.call 'postInsert', post, (error, result) ->
+      if error
+        alert error.reason
+      Router.go 'postPage', _id: result._id
+
+Template.InsertPost.helpers
+
 Template.InsertPost.created = ->
 
 Template.InsertPost.rendered = ->

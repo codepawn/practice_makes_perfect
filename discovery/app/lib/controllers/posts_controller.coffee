@@ -8,6 +8,7 @@
   action: ->
     Session.set 'pageTitle', 'Detail'
     @render 'PostsDetail', {}
+
   edit: ->
     Session.set 'pageTitle', 'Edit'
     @render 'EditPost', {}
