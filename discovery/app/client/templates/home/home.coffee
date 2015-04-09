@@ -10,10 +10,6 @@ Template.Home.helpers
     a.href = @url
     a.hostname
 
-
-
-
-# Home: Lifecycle Hooks 
 Template.Home.created = ->
 
 Template.Home.rendered = ->

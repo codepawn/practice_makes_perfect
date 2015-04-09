@@ -3,7 +3,5 @@
   subscriptions: ->
     @subscribe 'posts'
   action: ->
-    Session.set 'pageTitle', 'home'
+    Session.set 'pageTitle', 'Home'
     @render 'Home'
-    return
-
