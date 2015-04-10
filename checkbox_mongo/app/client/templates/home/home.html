@@ -1,0 +1,9 @@
+<template name="Home">
+  {{#each todos }}
+    <li class="{{isDoneClass}}">
+      <input type="checkbox" name="isDone" {{isDoneChecked}} />
+      {{subject}}
+    </li>
+  {{/each}}
+
+</template>
