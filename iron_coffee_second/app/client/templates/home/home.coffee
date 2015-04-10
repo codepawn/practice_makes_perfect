@@ -1,10 +1,18 @@
-Template.Home.events {}
+Template.Home.events
 
-Template.Home.helpers {}
+Template.Home.helpers
+  completedCount: ->
+    Todos.find userId: Meteor.userId(), isDone: true
+    .count()
 
-# Home: Lifecycle Hooks 
+  totalCount: ->
+    Todos.find userId: Meteor.userId()
+    .count()
+
+
+# Home: Lifecycle Hooks
 Template.Home.created = ->
-  
+
 Template.Home.rendered = ->
-  
+
 Template.Home.destroyed = ->
