@@ -4,7 +4,9 @@
   {{#each todos }}
     <li class="{{isDoneClass}}">
       <input type="checkbox" name="isDone" {{isDoneChecked}} />
-      {{subject}}
+      {{#linkTo route='todos.detail'}}
+        {{subject}}
+      {{/linkTo}}
       <button class="btn btn-default" name="rm">Remove</button>
     </li>
   {{else}}
