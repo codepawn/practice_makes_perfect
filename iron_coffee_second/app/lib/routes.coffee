@@ -15,3 +15,9 @@ Router.map ->
     controller: 'TodosController'
     action: 'detail'
     where: 'client'
+  
+  @route '/todos/:_id/edit',
+      name: 'todos.edit'
+      controller: 'TodosController'
+      action: 'edit'
+      where: 'client'
