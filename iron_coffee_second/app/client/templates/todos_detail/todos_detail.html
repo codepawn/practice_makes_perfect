@@ -1,7 +1,18 @@
 <template name="TodosDetail">
 
+  {{#contentFor 'breadcrumb'}}
+    {{#unless isMyTodo}}
+      <li>
+        {{#linkTo route='users.detail' _id=user._id}}
+          {{user.profile.name}}
+        {{/linkTo}}
+      </li>
+    {{/unless}}
+    <li>{{subject}}</li>
+  {{/contentFor}}
+
   {{#if get 'isEditing'}}
-    <form action="">
+    <form id="edit-todo" action="">
       <input type="text" class="form-control" name="subject" value="{{subject}}" placeholder="Subject"/>
       <textarea class="form-control" name="description" placeholder="Description" id="" cols="30"
                 rows="10">{{description}}</textarea>
@@ -17,6 +28,7 @@
     <div>description: {{description}}</div>
     <div>_id : {{_id}}</div>
     <div>createdAt : {{createdAt}}</div>
+    <div>updatedAt : {{updatedAt}}</div>
     <div>isDone : {{isDone}}</div>
     <div>userId : {{userId}}</div>
     {{#if isMyTodo}}
@@ -25,4 +37,7 @@
       {{/linkTo}}
     {{/if}}
   {{/if}}
+
+  {{>CommentsList}}
+
 </template>

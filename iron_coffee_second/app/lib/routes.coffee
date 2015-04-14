@@ -21,3 +21,9 @@ Router.map ->
       controller: 'TodosController'
       action: 'edit'
       where: 'client'
+      
+  @route '/users/:_id',
+      name: 'users.detail'
+      controller: 'UsersController'
+      action: 'detail'
+      where: 'client'

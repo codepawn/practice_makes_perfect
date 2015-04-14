@@ -23,21 +23,11 @@
     <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="todos_list.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/client/templates/todos_list/todos_list.html">
+          <file leaf-file-name="comments_list.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/client/templates/comments_list/comments_list.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.807693">
-                  <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="todos_detail.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/client/templates/todos_detail/todos_detail.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5322896">
-                  <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+                <state vertical-scroll-proportion="0.5655577">
+                  <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -47,41 +37,41 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="routes.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/lib/routes.coffee">
+          <file leaf-file-name="publish.js.coffee" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+                  <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home_controller.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="todos_controller.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/lib/controllers/todos_controller.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="todos_detail.coffee" pinned="false" current-in-tab="true">
+          <file leaf-file-name="todos_detail.coffee" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/client/templates/todos_detail/todos_detail.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.18923934">
-                  <caret line="6" column="13" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="19" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="comments.coffee" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/lib/collections/comments.coffee">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="comments_list.coffee" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/client/templates/comments_list/comments_list.coffee">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.7884972">
+                  <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -97,20 +87,28 @@
         <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
         <option value="$PROJECT_DIR$/app/lib/collections/todos.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.coffee" />
-        <option value="$PROJECT_DIR$/app/lib/controllers/home_controller.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/create_todoitem/create_todoitem.html" />
         <option value="$PROJECT_DIR$/app/client/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/app/client/templates/create_todo_item/create_todoitem.html" />
         <option value="$PROJECT_DIR$/app/client/templates/create_todo_item/create_todo_item.coffee" />
-        <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
         <option value="$PROJECT_DIR$/app/client/templates/home/home.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/todos_list/todos_list.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/todos_list/todos_list.html" />
-        <option value="$PROJECT_DIR$/app/server/publish.js.coffee" />
         <option value="$PROJECT_DIR$/app/lib/controllers/todos_controller.coffee" />
         <option value="$PROJECT_DIR$/app/lib/routes.coffee" />
+        <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
+        <option value="$PROJECT_DIR$/app/lib/controllers/home_controller.coffee" />
+        <option value="$PROJECT_DIR$/app/client/templates/users/users_list/users_list.coffee" />
+        <option value="$PROJECT_DIR$/app/client/templates/users/users_list/users_list.html" />
+        <option value="$PROJECT_DIR$/app/lib/controllers/users_controller.coffee" />
+        <option value="$PROJECT_DIR$/app/client/templates/users/users_detail/users_detail.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/users/users_detail/users_detail.coffee" />
+        <option value="$PROJECT_DIR$/app/lib/collections/comments.coffee" />
+        <option value="$PROJECT_DIR$/app/server/publish.js.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/todos_detail/todos_detail.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/todos_detail/todos_detail.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/comments_list/comments_list.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/comments_list/comments_list.coffee" />
       </list>
     </option>
   </component>
@@ -189,6 +187,56 @@
               <option name="myItemId" value="iron_coffee_second" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iron_coffee_second" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iron_coffee_second" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iron_coffee_second" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iron_coffee_second" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iron_coffee_second" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iron_coffee_second" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -236,11 +284,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -258,11 +302,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iron_coffee_second" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iron_coffee_second" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create_todo_item" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,12 +343,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../iron_coffee" />
+    <property name="last_opened_file_path" value="$USER_HOME$/code/source/PengYou-master" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="detail&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_detail/todos_detail.coffee&#10;todode&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_detail/todos_detail.coffee&#10;route&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/routes.coffee&#10;de&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_detail/todos_detail.html&#10;todo&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_detail/todos_detail.html&#10;todosde&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_detail/todos_detail.html&#10;rout&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/routes.coffee&#10;pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/server/publish.js.coffee&#10;controller&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/controllers/todos_controller.coffee&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/routes.coffee&#10;listcoff&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_list/todos_list.coffee&#10;todoscon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/controllers/todos_controller.coffee&#10;homecoffee&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/home/home.coffee&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/home/home.html&#10;crea&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/create_todo_item/create_todo_item.coffee&#10;cre&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/create_todo_item/create_todoitem.html&#10;css&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/stylesheets/main.css&#10;todolist&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_list/todos_list.html&#10;todosli&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_list/todos_list.coffee&#10;con&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/controllers/home_controller.coffee&#10;todos&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_list/todos_list.html&#10;mast&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/layouts/master_layout/master_layout.html&#10;homecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/controllers/home_controller.coffee&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/layouts/master_layout/master_layout.html&#10;home con&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="comments_li&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/comments_list/comments_list.coffee&#10;commen&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/collections/comments.coffee&#10;comment&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/comments_list/comments_list.html&#10;todosco&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_detail/todos_detail.coffee&#10;todosde&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_detail/todos_detail.html&#10;pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/server/publish.js.coffee&#10;userde&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/users/users_detail/users_detail.coffee&#10;todo&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_list/todos_list.html&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/home/home.html&#10;userd&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/users/users_detail/users_detail.html&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/routes.coffee&#10;rout&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/routes.coffee&#10;userscon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/controllers/users_controller.coffee&#10;user&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/users/users_list/users_list.html&#10;users&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/users/users_list/users_list.coffee&#10;usercon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/controllers/users_controller.coffee&#10;detail&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_detail/todos_detail.coffee&#10;todode&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_detail/todos_detail.coffee&#10;route&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/routes.coffee&#10;de&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_detail/todos_detail.html&#10;controller&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/controllers/todos_controller.coffee&#10;listcoff&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_list/todos_list.coffee&#10;todoscon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/controllers/todos_controller.coffee&#10;homecoffee&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/home/home.coffee&#10;crea&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/create_todo_item/create_todo_item.coffee&#10;cre&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/create_todo_item/create_todoitem.html&#10;css&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/stylesheets/main.css&#10;todolist&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_list/todos_list.html&#10;todosli&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_list/todos_list.coffee&#10;con&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/controllers/home_controller.coffee&#10;todos&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/todos_list/todos_list.html&#10;mast&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/layouts/master_layout/master_layout.html&#10;homecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/lib/controllers/home_controller.coffee&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/iron_coffee_second/app/client/templates/layouts/master_layout/master_layout.html&#10;home con&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
@@ -540,21 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/create_todo_item/create_todoitem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2994129">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33268103">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.56771797">
@@ -593,58 +648,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/lib/controllers/todos_controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12615955">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.09461967">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/routes.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.839851">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/todos_list/todos_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.27868852">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/controllers/todos_controller.coffee">
+    <entry file="file://$PROJECT_DIR$/app/client/templates/users/users_detail/users_detail.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4299611">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/users/users_list/users_list.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23151751">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/controllers/users_controller.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2849162">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/users/users_list/users_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46575344">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39921722">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2849162">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/users/users_detail/users_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1325536">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/development/env.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14114392">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/create_todo_item/create_todoitem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2982456">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/todos_detail/todos_detail.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18923934">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/collections/comments.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/todos_detail/todos_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5322896">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.8003914">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/comments_list/comments_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5655577">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/comments_list/comments_list.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7884972">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
