@@ -9,6 +9,7 @@ Even a smallthings
 - meteor.js
 - iron-cli
 
+http://eventedmindfirstone.meteor.com
 
 http://myfirstleaderboadrd.meteor.com
 
