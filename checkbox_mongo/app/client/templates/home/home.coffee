@@ -1,10 +1,8 @@
 Template.Home.events
   'click [name=isDone]': (e, tmpl) ->
-    id = @_id
-    isDone = tmpl.find('input[name=isDone]').checked
-    Todos.update {_id: id},
+    Todos.update {_id: @_id},
       $set:
-        isDone: isDone
+        isDone: e.currentTarget.checked
 
 
 Template.Home.helpers
