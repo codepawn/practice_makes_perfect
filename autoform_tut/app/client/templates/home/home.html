@@ -1,3 +1,16 @@
 <template name="Home">
-  <h1>Find me in app/client/templates/home/home</h1>
+  {{> quickForm collection="Posts" id="insertPostForm" type="insert"}}
+
+
+
+  {{#each posts}}
+    <div>{{title}} {{content}}</div>
+  {{/each}}
+
+</template>
+
+<template name="post">
+  <h1>Edit Post</h1>
+  {{> quickForm collection="Posts" id="updatePostForm" type="update" doc=this}}
+  <a class="btn" href="/">Back</a>
 </template>

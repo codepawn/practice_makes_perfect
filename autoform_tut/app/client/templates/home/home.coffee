@@ -1,10 +1,11 @@
-Template.Home.events {}
+Template.Home.events
 
-Template.Home.helpers {}
+Template.Home.helpers
+  posts: ->
+    Posts.find()
 
-# Home: Lifecycle Hooks 
 Template.Home.created = ->
-  
+
 Template.Home.rendered = ->
-  
+
 Template.Home.destroyed = ->
