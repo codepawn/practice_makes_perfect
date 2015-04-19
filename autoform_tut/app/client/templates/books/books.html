@@ -2,8 +2,11 @@
   {{> quickForm collection="Books" id="insertPostForm" type="insert"}}
 
   {{#each books }}
-    <div>{{_id}} {{title}} {{author}} {{copies}} {{lastCheckedOut}} {{summary}}
-      <button name="rm">rm</button>
+    <div>
+      <a href="{{pathFor 'books.detail'}}">
+        {{_id}} {{title}} {{author}} {{copies}} {{lastCheckedOut}} {{summary}}
+      </a>
+      <a href="#" name="rm" class="btn">rm</a>
     </div>
   {{/each}}
 </template>

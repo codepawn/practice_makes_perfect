@@ -8,4 +8,10 @@ Meteor.publish 'post', (id) ->
   Posts.find _id: id
 
 Meteor.publish 'books', ->
-  Books.find()
+  Books.find {}, {
+    sort:
+      createdAt: -1
+  }
+
+Meteor.publish 'book', (id) ->
+  Books.find _id: id
