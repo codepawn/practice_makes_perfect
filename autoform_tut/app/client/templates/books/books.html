@@ -1,0 +1,9 @@
+<template name="Books">
+  {{> quickForm collection="Books" id="insertPostForm" type="insert"}}
+
+  {{#each books }}
+    <div>{{_id}} {{title}} {{author}} {{copies}} {{lastCheckedOut}} {{summary}}
+      <button name="rm">rm</button>
+    </div>
+  {{/each}}
+</template>

@@ -1,10 +1,9 @@
 <template name="Home">
   {{> quickForm collection="Posts" id="insertPostForm" type="insert"}}
 
-
-
   {{#each posts}}
-    <div>{{title}} {{content}}
+    <div>
+      <a href="{{pathFor 'posts.detail'}}">{{title}} {{content}}</a>
       <button name="remove">RM</button>
     </div>
   {{/each}}
