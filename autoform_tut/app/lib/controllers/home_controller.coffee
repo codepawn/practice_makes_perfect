@@ -1,6 +1,7 @@
 @HomeController = RouteController.extend
   layoutTemplate: 'MasterLayout'
   subscriptions: ->
-    @subscribe 'posts'
+  waitOn: ->
+    Meteor.subscribe 'posts'
   action: ->
     @render 'Home'

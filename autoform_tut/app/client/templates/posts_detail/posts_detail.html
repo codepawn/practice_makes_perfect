@@ -1,5 +1,18 @@
 <template name="PostsDetail">
-  {{_id}}
-  {{title}}
-  {{content}}
+  {{#if get 'isEditing'}}
+    {{> quickForm collection="Posts" id="updatePostForm" type="update" doc=this}}
+    <a href="{{pathFor 'posts.detail'}}">Cancel</a>
+  {{else}}
+    <div>
+      {{_id}}
+      {{title}}
+      {{content}}
+      {{createdAt}}
+      <a href="{{pathFor 'posts.edit'}}">
+        <button name="">Edit</button>
+      </a>
+      <button name="rm">rm</button>
+    </div>
+    <textarea name="comment" class="form-control" id="" cols="30" rows="10"></textarea>
+  {{/if}}
 </template>

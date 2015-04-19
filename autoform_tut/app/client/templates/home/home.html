@@ -4,7 +4,8 @@
   {{#each posts}}
     <div>
       <a href="{{pathFor 'posts.detail'}}">{{title}} {{content}}</a>
-      <button name="remove">RM</button>
+      <a class="btn" href="{{pathFor 'posts.edit'}}">Edit</a>
+      <a href="btn" name="remove">Remove</a>
     </div>
   {{/each}}
 
@@ -13,5 +14,5 @@
 <template name="post">
   <h1>Edit Post</h1>
   {{> quickForm collection="Posts" id="updatePostForm" type="update" doc=this}}
-  <a class="btn" href="/">Back</a>
+  <a class="btn" href="#">Back</a>
 </template>

@@ -4,7 +4,10 @@ Template.Home.events
 
 Template.Home.helpers
   posts: ->
-    Posts.find()
+    Posts.find {}, {
+      sort:
+        createdAt: -1
+    }
 
 Template.Home.created = ->
 

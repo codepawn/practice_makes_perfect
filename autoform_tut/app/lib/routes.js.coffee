@@ -16,8 +16,14 @@ Router.map ->
     action: 'action'
     where: 'client'
 
-Router.route 'books',
-  name: 'books'
-  controller: 'BooksController'
-  action: 'action'
-  where: 'client'
+  @route 'books',
+    name: 'books'
+    controller: 'BooksController'
+    action: 'action'
+    where: 'client'
+
+  @route '/posts/:_id/edit',
+    name: 'posts.edit'
+    controller: 'PostsDetailController'
+    action: 'edit'
+    where: 'client'
