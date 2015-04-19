@@ -1,7 +1,11 @@
 Meteor.publish 'posts', ->
-  Posts.find()
-Meteor.publish 'post', ->
-  Posts.find()
+  Posts.find {}, {
+    sort:
+      createdAt: -1
+  }
+
+Meteor.publish 'post', (id) ->
+  Posts.find _id: id
 
 Meteor.publish 'books', ->
   Books.find()

@@ -7,6 +7,13 @@ Posts.attachSchema new SimpleSchema
   content:
     type: String
     label: 'Content'
+  createdAt:
+    type: Date
+    autoValue: ->
+      new Date
+    denyUpdate: true
+    autoform:
+      omit:true
 
 if Meteor.isServer
   Posts.allow
