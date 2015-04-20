@@ -5,7 +5,10 @@ Meteor.publish 'posts', ->
   }
 
 Meteor.publish 'post', (id) ->
-  Posts.find _id: id
+  [
+    Posts.find _id: id
+    Comments.find()
+  ]
 
 Meteor.publish 'books', ->
   Books.find {}, {

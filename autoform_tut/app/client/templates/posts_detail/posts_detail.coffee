@@ -4,7 +4,9 @@ Template.PostsDetail.events
     Posts.remove _id: @_id
     Router.go 'home'
 
-Template.PostsDetail.helpers {}
+Template.PostsDetail.helpers
+  postComments: ->
+    Comments.find()
 
 Template.PostsDetail.created = ->
 

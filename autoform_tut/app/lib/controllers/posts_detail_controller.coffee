@@ -1,10 +1,10 @@
 @PostsDetailController = RouteController.extend
   subscriptions: ->
-  waitOn:->
+  waitOn: ->
     Meteor.subscribe 'post', @params._id
 
   data: ->
-    Posts.findOne _id:@params._id
+    Posts.findOne _id: @params._id
 
   action: ->
     @render 'PostsDetail', {}

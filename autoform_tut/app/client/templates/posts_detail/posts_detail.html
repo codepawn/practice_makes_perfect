@@ -11,6 +11,9 @@
       <a href="{{pathFor 'posts.edit'}}">Edit</a>
       <a href="#" name="rm">rm</a>
     </div>
-    <textarea name="comment" class="form-control" id="" cols="30" rows="10"></textarea>
+    {{> quickForm collection="Comments" id="insertPostForm" type="insert"}}
+    {{#each postComments}}
+      <div>{{comments}}</div>
+    {{/each}}
   {{/if}}
 </template>
