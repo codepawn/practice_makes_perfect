@@ -6,6 +6,7 @@
       <a href="{{pathFor 'books.detail'}}">
         {{_id}} {{title}} {{author}} {{copies}} {{lastCheckedOut}} {{summary}}
       </a>
+      <a href="{{pathFor 'books.edit'}}" name="" class="btn">edit</a>
       <a href="#" name="rm" class="btn">rm</a>
     </div>
   {{/each}}

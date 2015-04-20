@@ -1,11 +1,11 @@
 Template.BooksDetail.events
-  'click [name=rm]': ->
+  'click [name=rm]': (e)->
+    e.preventDefault()
     Books.remove _id: @_id
     Router.go 'books'
 
-Template.BooksDetail.helpers {}
+Template.BooksDetail.helpers
 
-# BooksDetail: Lifecycle Hooks 
 Template.BooksDetail.created = ->
 
 Template.BooksDetail.rendered = ->

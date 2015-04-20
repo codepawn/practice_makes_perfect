@@ -33,3 +33,15 @@ Router.map ->
     controller: 'BooksDetailController'
     action: 'action'
     where: 'client'
+
+  @route '/books/:_id/edit',
+    name: 'books.edit'
+    controller: 'BooksEditController'
+    action: 'action'
+    where: 'client'
+
+#  @route '/books/:_id/edit',
+#    name: 'books.edit.home'
+#    controller: 'BooksEditController'
+#    action: 'home'
+#    where: 'client'

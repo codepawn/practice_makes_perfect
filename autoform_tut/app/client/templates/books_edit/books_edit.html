@@ -1,0 +1,10 @@
+<template name="BooksEdit">
+  {{> quickForm collection="Books" id="updatePostForm" type="update" doc=this}}
+
+  {{#if get 'fromHome'}}
+    <a href="{{pathFor 'books.detail'}}">Cancel</a>
+  {{else}}
+    <a href="{{pathFor 'books'}}">Cancel</a>
+  {{/if}}
+
+</template>
