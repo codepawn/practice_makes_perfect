@@ -1,12 +1,15 @@
 Template.PostsDetail.events
-  'click [name=rm]': (e) ->
+  'click [name=removePosts]': (e) ->
     e.preventDefault()
     Posts.remove _id: @_id
     Router.go 'home'
+  'click [name=removeComment]': (e)->
+    Comments.remove _id: @_id
+  'click [name=insert]': ->
+    Comments.insert
+      commentsId: @_id
 
 Template.PostsDetail.helpers
-  postComments: ->
-    Comments.find()
 
 Template.PostsDetail.created = ->
 

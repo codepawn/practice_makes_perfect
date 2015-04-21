@@ -9,11 +9,20 @@
       {{content}}
       {{createdAt}}
       <a href="{{pathFor 'posts.edit'}}">Edit</a>
-      <a href="#" name="rm">rm</a>
+      <a href="#" name="removePosts">rm</a>
     </div>
-    {{> quickForm collection="Comments" id="insertPostForm" type="insert"}}
+
+    {{#autoForm collection="Comments" id="insertPostForm" type="insert"}}
+      <fieldset>
+        {{> afQuickField name='comments' rows=3}}
+      </fieldset>
+      <button name='insert' type="submit" class="btn btn-primary">Insert</button>
+    {{/autoForm}}
+
     {{#each postComments}}
-      <div>{{comments}}</div>
+      <div>{{comments}}
+        <button class="btn btn-default" name="removeComment">rm</button>
+      </div>
     {{/each}}
   {{/if}}
 </template>
