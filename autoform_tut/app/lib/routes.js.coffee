@@ -45,3 +45,9 @@ Router.map ->
 #    controller: 'BooksEditController'
 #    action: 'home'
 #    where: 'client'
+
+Router.route 'profile',
+  name: 'profile'
+  controller: 'ProfileController'
+  action: 'action'
+  where: 'client'
