@@ -51,3 +51,9 @@ Router.route 'profile',
   controller: 'ProfileController'
   action: 'action'
   where: 'client'
+
+Router.route 'object',
+  name: 'object'
+  controller: 'ObjectController'
+  action: 'action'
+  where: 'client'
