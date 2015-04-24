@@ -7,12 +7,36 @@
 //};
 //
 //person = new Person44();
+//
+//o = {
+//  firstName: 'Evented',
+//  lastName: 'Mind'
+//};
+//
+//Object.defineProperty(o, 'fullName', {
+//  value: 'Default Value',
+//  writable: true,
+//  enumerable: true,
+//  configurable: true,
+//  get: function () {
+//    console.log('getting the fullName');
+//    return this.firstName
+//  }
+//})
+//;
 
-o = {
+//Object.defineProperty(o, 'fullName', {})
+
+SuperParent = {};
+Parent = {
+  toString: function () {
+    return this.firstName + ' ' + this.lastName
+  }
+};
+
+Child = {
   firstName: 'Evented',
   lastName: 'Mind'
 };
 
-Object.defineProperty(o, 'fullName', {
-  value: 'Default Value'
-});
+Child.__proto__ = Parent
