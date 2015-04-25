@@ -18,10 +18,10 @@
 #o =
 #  firstName: 'Evented'
 #  lastName: 'Mind'
-
-Child2 =
-  firstName: 'Evented'
-  lastName: 'Mind'
+#
+#Child2 =
+#  firstName: 'Evented'
+#  lastName: 'Mind'
 
 Template.Object.events
 

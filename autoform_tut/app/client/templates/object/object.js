@@ -27,16 +27,71 @@
 
 //Object.defineProperty(o, 'fullName', {})
 
-SuperParent = {};
-Parent = {
-  toString: function () {
-    return this.firstName + ' ' + this.lastName
-  }
-};
+//SuperParent = {
+//  goo: 'goo'
+//  toString: function () {
+//    return 'SuperParent';
+//  }
+//};
+//
+//Parent = {
+//  toString: function () {
+//    return this.firstName + ' ' + this.lastName
+//  }
+//};
+//
+//Parent.__proto__ = SuperParent;
+//
+//Child = {
+//  firstName: 'Evented',
+//  lastName: 'Mind'
+//};
+//
+//Child.__proto__ = Parent;
 
-Child = {
-  firstName: 'Evented',
-  lastName: 'Mind'
-};
+//
+//Parent = {
+//  toString: function () {
+//    return this.firstName + ' ' + this.lastName;
+//  }
+//};
+//
+//Child = {
+//  firstName: 'Evented',
+//  lastName: 'Mind'
+//};
+//
+//Child.__proto__ = Parent;
 
-Child.__proto__ = Parent
+//
+//Person = function (firstName, lastName) {
+//  this.firstName = firstName;
+//  this.lastName = lastName;
+//};
+//
+//Person.prototype.toString = function () {
+//  return this.firstName + ' ' + this.lastName;
+//};
+//
+//Person.prototype.getName = function () {
+//  return this.firstName;
+//};
+//
+//person = new Person('Evented', 'Mind');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
