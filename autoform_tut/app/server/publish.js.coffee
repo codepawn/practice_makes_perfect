@@ -7,7 +7,10 @@ Meteor.publish 'posts', ->
 Meteor.publish 'post', (id) ->
   [
     Posts.find _id: id
-    Comments.find()
+    Comments.find commentsId: id, {
+      sort:
+        createdAt: -1
+    }
   ]
 
 Meteor.publish 'books', ->

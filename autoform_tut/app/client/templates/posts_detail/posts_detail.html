@@ -4,20 +4,22 @@
     <a href="{{pathFor 'posts.detail'}}">Cancel</a>
   {{else}}
     <div>
-      {{_id}}
-      {{title}}
-      {{content}}
-      {{createdAt}}
-      <a href="{{pathFor 'posts.edit'}}">Edit</a>
-      <a href="#" name="removePosts">rm</a>
+      <div>{{_id}}</div>
+      <div>{{title}}</div>
+      <div>{{content}}</div>
+      <div>{{createdAt}}</div>
+      <div>
+        <a href="{{pathFor 'posts.edit'}}">Edit</a>
+      </div>
+      <div>
+        <a href="#" name="removePosts">Remove</a>
+      </div>
     </div>
 
-    {{#autoForm collection="Comments" id="insertPostForm" type="insert"}}
-      <fieldset>
-        {{> afQuickField name='comments' rows=3}}
-      </fieldset>
-      <button name='insert' type="submit" class="btn btn-primary">Insert</button>
-    {{/autoForm}}
+    <form action="">
+      <textarea class="form-control" name="comment" id="" cols="30" rows="10"></textarea>
+      <button name="insert" class="btn btn-default">Insert</button>
+    </form>
 
     {{#each postComments}}
       <div>{{comments}}

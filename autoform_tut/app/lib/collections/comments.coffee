@@ -7,18 +7,12 @@ Comments.attachSchema new SimpleSchema
   commentsId:
     label: 'CommentsId'
     type: String
-    autoform:
-      omit: true
-
 
 if Meteor.isServer
   Comments.allow
     insert: (userId, doc) ->
-      true
-#      !!userId
+      !!userId
     update: (userId, doc, fieldNames, modifier) ->
-#      userId is doc.userId
-      true
+      userId is doc.userId
     remove: (userId, doc) ->
-      true
-#      userId is doc.userId
+      userId is doc.userId

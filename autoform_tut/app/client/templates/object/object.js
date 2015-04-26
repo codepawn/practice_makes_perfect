@@ -24,9 +24,9 @@
 //  }
 //})
 //;
-
+//
 //Object.defineProperty(o, 'fullName', {})
-
+//
 //SuperParent = {
 //  goo: 'goo'
 //  toString: function () {
@@ -48,7 +48,7 @@
 //};
 //
 //Child.__proto__ = Parent;
-
+//
 //
 //Parent = {
 //  toString: function () {
@@ -62,7 +62,7 @@
 //};
 //
 //Child.__proto__ = Parent;
-
+//
 //
 //Person = function (firstName, lastName) {
 //  this.firstName = firstName;
@@ -78,20 +78,45 @@
 //};
 //
 //person = new Person('Evented', 'Mind');
+//
+// primitive types
+//
+//myString = "My String";
+//myNumber = 5;
+//myBoolean = true;
+//myNull = null;
+//myUndefined = undefined;
+//
+//object type
+//myObject = {};
+//
+//array "object" type
+//myArray = [1, 2];
+//
+//function type
+//myFunction = function () {
+//};
+//
+//custom constructed objects
+//myDate = new Date;
+//
+//Person = function (name) {
+//  this.name = name;
+//};
+//
+//Person.prototype.sayHello = function () {
+//  return 'Hello, ' + this.name;
+//};
+//
+//me = new Person('Chris');
 
 
+Person = function (name) {
+  this.name = name;
+};
 
+Person.prototype.sayHello = function () {
+  return 'Hello, ' + this.name;
+};
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+me = new Person('Chris');
