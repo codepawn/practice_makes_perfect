@@ -7,6 +7,8 @@ Comments.attachSchema new SimpleSchema
   commentsId:
     label: 'CommentsId'
     type: String
+  userId:
+    type: String
 
 if Meteor.isServer
   Comments.allow

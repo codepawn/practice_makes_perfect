@@ -1,6 +1,8 @@
 {
   "public": {
-  },
-
-  "sample": "value"
+    "filepicker": {
+      "key": "AjKDH1VmIRpOkieA95PsZz",
+      "cdn_domain": ""
+    }
+  }
 }

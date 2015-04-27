@@ -20,76 +20,50 @@
     <favorites_list name="autoform_tut" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="posts_detail.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/client/templates/posts_detail/posts_detail.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.153846">
-                  <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="comments.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/lib/collections/comments.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="publish.js.coffee" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4960212">
-                  <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="master_layout.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-4.576923">
-                  <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="posts_detail.coffee" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/client/templates/posts_detail/posts_detail.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.59351623">
-                  <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="routes.js.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/lib/routes.js.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="object.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/object/object.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="object.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/object/object.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.08885018">
+              <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/development/settings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="object.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/object/object.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="114" column="26" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -108,20 +82,24 @@
         <option value="$PROJECT_DIR$/app/client/templates/books_edit/books_edit.html" />
         <option value="$PROJECT_DIR$/app/client/templates/books_detail/books_detail.html" />
         <option value="$PROJECT_DIR$/app/lib/controllers/books_edit_controller.coffee" />
-        <option value="$PROJECT_DIR$/app/lib/routes.js.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/books_detail/books_detail.coffee" />
         <option value="$PROJECT_DIR$/app/lib/controllers/posts_detail_controller.coffee" />
         <option value="$PROJECT_DIR$/app/lib/collections/profile.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/profile/profile.html" />
-        <option value="$PROJECT_DIR$/app/client/templates/object/object.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/object/app.js" />
         <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
-        <option value="$PROJECT_DIR$/app/client/templates/object/object.js" />
         <option value="$PROJECT_DIR$/app/client/templates/posts_detail/posts_detail.html" />
-        <option value="$PROJECT_DIR$/app/lib/collections/comments.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
         <option value="$PROJECT_DIR$/app/server/publish.js.coffee" />
+        <option value="$PROJECT_DIR$/app/lib/collections/image.coffee" />
+        <option value="$PROJECT_DIR$/app/common.js" />
+        <option value="$PROJECT_DIR$/app/lib/routes.js.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/posts_detail/posts_detail.coffee" />
+        <option value="$PROJECT_DIR$/app/lib/collections/comments.coffee" />
+        <option value="$PROJECT_DIR$/config/development/settings.json" />
+        <option value="$PROJECT_DIR$/app/client/templates/object/object.coffee" />
+        <option value="$PROJECT_DIR$/app/client/templates/object/object.js" />
+        <option value="$PROJECT_DIR$/app/client/templates/object/object.html" />
       </list>
     </option>
   </component>
@@ -161,6 +139,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,18 +158,8 @@
               <option name="myItemId" value="autoform_tut" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="autoform_tut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autoform_tut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -203,11 +173,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="development" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoform_tut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoform_tut" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -222,14 +202,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,19 +245,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoform_tut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoform_tut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="posts_detail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoform_tut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoform_tut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="object" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/meteor-cookbook-master/filepicker/filepicker-plus-example" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/server/publish.js.coffee&#10;mast&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/layouts/master_layout/master_layout.html&#10;route&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/routes.js.coffee&#10;comment&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/collections/comments.coffee&#10;posts&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/posts_detail/posts_detail.coffee&#10;posts de&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/posts_detail/posts_detail.html&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/home/home.html&#10;obj&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/object/object.coffee&#10;profile&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/profile/profile.html&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/layouts/master_layout/master_layout.html&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/routes.js.coffee&#10;pro&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/collections/profile.coffee&#10;home con&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/home_controller.coffee&#10;rout&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/routes.js.coffee&#10;router&#9;null&#9;null&#10;postd&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/posts_detail/posts_detail.html&#10;comments&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/collections/comments.coffee&#10;commen&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/collections/comments.coffee&#10;post&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/posts_detail/posts_detail.coffee&#10;postde&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/posts_detail_controller.coffee&#10;books&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/books_edit_controller.coffee&#10;bookseditcon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/books_edit_controller.coffee&#10;booksde&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/books_detail/books_detail.html&#10;bookse&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/books_edit_controller.coffee&#10;books e&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/books_edit/books_edit.html&#10;de&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/posts_detail/posts_detail.html&#10;postscon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/posts_detail_controller.coffee&#10;books de&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/books_detail/books_detail.coffee&#10;bookedi&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/books_edit/books_edit.html&#10;postsde&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/posts_detail_controller.coffee&#10;con&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/home_controller.coffee&#10;control&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/books_detail_controller.coffee&#10;booksd&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/books_detail/books_detail.coffee&#10;bookscon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/books_controller.coffee&#10;detail&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/posts_detail/posts_detail.html&#10;bookcon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/books_controller.coffee&#10;home cof&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/home/home.coffee&#10;posts d&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/posts_detail_controller.coffee&#10;pos&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/posts_detail_controller.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/layouts/master_layout/master_layout.html&#10;master&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/layouts/master_layout/master_layout.coffee" />
+    <property name="SearchEverywhereHistoryKey" value="commen&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/collections/comments.coffee&#10;pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/server/publish.js.coffee&#10;mast&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/layouts/master_layout/master_layout.html&#10;route&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/routes.js.coffee&#10;comment&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/collections/comments.coffee&#10;posts&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/posts_detail/posts_detail.coffee&#10;posts de&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/posts_detail/posts_detail.html&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/home/home.html&#10;obj&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/object/object.coffee&#10;profile&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/profile/profile.html&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/layouts/master_layout/master_layout.html&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/routes.js.coffee&#10;pro&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/collections/profile.coffee&#10;home con&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/home_controller.coffee&#10;rout&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/routes.js.coffee&#10;router&#9;null&#9;null&#10;postd&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/posts_detail/posts_detail.html&#10;comments&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/collections/comments.coffee&#10;post&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/posts_detail/posts_detail.coffee&#10;postde&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/posts_detail_controller.coffee&#10;books&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/books_edit_controller.coffee&#10;bookseditcon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/books_edit_controller.coffee&#10;booksde&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/books_detail/books_detail.html&#10;bookse&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/books_edit_controller.coffee&#10;books e&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/books_edit/books_edit.html&#10;de&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/posts_detail/posts_detail.html&#10;postscon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/posts_detail_controller.coffee&#10;books de&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/books_detail/books_detail.coffee&#10;bookedi&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/books_edit/books_edit.html&#10;postsde&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/posts_detail_controller.coffee&#10;con&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/home_controller.coffee&#10;control&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/books_detail_controller.coffee&#10;booksd&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/books_detail/books_detail.coffee&#10;bookscon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/books_controller.coffee&#10;detail&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/posts_detail/posts_detail.html&#10;bookcon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/books_controller.coffee&#10;home cof&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/home/home.coffee&#10;posts d&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/posts_detail_controller.coffee&#10;pos&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/lib/controllers/posts_detail_controller.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/layouts/master_layout/master_layout.html&#10;master&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/autoform_tut/app/client/templates/layouts/master_layout/master_layout.coffee" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
@@ -356,11 +378,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="766" height="1177" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2425044" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4488536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31201044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -371,6 +392,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -398,25 +420,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/lib/routes.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/collections/books.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,15 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1330724">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/object/object.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05027933">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,62 +704,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23143564">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/object/object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43282238">
-          <caret line="90" column="16" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/posts_detail/posts_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.153846">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
+        <state vertical-scroll-proportion="0.24385247">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/collections/comments.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4960212">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.6964618">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/collections/comments.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46961325">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/routes.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/client/templates/posts_detail/posts_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        <state vertical-scroll-proportion="1.5178572">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/posts_detail/posts_detail.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59351623">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.58311343">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/routes.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9868074">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/object/object.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/object/object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="26" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/development/settings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/object/object.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08885018">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
           <folding />
         </state>
       </provider>

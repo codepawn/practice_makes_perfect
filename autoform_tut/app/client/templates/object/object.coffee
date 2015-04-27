@@ -25,10 +25,12 @@
 
 Template.Object.events
 
+
 Template.Object.helpers
 
 # Object: Lifecycle Hooks
 Template.Object.created = ->
+  loadFilePicker()
 
 Template.Object.rendered = ->
 

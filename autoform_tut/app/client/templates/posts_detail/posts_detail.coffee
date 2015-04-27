@@ -12,6 +12,7 @@ Template.PostsDetail.events
     Comments.insert
       comments: tmpl.find('textarea').value
       commentsId: @_id
+      userId: Meteor.userId()
     tmpl.find('form').reset()
 
 Template.PostsDetail.helpers
