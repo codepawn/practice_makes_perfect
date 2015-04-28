@@ -3,7 +3,7 @@
 
   {{#each posts}}
     <div>
-      <a href="{{pathFor 'posts.detail'}}">{{title}} {{content}}</a>
+      <a href="{{pathFor 'posts.detail'}}">{{title}} {{{content}}}</a>
       <a class="btn" href="{{pathFor 'posts.edit'}}">Edit</a>
       <a href="#" name="remove">Remove</a>
     </div>

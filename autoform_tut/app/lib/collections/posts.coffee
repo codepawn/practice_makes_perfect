@@ -7,13 +7,19 @@ Posts.attachSchema new SimpleSchema
   content:
     type: String
     label: 'Content'
+    autoform:
+      afFieldInput:
+        type: 'summernote'
+        class: 'editor'
+        settings:
+          lang: 'ko-KR'
   createdAt:
     type: Date
     autoValue: ->
       new Date
 #    denyUpdate: true
     autoform:
-      omit:true
+      omit: true
 
 if Meteor.isServer
   Posts.allow
