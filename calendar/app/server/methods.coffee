@@ -2,4 +2,6 @@
 # Server Only Methods
 #*****************************************************************************
 
-Meteor.methods {}
+Meteor.methods
+
+

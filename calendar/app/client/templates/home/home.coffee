@@ -6,6 +6,12 @@ Template.Home.helpers {}
 Template.Home.created = ->
 
 Template.Home.rendered = ->
-  calendar = $('#calendar').fullCalendar()
+  calendar = $('#calendar').fullCalendar(dayClick: (date, allDay, jsEvent, view) ->
+    calendarEvent = {}
+    calendarEvent.start = date
+    calendarEvent.title = 'New Event'
+    calendarEvent.owner = Meteor.userId()
+    Meteor.call 'saveCalEvent', calendarEvent
+  )
 
 Template.Home.destroyed = ->

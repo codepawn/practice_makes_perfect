@@ -11,3 +11,6 @@ iron:router
 coffeescript
 twbs:bootstrap
 rzymek:fullcalendar
+msavin:mongol
+accounts-password
+ian:accounts-ui-bootstrap-3
