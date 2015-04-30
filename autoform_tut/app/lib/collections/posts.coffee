@@ -13,6 +13,10 @@ Posts.attachSchema new SimpleSchema
         class: 'editor'
         settings:
           lang: 'ko-KR'
+          toolbar: [
+            ['style', ['style']],
+            ['insert', ['link', 'hr']],
+          ]
   createdAt:
     type: Date
     autoValue: ->
