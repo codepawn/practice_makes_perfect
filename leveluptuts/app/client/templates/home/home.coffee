@@ -7,8 +7,8 @@ Template.Home.events
     Resolutions.remove @_id
 
   'click .toggle-checked': ->
-    console.log "work"
-    Resolutions.update @_id, $set:checked: true
+    Resolutions.update @_id, $set:
+      checked: !@checked
 
 Template.Home.helpers
   counter: ->
@@ -23,6 +23,9 @@ Template.Home.helpers
   timestamp: ->
     moment @createdAt
     .fromNow()
+
+  check: ->
+    if @checked then 'check' else ''
 
 Template.Home.created = ->
   Session.setDefault 'counter', 0

@@ -12,7 +12,9 @@ Resolutions.attachSchema new SimpleSchema
       omit: true
   checked:
     type: Boolean
-    autoValue: -> false
+    autoValue: ->
+      if @isInsert
+        false
     autoform:
       omit: true
 

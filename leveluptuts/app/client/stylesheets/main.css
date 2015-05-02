@@ -3,6 +3,11 @@
 /*****************************************************************************/
 .main {
 }
+
 body{
     /*background: red;*/
+}
+
+.check{
+ text-decoration: line-through;
 }
