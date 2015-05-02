@@ -3,3 +3,6 @@ Meteor.publish 'resolutions', ->
     sort:
       createdAt: -1
   }
+
+Meteor.publish 'count', ->
+  Counter.find()

@@ -1,6 +1,19 @@
 <template name="Home">
-  <div>{{counter}}</div>
-  <button name="counter" class="btn btn-default">Click Me</button>
+
+  <div>
+    <button name="counter" class="btn btn-default">
+      Click Me
+    <span class="badge">
+      {{counter}}
+    </span>
+    </button>
+  </div>
+
+  <label class="hide-finished" for="">
+    <input type="checkbox" checked="{{hideFinished}}"/>
+    Hide Finished
+  </label>
+
   {{> quickForm collection="Resolutions" id="insertPostForm" type="insert"}}
 
   {{#each resolutions}}

@@ -10,15 +10,26 @@ Template.Home.events
     Resolutions.update @_id, $set:
       checked: !@checked
 
+  'change .hide-finished': (e) ->
+    Session.set 'hideFinished', e.target.checked
+    console.log Session.get 'hideFinished'
+
+
 Template.Home.helpers
   counter: ->
     Session.get 'counter'
 
   resolutions: ->
-    Resolutions.find {}, {
-      sort:
-        createdAt: -1
-    }
+    if Session.get 'hideFinished'
+      Resolutions.find {checked: {$ne: true}}, {
+        sort:
+          createdAt: -1
+      }
+    else
+      Resolutions.find {}, {
+        sort:
+          createdAt: -1
+      }
 
   timestamp: ->
     moment @createdAt
