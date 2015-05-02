@@ -14,6 +14,9 @@ Template.Home.events
     Session.set 'hideFinished', e.target.checked
     console.log Session.get 'hideFinished'
 
+Accounts.ui.config
+  passwordSignupFields: "USERNAME_ONLY"
+
 
 Template.Home.helpers
   counter: ->
@@ -37,6 +40,9 @@ Template.Home.helpers
 
   check: ->
     if @checked then 'check' else ''
+
+  hideFunished: ->
+    Session.get 'hideFinished'
 
 Template.Home.created = ->
   Session.setDefault 'counter', 0
