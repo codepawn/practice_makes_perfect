@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["profile.coffee"],"names":[],"mappings":";AAAA,QAAQ,CAAC,OAAO,CAAC,MAAjB,CAAwB,EAAxB;;AAAA,QAEQ,CAAC,OAAO,CAAC,OAAjB,CAAyB,EAAzB,CAFA;;AAAA,QAKQ,CAAC,OAAO,CAAC,OAAjB,GAA2B,aAL3B;;AAAA,QAOQ,CAAC,OAAO,CAAC,QAAjB,GAA4B,aAP5B;;AAAA,QASQ,CAAC,OAAO,CAAC,SAAjB,GAA6B,aAT7B","file":"/client/templates/profile/profile.coffee.js","sourcesContent":["Template.Profile.events {}\n\nTemplate.Profile.helpers {}\n\n# Profile: Lifecycle Hooks \nTemplate.Profile.created = ->\n  \nTemplate.Profile.rendered = ->\n  \nTemplate.Profile.destroyed = ->\n"]}

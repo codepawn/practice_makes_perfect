@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["master_layout.coffee"],"names":[],"mappings":";AAAA,QAAQ,CAAC,YAAY,CAAC,OAAtB;;AAAA,QAEQ,CAAC,YAAY,CAAC,MAFtB","file":"/client/templates/layouts/master_layout/master_layout.coffee.js","sourcesContent":["Template.MasterLayout.helpers\n\nTemplate.MasterLayout.events\n"]}

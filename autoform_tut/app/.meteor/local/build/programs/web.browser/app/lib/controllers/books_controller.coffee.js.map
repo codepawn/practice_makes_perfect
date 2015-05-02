@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["books_controller.coffee"],"names":[],"mappings":";AAAA,IAAC,gBAAD,GAAmB,eAAe,CAAC,MAAhB,CACjB;AAAA,iBAAe,aAAf;AAAA,EACA,QAAQ;WACN,MAAM,CAAC,SAAP,CAAiB,OAAjB,EADM;EAAA,CADR;AAAA,EAGA,MAAM,aAHN;AAAA,EAIA,QAAQ;WACN,IAAC,OAAD,CAAQ,OAAR,EAAiB,EAAjB,EADM;EAAA,CAJR;CADiB,CAAnB","file":"/lib/controllers/books_controller.coffee.js","sourcesContent":["@BooksController = RouteController.extend\n  subscriptions: ->\n  waitOn: ->\n    Meteor.subscribe 'books'\n  data: ->\n  action: ->\n    @render 'Books', {}\n\n"]}

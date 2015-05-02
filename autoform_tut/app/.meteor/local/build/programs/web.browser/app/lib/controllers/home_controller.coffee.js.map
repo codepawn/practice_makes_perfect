@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["home_controller.coffee"],"names":[],"mappings":";AAAA,IAAC,eAAD,GAAkB,eAAe,CAAC,MAAhB,CAChB;AAAA,kBAAgB,cAAhB;AAAA,EACA,eAAe,aADf;AAAA,EAEA,QAAQ;WACN,MAAM,CAAC,SAAP,CAAiB,OAAjB,EADM;EAAA,CAFR;AAAA,EAIA,QAAQ;WACN,IAAC,OAAD,CAAQ,MAAR,EADM;EAAA,CAJR;CADgB,CAAlB","file":"/lib/controllers/home_controller.coffee.js","sourcesContent":["@HomeController = RouteController.extend\n  layoutTemplate: 'MasterLayout'\n  subscriptions: ->\n  waitOn: ->\n    Meteor.subscribe 'posts'\n  action: ->\n    @render 'Home'"]}
