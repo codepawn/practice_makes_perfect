@@ -1,4 +1,17 @@
 <template name="Home">
   <div>{{counter}}</div>
   <button name="counter" class="btn btn-default">Click Me</button>
+  {{> quickForm collection="Resolutions" id="insertPostForm" type="insert"}}
+
+  {{#each resolutions}}
+    <div>
+      <span class="toggle-checked">
+        {{title}}
+        {{timestamp}}
+        {{checked}}
+      </span>
+      <span name="rm">rm</span>
+    </div>
+  {{/each}}
+
 </template>
