@@ -9,6 +9,8 @@ Even a smallthings
 - meteor.js
 - iron-cli
 
+http://leveluptuts.meteor.com
+
 http://autoformtutorial.meteor.com
 
 http://eventedmindfirstone.meteor.com
