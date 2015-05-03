@@ -23,3 +23,5 @@ mpowaga:autoform-summernote
 momentjs:moment
 accounts-facebook
 accounts-twitter
+accounts-google
+accounts-github
