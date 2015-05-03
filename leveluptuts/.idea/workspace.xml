@@ -33,21 +33,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="resolutions.coffee" pinned="false" current-in-tab="true">
+          <file leaf-file-name="resolutions.coffee" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/lib/collections/resolutions.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7281192">
-                  <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home.coffee" pinned="false" current-in-tab="false">
+          <file leaf-file-name="home.coffee" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.4">
+                  <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
@@ -71,37 +71,17 @@
             <entry file="file://$PROJECT_DIR$/app/server/methods.coffee">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+                  <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bootstrap.coffee" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/server/bootstrap.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.12615955">
-                  <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="publish.js.coffee" pinned="false" current-in-tab="false">
+          <file leaf-file-name="publish.js.coffee" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.807693">
-                  <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+                <state vertical-scroll-proportion="0.3469388">
+                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -129,14 +109,14 @@
         <option value="$PROJECT_DIR$/app/lib/collections/counter.coffee" />
         <option value="$PROJECT_DIR$/app/server/bootstrap.coffee" />
         <option value="$PROJECT_DIR$/app/lib/controllers/home_controller.coffee" />
-        <option value="$PROJECT_DIR$/app/server/methods.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/default/default.html" />
         <option value="$PROJECT_DIR$/app/client/templates/default/default.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
-        <option value="$PROJECT_DIR$/app/client/templates/home/home.coffee" />
-        <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
-        <option value="$PROJECT_DIR$/app/server/publish.js.coffee" />
         <option value="$PROJECT_DIR$/app/lib/collections/resolutions.coffee" />
+        <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/home/home.coffee" />
+        <option value="$PROJECT_DIR$/app/server/methods.coffee" />
+        <option value="$PROJECT_DIR$/app/server/publish.js.coffee" />
       </list>
     </option>
   </component>
@@ -362,7 +342,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="reso&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/resolutions.coffee&#10;resol&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/resolutions.coffee&#10;pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/server/publish.js.coffee&#10;def&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/default/default.coffee&#10;master&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/layouts/master_layout/master_layout.html&#10;res&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/resolutions.coffee&#10;boot&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/server/bootstrap.coffee&#10;coun&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/counter.coffee&#10;home con&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/controllers/home_controller.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/layouts/master_layout/master_layout.html&#10;counter&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/counter.coffee&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/routes.coffee&#10;homecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/controllers/home_controller.coffee&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/home/home.html&#10;load&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/shared/loading/loading.html" />
+    <property name="SearchEverywhereHistoryKey" value="meth&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/server/methods.coffee&#10;reso&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/resolutions.coffee&#10;resol&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/resolutions.coffee&#10;pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/server/publish.js.coffee&#10;def&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/default/default.coffee&#10;master&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/layouts/master_layout/master_layout.html&#10;res&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/resolutions.coffee&#10;boot&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/server/bootstrap.coffee&#10;coun&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/counter.coffee&#10;home con&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/controllers/home_controller.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/layouts/master_layout/master_layout.html&#10;counter&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/counter.coffee&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/routes.coffee&#10;homecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/controllers/home_controller.coffee&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/home/home.html&#10;load&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/shared/loading/loading.html" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -543,10 +523,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/default/default.html">
+    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.73189825">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/collections/resolutions.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -559,42 +547,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
+    <entry file="file://$PROJECT_DIR$/app/client/templates/default/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73189825">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.36452243">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/server/methods.coffee">
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.4">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -607,10 +579,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/collections/resolutions.coffee">
+    <entry file="file://$PROJECT_DIR$/app/server/methods.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7281192">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3469388">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

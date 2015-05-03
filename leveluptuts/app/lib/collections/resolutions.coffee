@@ -27,6 +27,11 @@ Resolutions.attachSchema new SimpleSchema
     optional: true
   private:
     type: Boolean
+    autoValue: ->
+      if @isInsert
+        false
+    autoform:
+      omit: true
 
 if Meteor.isServer
   Resolutions.allow

@@ -9,6 +9,10 @@ Template.Home.events
     Session.set 'hideFinished', e.target.checked
     console.log Session.get 'hideFinished'
 
+  'click [name=private]': ->
+    Meteor.call 'private', @_id, !@private
+    console.log @private
+
 Accounts.ui.config
   passwordSignupFields: "USERNAME_ONLY"
 

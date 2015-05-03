@@ -11,3 +11,9 @@ Meteor.methods
       $set:
         checked: checked
     }
+
+  private: (id, privated)->
+    Resolutions.update id, {
+      $set:
+        private: privated
+    }
