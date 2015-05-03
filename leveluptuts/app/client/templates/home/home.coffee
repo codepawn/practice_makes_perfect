@@ -1,14 +1,9 @@
 Template.Home.events
-  'click [name=counter]': ->
-    console.log "+1"
-    Session.set 'counter', Session.get('counter') + 1
-
   'click [name=rm]': ->
-    Resolutions.remove @_id
+    Meteor.call 'remove', @_id
 
   'click .toggle-checked': ->
-    Resolutions.update @_id, $set:
-      checked: !@checked
+    Meteor.call 'updateCheck', @_id, !@checked
 
   'change .hide-finished': (e) ->
     Session.set 'hideFinished', e.target.checked
@@ -19,9 +14,6 @@ Accounts.ui.config
 
 
 Template.Home.helpers
-  counter: ->
-    Session.get 'counter'
-
   resolutions: ->
     if Session.get 'hideFinished'
       Resolutions.find {checked: {$ne: true}}, {
@@ -41,11 +33,17 @@ Template.Home.helpers
   check: ->
     if @checked then 'check' else ''
 
+  checked2: ->
+    if @checked then 'true' else 'false'
+
   hideFunished: ->
     Session.get 'hideFinished'
 
+  isOwner: ->
+    @owner is Meteor.userId()
+
+
 Template.Home.created = ->
-  Session.setDefault 'counter', 0
 
 Template.Home.rendered = ->
 

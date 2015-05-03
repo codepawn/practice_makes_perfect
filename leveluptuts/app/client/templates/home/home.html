@@ -1,14 +1,5 @@
 <template name="Home">
 
-  <div>
-    <button name="counter" class="btn btn-default">
-      Click Me
-    <span class="badge">
-      {{counter}}
-    </span>
-    </button>
-  </div>
-
   <label class="hide-finished" for="">
     <input type="checkbox" checked="{{hideFinished}}"/>
     Hide Finished
@@ -18,12 +9,23 @@
 
   {{#each resolutions}}
     <div>
-      <span class="toggle-checked {{check}}">
-        {{title}}
-        {{timestamp}}
-        {{checked}}
-      </span>
-      <span name="rm">rm</span>
+    <span class="toggle-checked {{check}}">
+      {{title}}
+      {{timestamp}}
+      {{checked2}}
+    </span>
+
+      {{#if isOwner}}
+        <button class="btn btn-default">
+          {{#if private}}
+            private
+          {{else}}
+            public
+          {{/if}}
+        </button>
+      {{/if}}
+
+      <button class="btn btn-default" name="rm">Remove</button>
     </div>
   {{/each}}
 
