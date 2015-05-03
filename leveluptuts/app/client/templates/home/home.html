@@ -25,7 +25,9 @@
         </button>
       {{/if}}
 
-      <button class="btn btn-default" name="rm">Remove</button>
+      {{#if isOwner}}
+        <button class="btn btn-default" name="rm">Remove</button>
+      {{/if}}
     </div>
   {{/each}}
 

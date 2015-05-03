@@ -44,6 +44,7 @@ Template.Home.helpers
     Session.get 'hideFinished'
 
   isOwner: ->
+#    true
     @owner is Meteor.userId()
 
 
