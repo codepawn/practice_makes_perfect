@@ -46,8 +46,8 @@
           <file leaf-file-name="home.coffee" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5">
-                  <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+                <state vertical-scroll-proportion="0.9514286">
+                  <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -56,7 +56,7 @@
           <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/client/templates/default/default.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.230769">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
                   <folding />
                 </state>
@@ -67,11 +67,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="methods.coffee" pinned="false" current-in-tab="true">
+          <file leaf-file-name="methods.coffee" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/server/methods.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2523191">
-                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="publish.js.coffee" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.38636363">
+                  <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -90,7 +100,7 @@
           <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.230769">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
                   <folding />
                 </state>
@@ -117,6 +127,7 @@
         <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
         <option value="$PROJECT_DIR$/app/server/methods.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/home/home.coffee" />
+        <option value="$PROJECT_DIR$/app/client/stylesheets/vars.styl" />
       </list>
     </option>
   </component>
@@ -128,9 +139,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+    <option name="x" value="960" />
     <option name="y" value="23" />
-    <option name="width" value="766" />
+    <option name="width" value="960" />
     <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -156,6 +167,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -332,17 +344,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../iron_coffee_second" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="meth&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/server/methods.coffee&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/home/home.html&#10;reso&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/resolutions.coffee&#10;resol&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/resolutions.coffee&#10;pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/server/publish.js.coffee&#10;def&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/default/default.coffee&#10;master&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/layouts/master_layout/master_layout.html&#10;res&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/resolutions.coffee&#10;boot&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/server/bootstrap.coffee&#10;coun&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/counter.coffee&#10;home con&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/controllers/home_controller.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/layouts/master_layout/master_layout.html&#10;counter&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/counter.coffee&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/routes.coffee&#10;homecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/controllers/home_controller.coffee&#10;load&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/shared/loading/loading.html" />
+    <property name="SearchEverywhereHistoryKey" value="pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/server/publish.js.coffee&#10;meth&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/server/methods.coffee&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/home/home.html&#10;reso&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/resolutions.coffee&#10;resol&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/resolutions.coffee&#10;def&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/default/default.coffee&#10;master&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/layouts/master_layout/master_layout.html&#10;res&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/resolutions.coffee&#10;boot&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/server/bootstrap.coffee&#10;coun&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/counter.coffee&#10;home con&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/controllers/home_controller.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/layouts/master_layout/master_layout.html&#10;counter&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/collections/counter.coffee&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/routes.coffee&#10;homecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/lib/controllers/home_controller.coffee&#10;load&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/leveluptuts/app/client/templates/shared/loading/loading.html" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -409,26 +420,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="766" height="1177" extended-state="0" />
+    <frame x="960" y="23" width="960" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.47389033" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329806" sideWeight="0.47389033" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24934725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.52610964" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -444,6 +455,62 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/collections/resolutions.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/default/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/server/methods.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/default/default.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -480,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -496,7 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.047091413">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -535,21 +600,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12615955">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15769945">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.230769">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding />
         </state>
@@ -565,7 +621,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/default/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
+        <state vertical-scroll-proportion="0.0">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
@@ -579,18 +635,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/server/methods.coffee">
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2523191">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.9514286">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.coffee">
+    <entry file="file://$PROJECT_DIR$/app/server/methods.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38636363">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding />
         </state>
       </provider>
