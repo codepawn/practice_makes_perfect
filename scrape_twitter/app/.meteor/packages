@@ -9,10 +9,8 @@ autopublish
 insecure
 iron:router
 coffeescript
-meteoric:ionic
-useraccounts:ionic
-useraccounts:core
-accounts-password
-fourseven:scss
-meteoric:ionicons-sass
-meteoric:ionic-sass
+http
+meteorhacks:npm
+
+
+npm-container
