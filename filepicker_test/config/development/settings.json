@@ -1,0 +1,11 @@
+{
+  "public": {
+    "filepicker":{
+      "key":"AjKDH1VmIRpOkieA95PsZz",
+      "cdn_domain":"<YOUR CDN DOMAIN>"
+    }
+
+  },
+
+  "sample": "value"
+}

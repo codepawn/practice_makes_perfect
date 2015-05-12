@@ -1,0 +1,24 @@
+<template name="MasterLayout">
+  {{#ionBody}}
+    {{#ionSideMenuContainer}}
+      {{#ionSideMenu}}
+        <div class="bar bar-header bar-stable">
+          <h1 class="title">Left</h1>
+        </div>
+        <div class="content has-header">
+          <div class="list">
+            <div class="item item-icon-right" data-ion-menu-close>
+              Close {{> ionIcon icon="ios-arrow-right"}}
+            </div>
+          </div>
+        </div>
+      {{/ionSideMenu}}
+      {{#ionSideMenuContent}}
+        {{> ionNavBar class="bar-light"}}
+        {{#ionNavView}}
+          {{> yield}}
+        {{/ionNavView}}
+      {{/ionSideMenuContent}}
+    {{/ionSideMenuContainer}}
+  {{/ionBody}}
+</template>
