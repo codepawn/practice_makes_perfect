@@ -1,6 +1,8 @@
-Template.Home.events {}
 
-Template.Home.helpers {}
+
+Template.Home.events
+
+Template.Home.helpers
 
 # Home: Lifecycle Hooks 
 Template.Home.created = ->

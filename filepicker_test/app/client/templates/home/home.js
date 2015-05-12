@@ -29,37 +29,3 @@ Template.Home.events({
     );
   }
 });
-
-
-
-filepicker.setKey('MY_API_KEY');
-
-//Setup Aviary
-var featherEditor = new Aviary.Feather({
-  //Get an api key for Aviary at http://www.aviary.com/web-key
-  apiKey: 'AVIARY_API_KEY',
-  apiVersion: 2,
-  onSave: function(imageID, newURL) {
-    //Export the photo to the cloud using the Filepicker!
-    filepicker.export(newURL, {extension:'.png'});
-  },
-  appendTo: 'web_demo_pane'
-});
-
-//Giving a placeholder image while Aviary loads
-var preview = document.getElementById('web_demo_preview');
-
-//When the user clicks the button, import a file using the Filepicker
-var editPane = document.getElementById('start_web_demo');
-editPane.onclick = function(){
-  filepicker.pick({mimetype: 'image/*'}, function(InkBlob) {
-    //Showing the preview
-    preview.src = InkBlob.url;
-
-    //Launching the Aviary Editor
-    featherEditor.launch({
-      image: preview,
-      url: InkBlob.url
-    });
-  });
-};
