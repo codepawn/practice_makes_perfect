@@ -3,9 +3,7 @@ Template.Home.events
     Meteor.call 'getTweets', (error, result)->
       if error
         console.log "error", error
-
       console.log result
-
       Session.set 'tweets', result
 
 Template.Home.helpers
