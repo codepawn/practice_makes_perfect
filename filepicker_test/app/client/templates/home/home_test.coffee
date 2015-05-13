@@ -1,54 +1,58 @@
-#member = [
-#  'egoing'
-#  'k8805'
-#  'sorialgi'
-#]
+# member = [
+# 'egoing'
+# 'k8805'
+# 'sorialgi'
+# ]
 #
-#console.log member
-
-#grades =
-#  'list':
-#    'egoing': 10
-#    'k8805': 8
-#    'sorialgi': 80
-#  'show': ()->
-#    console.log @list
+# console.log member
 #
-#grades.show()
-
-#welcome = ->
-#  'Hello world'
-#alert welcome()
-
-#vscope = 'global'
+# grades =
+# 'list':
+# 'egoing': 10
+# 'k8805': 8
+# 'sorialgi': 80
+# 'show': ()->
+# console.log @list
 #
-#fscope = ->
-#  var vscope = 'local'
+# grades.show()
 #
-#fscope()
-#console.log vscope
-
+# welcome = ->
+# 'Hello world'
+# alert welcome()
 #
-#vscope = 'global'
+# vscope = 'global'
 #
-#fscope = ->
-#  console.log vscope
-#fscope2 = ->
-#  console.log vscope
+# fscope = ->
+# var vscope = 'local'
 #
-#fscope()
-#fscope2()
+# fscope()
+# console.log vscope
+#
+# vscope = 'global'
+#
+# fscope = ->
+# console.log vscope
+# fscope2 = ->
+# console.log vscope
+#
+# fscope()
+# fscope2()
+# process = [
+#   (input) ->
+#     input + 10
+#   (input) ->
+#     input * input
+#   (input) ->
+#     input / 2
+#   ]
+# input = 1
+# for i in [0..2]
+#   final = process[i](input)
+# alert final
 
-process = [
-  (input) ->
-    input + 10
-  (input) ->
-    input * input
-  (input)->
-    input / 2
-]
-
-for i in [0..2]
-  final = process[i](input)
-
-alert final
+numbers = [20, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+console.log numbers
+sortfunc = (a, b) ->
+  console.log a, b
+  a - b
+console.log numbers.sort(sortfunc)
