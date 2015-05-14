@@ -256,3 +256,21 @@
 #console.log p1.introduce()
 #p2 = new Person('rich')
 #console.log p2.introduce()
+#`
+#  var o;
+#
+#  o = {
+#    'func': function () {
+#      return alert('Hello world');
+#    }
+#  };
+#
+#  o.func();
+#`
+#
+#o =
+#  'func':->
+#    alert 'Hello world'
+#o.func()
+
+
