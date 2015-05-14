@@ -57,19 +57,67 @@
 #  a - b
 #console.log numbers.sort(sortfunc)
 
+#
+#factory_movie = (title)->
+#  get_title:->
+#    title
+#  set_title:(_title)->
+#    title = _title
+#ghost = factory_movie 'Ghost in the shell'
+#matrix = factory_movie 'Matrix'
+#
+#alert ghost.get_title()
+#alert matrix.get_title()
+#
+#ghost.set_title '공각기동대'
+#
+#alert ghost.get_title()
+#alert matrix.get_title()
 
-factory_movie = (title)->
-  get_title:->
-    title
-  set_title:(_title)->
-    title = _title
-ghost = factory_movie 'Ghost in the shell'
-matrix = factory_movie 'Matrix'
+#default source
+#
+#`
+#  var arr = []
+#  for (var i = 0; i < 5; i++) {
+#    arr[i] = function () {
+#      console.log(i);
+#    }
+#  }
+#
+#  for (var index in arr) {
+#    console.log(arr[index]());
+#  }
+#`
+#
+#arr = []
+#i = 0
+#while i < 5
+#
+#  arr[i] = ->
+#    console.log i
+#    return
+#
+#  i++
+#for index of arr
+#  console.log arr[index]()
+#
+##what i created
+#
+#arr = []
+#for i in [0..5]
+#  arr[i] = ->
+#    console.log i
+#
+#for index in arr
+#  console.log arr[index]()
 
-alert ghost.get_title()
-alert matrix.get_title()
-
-ghost.set_title '공각기동대'
-
-alert ghost.get_title()
-alert matrix.get_title()
+arr = []
+i = 0
+while i < 5
+  arr[i] = ((id) ->
+    ->
+      id
+  )(i)
+  i++
+for index of arr
+  console.log arr[index]()
