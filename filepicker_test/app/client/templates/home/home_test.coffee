@@ -111,13 +111,42 @@
 #for index in arr
 #  console.log arr[index]()
 
-arr = []
-i = 0
-while i < 5
-  arr[i] = ((id) ->
-    ->
-      id
-  )(i)
-  i++
-for index of arr
-  console.log arr[index]()
+#arr = []
+#i = 0
+#while i < 5
+#  arr[i] = ((id) ->
+#    ->
+#      id
+#  )(i)
+#  i++
+#for index of arr
+#  console.log arr[index]()
+
+#`
+#  function sum() {
+#    var i, _sum = 0;
+#    console.log(_sum);
+#    for (i = 0; i < arguments.length; i++) {
+#      console.log(i + ' + ' + arguments[i]);
+#      _sum += arguments[i];
+#    }
+#    return _sum;
+#  }
+#  console.log(sum(1,2,3,4));
+#
+#`
+
+
+sum = ->
+  i = 0
+  _sum = 0
+  while i < arguments.length
+    console.log i + ' + ' + arguments[i]
+    _sum += arguments[i]
+    i++
+  _sum
+
+console.log sum(1, 2, 3, 4)
+
+
+
