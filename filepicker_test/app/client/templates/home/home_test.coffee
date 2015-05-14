@@ -50,9 +50,26 @@
 #   final = process[i](input)
 # alert final
 
-numbers = [20, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-console.log numbers
-sortfunc = (a, b) ->
-  console.log a, b
-  a - b
-console.log numbers.sort(sortfunc)
+#numbers = [20, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+#console.log numbers
+#sortfunc = (a, b) ->
+#  console.log a, b
+#  a - b
+#console.log numbers.sort(sortfunc)
+
+
+factory_movie = (title)->
+  get_title:->
+    title
+  set_title:(_title)->
+    title = _title
+ghost = factory_movie 'Ghost in the shell'
+matrix = factory_movie 'Matrix'
+
+alert ghost.get_title()
+alert matrix.get_title()
+
+ghost.set_title '공각기동대'
+
+alert ghost.get_title()
+alert matrix.get_title()
