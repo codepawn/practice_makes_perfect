@@ -48,7 +48,10 @@
 
 Template.Lab0.events {}
 
-Template.Lab0.helpers {}
+Template.Lab0.helpers
+  'real': ->
+    'foo'
+
 
 # Lab0: Lifecycle Hooks 
 Template.Lab0.created = ->

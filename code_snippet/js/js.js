@@ -1,17 +1,20 @@
-var Person, Programmer;
+var Sub, Super, Ultra, o;
 
-Person = function(name) {
-  this.name = name;
-  this.introduce = function() {
-    return 'Myname is ' + this.name;
-  };
-};
+Ultra = function() {};
+Ultra.prototype.ultraProp = true;
 
-Programmer = function(name) {
-  return this.name = name;
-};
+Super = function() {};
+Super.prototype = new Ultra();
+var t new Ultra();
+t.ultraProp = 4;
 
-Programmer.prototype = new Person();
+Sub = function() {};
+Sub.prototype = new Super();
+var s = new Super();
+s.ultraProp = 3;
+Sub.prototype = s;
 
-var p1 = new Programmer('Lafull');
-console.log(p1.introduce());
+o = new Sub();
+console.log(o.ultraProp);
+o.ultraProp = 1;
+console.log(o.ultraProp);

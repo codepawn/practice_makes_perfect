@@ -27,25 +27,82 @@
 #  func.apply(p);
 #
 #`
+#
+#Person = (name) ->
+#  @name = name
+#  @introduce = ->
+#    'My nickname is ' + @name
+#  return
+#
+#Programmer = (name) ->
+#  @name = name
+#
+#Programmer.prototype = new Person()
+#Programmer.prototype.coding = ->
+#  'Hello coder'
+#
+#Designer = (name) ->
+#  @name = name
+#
+#Designer.prototype = new Person()
+#Designer.prototype.design = ->
+#  'Hello designer'
+#
+#p1 = new Person 'goo'
+#pro = new Programmer 'foo'
+#design1 = new Designer 'bar'
+#
+#console.log p1.introduce()
+#console.log pro.name
+#console.log pro.introduce()
+#console.log pro.coding()
+#console.log design1.design()
+#
+#Ultra = ->
+#Ultra.prototype.ultraProp = true
+#
+#Super = ->
+#Super.prototype = new Ultra()
+#
+#Sub = ->
+#Sub.prototype = new Super()
+#
+#o = new Sub()
+#console.log o.ultraProp
 
-Person = (name) ->
-  @name = name
-  @introduce = ->
-    'Myname is ' + @name
-  return
+`
+  var Sub, Super, Ultra, o;
 
-Programmer = (name)->
-  @name = name
+  Ultra = function () {
+  };
+  Ultra.prototype.ultraProp = true;
 
-Programmer.prototype = new Person()
+  Super = function () {
+  };
+  Super.prototype = new Ultra();
+
+  Sub = function () {
+  };
+  Sub.prototype = new Super();
+
+  o = new Sub();
+  console.log(o.ultraProp);
+  o.ultraProp = 1
+  console.log(o.ultraProp);
+`
 
 
 Template.Lab1.events
 
 Template.Lab1.helpers
-  'real': ->
+  helperTo: ->
+    counterArray = []
+    count = ->
+      for i in [1..10]
+        counterArray.push i
+    count()
+    counterArray
 
-# Lab1: Lifecycle Hooks 
 Template.Lab1.created = ->
 
 Template.Lab1.rendered = ->
