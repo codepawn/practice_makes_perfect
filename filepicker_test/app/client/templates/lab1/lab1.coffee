@@ -33,8 +33,11 @@ Person = (name) ->
   @introduce = ->
     'Myname is ' + @name
   return
-p1 = new Person 'egoing'
-console.log p1.introduce()
+
+Programmer = (name)->
+  @name = name
+
+Programmer.prototype = new Person()
 
 
 Template.Lab1.events
