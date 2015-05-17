@@ -70,26 +70,35 @@
 #o = new Sub()
 #console.log o.ultraProp
 
-`
-  var Sub, Super, Ultra, o;
+#`
+#  var Sub, Super, Ultra, o;
+#
+#  Ultra = function () {
+#  };
+#  Ultra.prototype.ultraProp = true;
+#
+#  Super = function () {
+#  };
+#  Super.prototype = new Ultra();
+#
+#  Sub = function () {
+#  };
+#  Sub.prototype = new Super();
+#
+#  o = new Sub();
+#  console.log(o.ultraProp);
+#  o.ultraProp = 1
+#  console.log(o.ultraProp);
+#`
 
-  Ultra = function () {
-  };
-  Ultra.prototype.ultraProp = true;
+#outter = ->
+#  title = 'coding everybody'
+#  inner2 = ->
+#    alert(title)
+#inner = outter()
+#inner()
 
-  Super = function () {
-  };
-  Super.prototype = new Ultra();
 
-  Sub = function () {
-  };
-  Sub.prototype = new Super();
-
-  o = new Sub();
-  console.log(o.ultraProp);
-  o.ultraProp = 1
-  console.log(o.ultraProp);
-`
 
 
 Template.Lab1.events
@@ -102,6 +111,7 @@ Template.Lab1.helpers
         counterArray.push i
     count()
     counterArray
+  goo: ->
 
 Template.Lab1.created = ->
 
