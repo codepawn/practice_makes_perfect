@@ -1,6 +1,8 @@
 Template.Lab2.events {}
 
-Template.Lab2.helpers {}
+Template.Lab2.helpers
+  posts:->
+    Post.find()
 
 # Lab2: Lifecycle Hooks 
 Template.Lab2.created = ->

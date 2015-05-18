@@ -97,19 +97,59 @@
 #    alert(title)
 #inner = outter()
 #inner()
+#
+#a =
+#  'val': 10
+#b = a
+#console.log a
+#console.log b
+#
+#b.val = 1
+#
+#console.log a
+#console.log b
+#
+#
+#a =
+#  'val': 10
+#b = a
+#console.log a
+#console.log b
+#
+#b =
+#  'val': 1
+#
+#console.log a
+#console.log b
 
-a =
-  'val':10
-b = a
-console.log a
-console.log b
+#a =
+#  'id': 'goo'
+#
+#func = (b) ->
+#  b =
+#    'id': 'foo'
+#  console.log a
+#  console.log b
+#func(a)
+#
+#console.log a
+#console.log b
+#
+#a =
+#  'id': 1
+#b = a
+#b.id = 2
+#System.out.println(a.id)
 
-b.val = 1
 
-console.log a
-console.log b
-
-
+#a =
+#  'id': 'goo'
+#
+#func = (b) ->
+#  b =
+#    'id': 'foo'
+#console.log func(a)
+#
 
 Template.Lab1.events
 
@@ -121,7 +161,15 @@ Template.Lab1.helpers
         counterArray.push i
     count()
     counterArray
+
   goo: ->
+    arr = ['seoul', 'new york', 'ladarkh', 'pusan', 'Tsukuba']
+
+    getRandom = (haystack) ->
+      index = Math.floor haystack.length * Math.random()
+      haystack[index]
+
+    getRandom(arr)
 
 Template.Lab1.created = ->
 
