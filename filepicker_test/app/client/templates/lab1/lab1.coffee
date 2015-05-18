@@ -98,6 +98,16 @@
 #inner = outter()
 #inner()
 
+a =
+  'val':10
+b = a
+console.log a
+console.log b
+
+b.val = 1
+
+console.log a
+console.log b
 
 
 
