@@ -8,7 +8,11 @@ Meteor.publish 'topTenPosts', ->
 Meteor.publish 'getAuthor', (userId) ->
   check userId, Number
   Meteor.users.findOne userId
+  
+Meteor.publish 'images', ->
+  Images.find()
 
+  
 
 #Meteor.publishComposite 'topTenPosts', ->
 #  TopTenPosts.find()
