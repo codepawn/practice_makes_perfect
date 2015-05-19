@@ -44,14 +44,69 @@
 #  total = food.hamburger * amount
 #
 #console.log userName + " Your total cost for "  + " at $" + total
+#
+#`
+#  Object.prototype.contain = function (needle) {
+#    for (var name in this) {
+#      if (this[name] === needle) {
+#        return true;
+#      }
+#    }
+#    return false;
+#  }
+#`
+
+#Object::contain = (needle)->
+#  for name of @
+#    if @[name] is needle
+#      true
+#  false
+
+#Object::contain = (needle) ->
+#  for name of this
+#    if @[name] == needle
+#      return true
+#  false
+
+#o =
+#  'name': 'egoing'
+#  'city': 'seoul'
+#console.log o.contain 'egoing'
+
+
+
 
 
 Template.Lab0.events {}
 
 Template.Lab0.helpers
-  'real': ->
+  'foo': ->
     'foo'
 
+  referense: ->
+    a =
+      'id': 1
+    func = (b)->
+      b.id = 2
+    func(a)
+    a.id
+
+  copy2: ->
+    a =
+      'id': 1
+    func = (b) ->
+      b =
+        'id': 2
+    func(a)
+    a.id
+
+  copy: ->
+    a = 3
+    func = (b) ->
+      b = 2
+
+    func(a)
+    a
 
 # Lab0: Lifecycle Hooks 
 Template.Lab0.created = ->

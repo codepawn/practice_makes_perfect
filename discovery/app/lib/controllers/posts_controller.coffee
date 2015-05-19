@@ -1,7 +1,7 @@
 @PostsController = RouteController.extend(
   subscriptions: ->
-    @subscribe 'post', @params._id
-
+  waitOn: ->
+    Meteor.subscribe 'post', @params._id
   data: ->
     Posts.findOne _id: @params._id
 

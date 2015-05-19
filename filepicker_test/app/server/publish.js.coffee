@@ -5,6 +5,11 @@ Meteor.publish 'topTenPosts', ->
     limit: 5
   }
 
+Meteor.publish 'getAuthor', (userId) ->
+  check userId, Number
+  Meteor.users.findOne userId
+
+
 #Meteor.publishComposite 'topTenPosts', ->
 #  TopTenPosts.find()
 

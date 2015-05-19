@@ -2,12 +2,28 @@
   <div class="container">
     {{> quickForm collection="Post" id="insertPostForm" type="insert"}}
 
-    {{#each posts }}
-      <div>
-        {{title}}
-        {{createdAt}}
-      </div>
-    {{/each}}
+    <table class="table">
+      <thead>
+      <tr>
+        <td>Title</td>
+        <td>createdAt</td>
+        <td>userId</td>
+        <td>Nick</td>
+        <td>Author</td>
+      </tr>
+      </thead>
 
+      <tbody>
+      {{#each posts }}
+        <tr name="rm">
+          <td>{{title}}</td>
+          <td>{{createdAt}}</td>
+          <td>{{userId}}</td>
+          <td>{{nick}}</td>
+          <td>{{author}}</td>
+        </tr>
+      {{/each}}
+      </tbody>
+    </table>
   </div>
 </template>

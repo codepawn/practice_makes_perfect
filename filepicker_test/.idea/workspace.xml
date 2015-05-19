@@ -23,37 +23,35 @@
     <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="lab1.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/client/templates/lab1/lab1.coffee">
+          <file leaf-file-name="publish.js.coffee" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="161" column="11" selection-start-line="161" selection-start-column="11" selection-end-line="161" selection-end-column="11" />
-                  <folding>
-                    <marker date="1431929485000" expanded="true" signature="71:262" placeholder="{...}" />
-                    <marker date="1431929485000" expanded="true" signature="92:257" placeholder="{...}" />
-                    <marker date="1431929485000" expanded="true" signature="1163:1169" placeholder="{...}" />
-                    <marker date="1431929485000" expanded="true" signature="1233:1239" placeholder="{...}" />
-                    <marker date="1431929485000" expanded="true" signature="1298:1304" placeholder="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="post.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/lib/collections/post.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="publish.js.coffee" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
+          <file leaf-file-name="lab0.coffee" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/client/templates/lab0/lab0.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.04197531">
-                  <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+                  <folding>
+                    <marker date="1431984585000" expanded="true" signature="951:1080" placeholder="{...}" />
+                    <marker date="1431984585000" expanded="true" signature="981:1056" placeholder="{...}" />
+                    <marker date="1431984585000" expanded="true" signature="1017:1049" placeholder="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="lab2.coffee" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/client/templates/lab2/lab2.coffee">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.71358025">
+                  <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -63,41 +61,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="master_layout.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
+          <file leaf-file-name="lab0.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/client/templates/lab0/lab0.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.115385">
-                  <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+                <state vertical-scroll-proportion="-3.9230769">
+                  <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="lab2.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="lab2.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/client/templates/lab2/lab2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.9615384">
-                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="lab2.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/client/templates/lab2/lab2.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="lab2_controller.coffee" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/lib/controllers/lab2_controller.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+                <state vertical-scroll-proportion="0.41842106">
+                  <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -118,16 +96,16 @@
         <option value="$PROJECT_DIR$/app/client/templates/home/home.js" />
         <option value="$PROJECT_DIR$/app/client/templates/home/home.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/home/home_test.coffee" />
-        <option value="$PROJECT_DIR$/app/client/templates/lab0/lab0.html" />
-        <option value="$PROJECT_DIR$/app/client/templates/lab0/lab0.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/lab1/lab1.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
-        <option value="$PROJECT_DIR$/app/lib/collections/post.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/lab1/lab1.html" />
-        <option value="$PROJECT_DIR$/app/client/templates/lab2/lab2.coffee" />
-        <option value="$PROJECT_DIR$/app/client/templates/lab2/lab2.html" />
         <option value="$PROJECT_DIR$/app/lib/controllers/lab2_controller.coffee" />
+        <option value="$PROJECT_DIR$/app/lib/collections/post.coffee" />
+        <option value="$PROJECT_DIR$/app/client/templates/lab0/lab0.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/lab0/lab0.coffee" />
         <option value="$PROJECT_DIR$/app/server/publish.js.coffee" />
+        <option value="$PROJECT_DIR$/app/client/templates/lab2/lab2.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/lab2/lab2.coffee" />
       </list>
     </option>
   </component>
@@ -326,12 +304,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../autoform_tut" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../discovery" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="lab2 con&#9;null&#9;null&#10;lab2&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/lab2/lab2.coffee&#10;pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/server/publish.coffee&#10;lab1&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/lab1/lab1.html&#10;lab0&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/lab0/lab0.coffee&#10;lab&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/lab1/lab1.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/layouts/master_layout/master_layout.html&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/routes.js.coffee&#10;rout&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/routes.js.coffee&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/layouts/master_layout/master_layout.html&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/home/home.js&#10;con&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/controllers/home_controller.coffee&#10;homecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/controllers/home_controller.coffee" />
+    <property name="SearchEverywhereHistoryKey" value="lab2&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/lab2/lab2.coffee&#10;lab0&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/lab0/lab0.html&#10;lab2 con&#9;null&#9;null&#10;pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/server/publish.coffee&#10;lab1&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/lab1/lab1.html&#10;lab&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/lab1/lab1.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/layouts/master_layout/master_layout.html&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/routes.js.coffee&#10;rout&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/routes.js.coffee&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/layouts/master_layout/master_layout.html&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/home/home.js&#10;con&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/controllers/home_controller.coffee&#10;homecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/controllers/home_controller.coffee" />
     <property name="JavaScriptLanguageLevel" value="JSX" />
     <property name="settings.editor.selected.configurable" value="configurable.group.null" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -403,9 +381,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="766" height="1177" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23368606" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23368606" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -457,11 +435,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
-            <marker date="1431929485000" expanded="true" signature="71:262" placeholder="{...}" />
-            <marker date="1431929485000" expanded="true" signature="92:257" placeholder="{...}" />
-            <marker date="1431929485000" expanded="true" signature="1163:1169" placeholder="{...}" />
-            <marker date="1431929485000" expanded="true" signature="1233:1239" placeholder="{...}" />
-            <marker date="1431929485000" expanded="true" signature="1298:1304" placeholder="{...}" />
+            <marker date="1431929485000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431929485000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431929485000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431929485000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431929485000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -470,6 +448,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <marker date="1431984585000" expanded="true" signature="951:1080" placeholder="{...}" />
+            <marker date="1431984585000" expanded="true" signature="981:1056" placeholder="{...}" />
+            <marker date="1431984585000" expanded="true" signature="1017:1049" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -501,11 +484,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <marker date="1431929485000" expanded="true" signature="71:262" placeholder="{...}" />
-            <marker date="1431929485000" expanded="true" signature="92:257" placeholder="{...}" />
-            <marker date="1431929485000" expanded="true" signature="1163:1169" placeholder="{...}" />
-            <marker date="1431929485000" expanded="true" signature="1233:1239" placeholder="{...}" />
-            <marker date="1431929485000" expanded="true" signature="1298:1304" placeholder="{...}" />
+            <marker date="1431929485000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431929485000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431929485000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431929485000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431929485000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -514,6 +497,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <marker date="1431984585000" expanded="true" signature="951:1080" placeholder="{...}" />
+            <marker date="1431984585000" expanded="true" signature="981:1056" placeholder="{...}" />
+            <marker date="1431984585000" expanded="true" signature="1017:1049" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -667,29 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/lab0/lab0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19859813">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/lab0/lab0.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73730683">
-          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/lab1/lab1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19859813">
@@ -698,56 +663,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/collections/post.coffee">
+    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/lab2/lab2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/lab2/lab2.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7605263">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/controllers/lab2_controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.16748768">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/collections/post.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34241706">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/lab1/lab1.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.5367299">
           <caret line="161" column="11" selection-start-line="161" selection-start-column="11" selection-end-line="161" selection-end-column="11" />
           <folding>
-            <marker date="1431929485000" expanded="true" signature="71:262" placeholder="{...}" />
-            <marker date="1431929485000" expanded="true" signature="92:257" placeholder="{...}" />
-            <marker date="1431929485000" expanded="true" signature="1163:1169" placeholder="{...}" />
-            <marker date="1431929485000" expanded="true" signature="1233:1239" placeholder="{...}" />
-            <marker date="1431929485000" expanded="true" signature="1298:1304" placeholder="{...}" />
+            <marker date="1431929485000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431929485000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431929485000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431929485000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431929485000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/lab0/lab0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/lab0/lab0.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding>
+            <marker date="1431984585000" expanded="true" signature="951:1080" placeholder="{...}" />
+            <marker date="1431984585000" expanded="true" signature="981:1056" placeholder="{...}" />
+            <marker date="1431984585000" expanded="true" signature="1017:1049" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04197531">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/lab2/lab2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41842106">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/lab2/lab2.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71358025">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding />
         </state>
       </provider>

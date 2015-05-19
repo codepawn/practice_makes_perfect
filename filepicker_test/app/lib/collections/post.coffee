@@ -1,7 +1,7 @@
 @Post = new Mongo.Collection('post')
 Post.attachSchema new SimpleSchema
   title:
-    type:String
+    type: String
   createdAt:
     type: Date
     autoValue: ->
@@ -9,8 +9,12 @@ Post.attachSchema new SimpleSchema
 #    denyUpdate: true
     autoform:
       omit: true
-
-
+  userId:
+    type: String
+    autoValue: ->
+      Meteor.userId()
+    autoform:
+      omit: true
 
 if Meteor.isServer
   Post.allow

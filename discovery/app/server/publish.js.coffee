@@ -3,5 +3,6 @@ Meteor.publish 'posts', ->
     sort:
       createdAt: -1
   }
+
 Meteor.publish 'post', (id) ->
   Posts.find _id: id
