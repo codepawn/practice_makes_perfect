@@ -3,6 +3,8 @@
   data: ->
   waitOn: ->
     Meteor.subscribe 'topTenPosts'
+
+
   action: ->
 # You can create as many action functions as you'd like.
 # This is the primary function for running your route.

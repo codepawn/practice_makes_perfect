@@ -176,3 +176,4 @@ Template.Lab1.created = ->
 Template.Lab1.rendered = ->
 
 Template.Lab1.destroyed = ->
+

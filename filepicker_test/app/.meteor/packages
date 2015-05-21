@@ -24,3 +24,4 @@ reywood:publish-composite
 cfs:standard-packages
 cfs:gridfs
 cfs:filesystem
+fourseven:scss
