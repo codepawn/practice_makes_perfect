@@ -9,11 +9,16 @@
 
 }
 
-body{
-    border:1px solid blue;
+body {
+    border: 1px solid blue;
 }
 
-p{
+p {
     margin: 20px;
 
+}
+
+.prac12 {
+    margin-top: 50px;
+    backgound-color: green;
 }

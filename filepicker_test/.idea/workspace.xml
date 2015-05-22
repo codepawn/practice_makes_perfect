@@ -33,12 +33,16 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="lab0.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="lab0.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/client/templates/lab0/lab0.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.807693">
-                  <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-                  <folding />
+                <state vertical-scroll-proportion="0.30327868">
+                  <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+                  <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+                  <folding>
+                    <element signature="n#style#0;n#div#1;n#template#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#1;n#template#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -53,10 +57,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="lab2_controller.coffee" pinned="false" current-in-tab="true">
+          <file leaf-file-name="lab2_controller.coffee" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/lib/controllers/lab2_controller.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8634538">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
                   <folding />
                 </state>
@@ -107,11 +111,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="lab2.coffee" pinned="false" current-in-tab="true">
+          <file leaf-file-name="lab2.coffee" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/client/templates/lab2/lab2.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.4233576">
-                  <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -131,7 +135,17 @@
             <entry file="file://$PROJECT_DIR$/app/client/stylesheets/main.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+                  <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/client/stylesheets/main.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.1325536">
+                  <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -161,12 +175,13 @@
         <option value="$PROJECT_DIR$/app/client/templates/home/home.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
         <option value="$PROJECT_DIR$/app/lib/collections/sling.coffee" />
-        <option value="$PROJECT_DIR$/app/client/templates/lab0/lab0.html" />
-        <option value="$PROJECT_DIR$/app/client/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/app/lib/controllers/home_controller.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/lab1/lab1.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/lab2/lab2.coffee" />
         <option value="$PROJECT_DIR$/app/lib/controllers/lab2_controller.coffee" />
+        <option value="$PROJECT_DIR$/app/client/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/app/client/stylesheets/main.scss" />
+        <option value="$PROJECT_DIR$/app/client/templates/lab0/lab0.html" />
       </list>
     </option>
   </component>
@@ -181,7 +196,7 @@
     <option name="x" value="4" />
     <option name="y" value="23" />
     <option name="width" value="766" />
-    <option name="height" value="877" />
+    <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -280,6 +295,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filepicker_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filepicker_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filepicker_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filepicker_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -290,7 +345,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="lab2&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/lab2/lab2.coffee&#10;lab&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/lab1/lab1.coffee&#10;con&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/controllers/home_controller.coffee&#10;post&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/collections/post.coffee&#10;css&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/stylesheets/main.css&#10;lab0&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/lab0/lab0.html&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/home/home.js&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/routes.js.coffee&#10;pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/server/publish.js.coffee&#10;homecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/controllers/home_controller.coffee&#10;lab2 con&#9;null&#9;null&#10;lab1&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/lab1/lab1.html&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/layouts/master_layout/master_layout.html&#10;rout&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/routes.js.coffee&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/layouts/master_layout/master_layout.html" />
+    <property name="SearchEverywhereHistoryKey" value="lab0&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/lab0/lab0.html&#10;css&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/stylesheets/main.css&#10;lab2&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/lab2/lab2.coffee&#10;lab&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/lab1/lab1.coffee&#10;con&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/controllers/home_controller.coffee&#10;post&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/collections/post.coffee&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/home/home.js&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/routes.js.coffee&#10;pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/server/publish.js.coffee&#10;homecon&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/controllers/home_controller.coffee&#10;lab2 con&#9;null&#9;null&#10;lab1&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/lab1/lab1.html&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/layouts/master_layout/master_layout.html&#10;rout&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/lib/routes.js.coffee&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/filepicker_test/app/client/templates/layouts/master_layout/master_layout.html" />
     <property name="JavaScriptLanguageLevel" value="JSX" />
     <property name="settings.editor.selected.configurable" value="configurable.group.null" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -361,10 +416,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="766" height="877" extended-state="0" />
-    <editor active="false" />
+    <frame x="4" y="23" width="766" height="1177" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27577937" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20282187" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -404,13 +459,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -720,34 +768,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/lab0/lab0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/collections/post.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -760,18 +784,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/lab2/lab2.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4233576">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/controllers/lab2_controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8634538">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/lab0/lab0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30327868">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/stylesheets/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1325536">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
