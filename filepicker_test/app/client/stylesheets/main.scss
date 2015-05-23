@@ -111,5 +111,23 @@ table.prac6 {
 .me {
   position: relative;
   background-color: red;
+}
 
+.me2 {
+  position: absolute;
+  background-color: red;
+  left: 10px;
+  bottom: -1900px;
+}
+
+.me-fixed {
+  position: fixed;
+  background-color: red;
+  width: 100px;
+  top: 10px;
+  right: 10px;
+}
+
+.goo {
+  background-color: red;
 }
