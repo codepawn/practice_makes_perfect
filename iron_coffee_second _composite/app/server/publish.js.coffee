@@ -34,16 +34,16 @@ Meteor.publish 'user', (userId) ->
 
 Meteor.publishComposite 'toptodos',
   find: ->
-    Todos.find {}, {
+    Todos.find {},
       sort:
         createdAt: -1
       limit: 10
-    }
   children: [
     find: (article) ->
-      Comments.find {todoId: article._id}, {
+      Comments.find {todoId: article._id},
         sort:
           createdAt: -1
         limit: 1
-      }
+    find: (article) ->
+      Meteor.users.find _id: article.userId
   ]
