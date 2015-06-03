@@ -1,9 +1,9 @@
 <template name="CreateTodoItem">
-  <form action="">
-    {{#if currentUser}}
-      <input class="form-control" type="text" placeholder="Create new todo"/>
-    {{else}}
+  {{#if currentUser}}
+    {{> quickForm collection="Todos" id="insertPostForm" type="insert"}}
+  {{else}}
+    <form action="">
       <input class="form-control" type="text" placeholder="Create new todo" readonly/>
-    {{/if}}
-  </form>
+    </form>
+  {{/if}}
 </template>
