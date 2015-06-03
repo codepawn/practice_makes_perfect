@@ -5,7 +5,6 @@ Template.TodosList.events
   'click [name=isDone]': (e, tmpl) ->
     id = @_id
     isDone = e.currentTarget.checked
-    console.log isDone
     Todos.update {_id: id},
       $set:
         isDone: isDone

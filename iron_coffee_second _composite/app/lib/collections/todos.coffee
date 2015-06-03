@@ -2,13 +2,27 @@
 Todos.attachSchema new SimpleSchema
   subject:
     type: String
+  description:
+    type: String
+    autoform:
+      omit: true
+    optional: true
   createdAt:
     type: Date
     autoValue: ->
-      new Date
-#    denyUpdate: true
+      if @isInsert
+        new Date
+    denyUpdate: true
     autoform:
       omit: true
+  updatedAt:
+    type: Date
+    autoValue: ->
+      if @isUpdate
+        new Date
+    autoform:
+      omit: true
+    optional: true
   userId:
     type: String
     autoValue: ->
