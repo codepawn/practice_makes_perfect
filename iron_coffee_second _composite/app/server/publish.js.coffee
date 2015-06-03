@@ -39,11 +39,53 @@ Meteor.publishComposite 'toptodos',
         createdAt: -1
       limit: 10
   children: [
-    find: (article) ->
-      Comments.find {todoId: article._id},
-        sort:
-          createdAt: -1
-        limit: 1
-    find: (article) ->
-      Meteor.users.find _id: article.userId
+    {
+      find: (article) ->
+        Meteor.users.find {_id: article.userId}, {
+          fields:
+            profile: 1
+        }
+    }
+    {
+      find: (article) ->
+        Comments.find {todoId: article._id},
+          sort:
+            createdAt: -1
+          limit: 1
+
+      children: [
+        {
+          find: (comment, article) ->
+            Meteor.users.find _id: comment.userId, {
+              fields:
+                profile: 1
+            }
+        }
+      ]
+    }
   ]
+
+#
+#Meteor.publishComposite 'toptodos',
+#  find: ->
+#    Todos.find {},
+#      sort:
+#        createdAt: -1
+#      limit: 10
+#  children: [
+#    {
+#      find: (article) ->
+#        Meteor.users.find _id: article.userId
+#    }
+#    {
+#      find: (article) ->
+#        Comments.find {todoId: article._id},
+#          sort:
+#            score: -1
+#          limit: 2
+#      children: [{
+#        find: (comment, article) ->
+#          Meteor.users.find _id: comment.userId
+#      }]
+#    }
+#  ]
