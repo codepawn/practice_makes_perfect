@@ -4,8 +4,6 @@ Template.CommentsList.events
 
     Comments.insert
       todoId: @_id
-      createdAt: new Date
-      userId: Meteor.userId()
       body: tmpl.find('textarea[name=body]').value
 
     tmpl.find('form').reset()
@@ -14,7 +12,7 @@ Template.CommentsList.helpers
   comments: ->
     Comments.find todoId: @_id, {
       sort:
-        createAt: -1
+        createdAt: -1
     }
 
   user: ->

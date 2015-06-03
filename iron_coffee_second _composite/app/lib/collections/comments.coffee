@@ -1,4 +1,22 @@
 @Comments = new Mongo.Collection('comments')
+Comments.attachSchema new SimpleSchema
+  body:
+    type: String
+  todoId:
+    type: String
+  createdAt:
+    type: Date
+    autoValue: ->
+      new Date
+#    denyUpdate: true
+    autoform:
+      omit: true
+  userId:
+    type: String
+    autoValue: ->
+      Meteor.userId()
+    autoform:
+      omit: true
 
 
 if Meteor.isServer
