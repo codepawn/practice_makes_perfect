@@ -1,0 +1,9 @@
+<template name="CreateTodoItem">
+  <form action="">
+    {{#if currentUser}}
+      <input class="form-control" type="text" placeholder="Create new todo"/>
+    {{else}}
+      <input class="form-control" type="text" placeholder="Create new todo" readonly/>
+    {{/if}}
+  </form>
+</template>

@@ -1,0 +1,12 @@
+<template name="Home">
+  {{#contentFor 'breadcrumb'}}
+    <li>home</li>
+  {{/contentFor}}
+
+  {{>TodosList}}
+
+  {{completedCount}} / {{totalCount}} todos completed
+
+  {{>UsersList}}
+
+</template>

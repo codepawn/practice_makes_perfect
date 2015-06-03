@@ -1,0 +1,17 @@
+<template name="MasterLayout">
+  <div class="container">
+      {{> loginButtons align="left"}}
+
+    <div class="row">
+      <ul class="breadcrumb">
+        <li>
+          <a href="{{pathFor 'home'}}">Iron</a>
+        </li>
+        <span class="divider">/</span>
+        {{>yield 'breadcrumb'}}
+      </ul>
+    </div>
+
+    {{> yield}}
+  </div>
+</template>

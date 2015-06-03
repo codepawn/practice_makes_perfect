@@ -1,0 +1,15 @@
+<template name="TodosList">
+  {{> CreateTodoItem}}
+
+  {{#each todos }}
+    <li class="{{isDoneClass}}">
+      <input type="checkbox" name="isDone" {{isDoneChecked}} />
+      {{#linkTo route='todos.detail'}}
+        {{subject}}
+      {{/linkTo}}
+      <button class="btn btn-default" name="rm">Remove</button>
+    </li>
+  {{else}}
+    <li>no Items</li>
+  {{/each}}
+</template>
