@@ -18,7 +18,6 @@ Comments.attachSchema new SimpleSchema
     autoform:
       omit: true
 
-
 if Meteor.isServer
   Comments.allow
     insert: (userId, doc) ->
