@@ -18,7 +18,8 @@ Todos.attachSchema new SimpleSchema
   isDone:
     type: Boolean
     autoValue: ->
-      false
+      if @isInsert
+        false
     autoform:
       omit: true
 
