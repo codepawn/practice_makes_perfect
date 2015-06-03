@@ -1,6 +1,19 @@
 <template name="MasterLayout">
+
+  <div class="navbar">
+    <a class="navbar-brand" href="#">composite</a>
+    <ul class="nav navbar-nav">
+      <li class="active">
+        <a href="{{pathFor 'home'}}">Home</a>
+      </li>
+      <li>
+        <a href="{{pathFor 'compo'}}">composite</a>
+      </li>
+    </ul>
+    {{> loginButtons align="left"}}
+  </div>
+
   <div class="container">
-      {{> loginButtons align="left"}}
 
     <div class="row">
       <ul class="breadcrumb">

@@ -30,3 +30,10 @@ Meteor.publish 'user', (userId) ->
       Meteor.users.find _id: userId, {fields: {profile: 1}}
       Todos.find userId: userId
     ]
+
+Meteor.publishComposite 'toptodos', ->
+  Todos.find {}, {
+    sort:
+      createdAt: -1
+    limit: 10
+  }

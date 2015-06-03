@@ -1,0 +1,9 @@
+<template name="Compo">
+  {{#each todos }}
+    <li>
+      {{#linkTo route='todos.detail'}}
+        {{subject}}
+      {{/linkTo}}
+    </li>
+  {{/each}}
+</template>
