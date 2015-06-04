@@ -89,3 +89,23 @@ Meteor.publishComposite 'toptodos',
 #      }]
 #    }
 #  ]
+
+Meteor.publishComposite 'topFiveTodos',
+  find: ->
+    Todos.find {}, {
+      sort:
+        createdAt: -1
+      limit: 5
+    }
+  children: [
+    {
+      find: (todos)->
+        Meteor.users.find _id: todos.userId, {
+          sort:
+            createdAt: -1
+          limit: 1
+          fields:
+            profile: 1
+        }
+    }
+  ]
