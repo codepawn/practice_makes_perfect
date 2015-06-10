@@ -1,13 +1,13 @@
-var HelloMessage = React.createClass({
-  render: function() {
-    return <div>Hello {this.props.name}</div>;
-  }
-});
-
-if (Meteor.isClient) {
-  Meteor.startup(() => React.render(<HelloMessage name="John" />, document.getElementById('outer')));
-}
-
+//var HelloMessage = React.createClass({
+//  render: function() {
+//    return <div>Hello {this.props.name}</div>;
+//  }
+//});
+//
+//if (Meteor.isClient) {
+//  Meteor.startup(() => React.render(<HelloMessage name="John" />, document.getElementById('outer')));
+//}
+//
 //if (Meteor.isClient) {
 //  Meteor.startup(() => React.render(<Leaderboard/>, document.getElementById('outer')));
 //}

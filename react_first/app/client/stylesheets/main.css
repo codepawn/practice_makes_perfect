@@ -56,3 +56,55 @@ body {
 .none {
     color: #777;
 }
+
+.parent {
+    display: flex;
+    height: 300px; /* Or whatever */
+}
+
+.child {
+    width: 100px;  /* Or whatever */
+    height: 100px; /* Or whatever */
+    margin: auto;  /* Magic! */
+}
+
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.item{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+.item2{
+    background-color: red;
+    height: 150px;
+    width: 100px;
+}

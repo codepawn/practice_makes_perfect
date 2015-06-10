@@ -11,3 +11,6 @@ iron:router
 coffeescript
 msavin:mongol
 hipertracker:reactjs
+jhartma:cjsx
+hb5:meteor-freewall
+twbs:bootstrap
