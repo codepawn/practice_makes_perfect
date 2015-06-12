@@ -1,14 +1,16 @@
 <template name="MasterLayout">
   <div class="navbar">
-  	<a class="navbar-brand" href="{{pathFor 'home'}}">Title</a>
+  	<a class="navbar-brand" href="#">Title</a>
   	<ul class="nav navbar-nav">
   		<li class="active">
   			<a href="{{pathFor 'home'}}">Home</a>
   		</li>
   		<li>
-  			<a href="#">Link</a>
+  			<a href="{{pathFor 'freewall'}}">freewall</a>
   		</li>
-      {{> loginButtons align="right"}}
+      <li>
+  			<a href="{{pathFor 'freewall2'}}">freewall2</a>
+  		</li>
   	</ul>
   </div>
   {{> yield}}
