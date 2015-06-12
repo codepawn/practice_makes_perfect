@@ -8,7 +8,9 @@ Even a smallthings
 - coffeescript
 - meteor.js
 - iron-cli
-- 
+
+
+http://humewww.meteor.com/
 
 http://filepickkertesto.meteor.com/
 
