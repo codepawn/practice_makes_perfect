@@ -11,3 +11,6 @@ meteorhacks:flow-router
 meteorhacks:fast-render
 coffeescript
 reactjs:react
+aldeed:collection2
+aldeed:autoform
+aldeed:simple-schema
