@@ -13,3 +13,4 @@ do ->
   alert sum()
 
 console.log MYAPP
+console.log 'goo'

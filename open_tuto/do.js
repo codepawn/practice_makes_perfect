@@ -21,4 +21,6 @@
 
   console.log(MYAPP);
 
+  console.log('goo');
+
 }).call(this);

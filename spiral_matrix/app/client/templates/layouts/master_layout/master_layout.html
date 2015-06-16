@@ -1,0 +1,11 @@
+<template name="MasterLayout">
+  <div class="navbar">
+    <a class="navbar-brand" href="{{pathFor 'home'}}">Spiral matrix</a>
+    <ul class="nav navbar-nav">
+      <li class="">
+        <a href="{{pathFor 'home'}}">Home</a>
+      </li>
+    </ul>
+  </div>
+  {{> yield}}
+</template>
