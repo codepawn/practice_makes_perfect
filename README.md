@@ -10,6 +10,8 @@ Even a smallthings
 - iron-cli
 
 
+http://slingdrop.meteor.com/sling
+
 http://humewww.meteor.com/
 
 http://filepickkertesto.meteor.com/
