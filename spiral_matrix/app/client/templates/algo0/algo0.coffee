@@ -8,6 +8,9 @@ Template.Algo0.events
   'keyup [name=till]': (e, tmpl)->
     console.log e.currentTarget.value
     Session.set 'till', parseInt(e.currentTarget.value)
+  'keyup [name=fizzbuzz]': (e, tmpl)->
+    console.log e.currentTarget.value
+    Session.set 'fizzbuzz', parseInt(e.currentTarget.value)
 
 Template.Algo0.helpers
   'fizz': ->
@@ -15,24 +18,27 @@ Template.Algo0.helpers
   'buzz': ->
     Session.get 'buzz'
   'fizzValue': ->
-    counter1 = null
     for i in [1..Session.get 'till']
-      unless i%Session.get 'fizz'
+      if i % Session.get('fizzbuzz') is 0
+        'fizzbuzz'
+      else if i % Session.get('fizz') is 0
         'fizz'
-      else unless i%Session.get 'buzz'
+      else if i % Session.get('buzz') is 0
         'buzz'
       else
         i
-#    "X is Set #{Session.get 'xValue'} And Y is Set #{Session.get 'yValue'} \n next"
 
-  'till':->
+  'till': ->
     Session.get 'till'
+  'fizzbuzz': ->
+    Session.get 'fizzbuzz'
 
 Template.Algo0.created = ->
 
 Template.Algo0.rendered = ->
   Session.setDefault 'fizz', 3
   Session.setDefault 'buzz', 5
-  Session.setDefault 'till', 100
+  Session.setDefault 'fizzbuzz', 10
+  Session.setDefault 'till', 300
 
 Template.Algo0.destroyed = ->
