@@ -1,8 +1,8 @@
 <template name="Home">
   <div class="container">
-    <!--//start pannel-->
 
-    <div class="ui form">
+
+    <div class="ui form"> <!--//start pannel-->
       <div name="checkToggle" class="ui toggle checkbox">
         <input type="checkbox" {{checked}}>
         <label>Toggle</label>
@@ -22,15 +22,22 @@
       <button class="ui teal right labeled icon button">
         Put Y
       </button>
-    </div>
+    </div> <!--//panel end-->
     <br/>
     <br/>
-    <!--//panel end-->
+    <br/>
+
     <form class="ui form">
       <div class="field">
         <label>Spiral</label>
         <textarea name="matrixTextArea" id="matrixTextArea" style="height: 373px" value="{{matrixValue}}"></textarea>
       </div>
     </form>
+    <br/>
+    <br/>
+
+    <div class="teal ui button">1</div>
+    <div class="teal ui button">2</div>
+
   </div>
 </template>
