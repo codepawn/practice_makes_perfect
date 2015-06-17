@@ -57,7 +57,7 @@ Template.Home.helpers
         for x in [0...b]
           spiral_value x, y, a
 
-#    spiral_matrix 3, 3
+    spiral_matrix Session.get('xValue'), Session.get('yValue')
 
   'xValue': ->
     Session.get 'xValue'

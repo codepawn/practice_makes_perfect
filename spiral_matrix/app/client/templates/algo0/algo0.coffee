@@ -18,7 +18,7 @@ Template.Algo0.helpers
   'buzz': ->
     Session.get 'buzz'
   'fizzValue': ->
-    for i in [1..Session.get 'till']
+    for i in [0..Session.get 'till']
       if i % Session.get('fizzbuzz') is 0
         'fizzbuzz'
       else if i % Session.get('fizz') is 0
