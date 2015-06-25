@@ -23,11 +23,11 @@
     <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0332681">
-                  <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="34" selection-end-column="9" />
+                <state vertical-scroll-proportion="-5.230769">
+                  <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -43,11 +43,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="algo1.coffee" pinned="false" current-in-tab="false">
+          <file leaf-file-name="algo1.coffee" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/client/templates/algo1/algo1.coffee">
               <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.06331471">
+                  <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="55" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.coffee" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.coffee">
+              <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+                  <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="4" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -70,8 +80,8 @@
           <file leaf-file-name="algo1.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/client/templates/algo1/algo1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.43664718">
-                  <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+                <state vertical-scroll-proportion="0.43079922">
+                  <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="19" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -195,7 +205,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/layouts/master_layout/master_layout.html&#10;algo1&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/algo1/algo1.coffee&#10;algo&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/algo0/algo0.coffee&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/home/home.html&#10;al&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/algo0/algo0.html&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/lib/routes.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/layouts/master_layout/master_layout.html" />
+    <property name="SearchEverywhereHistoryKey" value="home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/home/home.coffee&#10;spir&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/.idea/spiral_matrix.iml&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/layouts/master_layout/master_layout.html&#10;algo1&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/algo1/algo1.coffee&#10;algo&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/algo0/algo0.coffee&#10;al&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/algo0/algo0.html&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/lib/routes.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/layouts/master_layout/master_layout.html" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -265,7 +275,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="960" height="1177" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -422,25 +432,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4217687">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/algo1/algo1.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -453,18 +448,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/algo1/algo1.html">
+    <entry file="file://$PROJECT_DIR$/.idea/spiral_matrix.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43664718">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0332681">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="34" selection-end-column="9" />
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/algo1/algo1.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06331471">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/algo1/algo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43079922">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>

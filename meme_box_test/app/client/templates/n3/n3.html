@@ -1,18 +1,30 @@
 <template name="N3">
-  <h1>Find me in app/client/templates/n3/n3</h1>
+  <h5>Find me in app/client/templates/n3/n3</h5>
 
   <h1>3. 숫자 배열 순서 바꾸기</h1>
 
-  <p>
-    입력된 숫자 배열을 다음과 같은 형태의 배열로 순서를 변경하라.
+  <p>입력된 숫자 배열을 다음과 같은 형태의 배열로 순서를 변경하라.</p>
 
-    [a1, a2, a3..., an, b1, b2, b3..., bn]
-    =>
-    [a1, b1, a2, b2, a3, b3..., an, bn]
+  <p>[a1, a2, a3..., an, b1, b2, b3..., bn]</p>
+
+  <p>=></p>
+
+  <p>[a1, b1, a2, b2, a3, b3..., an, bn]</p>
+
+  <p>예)</p>
+
+  <p>입력 : 1 4 5 2 4 8</p>
+
+  <p>출력 : 1 2 4 4 5 8</p>
+
+  <br/>
+  <br/>
+
+  <div class="row">
+    <div class="col-md-3">
+      {{> quickForm collection="Sort" id="insertPostForm" type="insert"}}
+    </div>
+  </div>
 
 
-    예)
-    입력 : 1 4 5 2 4 8
-    출력 : 1 2 4 4 5 8
-  </p>
 </template>
