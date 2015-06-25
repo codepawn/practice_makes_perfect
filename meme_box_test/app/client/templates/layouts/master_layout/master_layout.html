@@ -1,0 +1,23 @@
+<template name="MasterLayout">
+  <div class="navbar">
+  	<a class="navbar-brand" href="{{pathFor 'home'}}">meme_box_test</a>
+  	<ul class="nav navbar-nav">
+  		<li>
+  			<a href="{{pathFor 'n1'}}">목표숫자에 맞게 연산 하기</a>
+  		</li>
+      <li>
+  			<a href="{{pathFor 'n2'}}">미로를 만들어라</a>
+  		</li>
+      <li>
+  			<a href="{{pathFor 'n3'}}">숫자 배열 순서 바꾸기</a>
+  		</li>
+      <li>
+  			<a href="{{pathFor 'n4'}}">디지털 시계</a>
+  		</li>
+      <li>
+  			<a href="{{pathFor 'n5'}}">한글 검사하기</a>
+  		</li>
+  	</ul>
+  </div>
+  {{> yield}}
+</template>

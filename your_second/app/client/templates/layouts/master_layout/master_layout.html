@@ -1,0 +1,14 @@
+<template name="MasterLayout">
+  <div class="navbar">
+  	<a class="navbar-brand" href="{{pathFor 'home'}}">Title</a>
+  	<ul class="nav navbar-nav">
+  		<li class="active">
+  			<a href="{{pathFor 'home'}}">Home</a>
+  		</li>
+  		<li>
+  			<a href="{{pathFor 'page'}}">Link</a>
+  		</li>
+  	</ul>
+  </div>
+  {{> yield}}
+</template>
