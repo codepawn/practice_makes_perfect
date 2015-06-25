@@ -6,7 +6,7 @@ Template.N3.helpers
 Template.N3.created = ->
   
 Template.N3.rendered = ->
-  for i in [1..5]
-    console.log "a \n \n#{i}"
+#  for i in [1..5]
+#    console.log "a \n \n#{i}"
   
 Template.N3.destroyed = ->
