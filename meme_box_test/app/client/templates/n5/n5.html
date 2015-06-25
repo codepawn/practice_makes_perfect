@@ -1,16 +1,41 @@
 <template name="N5">
-  <h1>Find me in app/client/templates/n5/n5</h1>
+  <h5>Find me in app/client/templates/n5/n5</h5>
 
   <h1>5. 한글 검사하기</h1>
 
   <p> UTF8로 인코딩 된 문자열에서 한글초성으로만 된 문자가 포함된 경우 true를 그렇지 않으면 false를 출력한다.</p>
 
-  <p>예)
-    입력 : 하하ㅋㅋ
-    출력 : true
+  <p>예)</p>
 
-    입력 : 안녕하세요
-    출력 : false
-  </p>
+  <p>입력 : 하하ㅋㅋ</p>
+
+  <p>출력 : true</p>
+
+  <p>입력 : 안녕하세요</p>
+
+  <p>출력 : false</p>
+
+  <br/>
+  <br/>
+
+  <div class="ui left action input">
+    <button class="ui teal labeled icon button">
+      Put X
+    </button>
+    <input type="number" value="{{xValue}}" name="xValue">
+  </div>
+
+  <br/>
+  <br/>
+  <br/>
+
+  <form class="ui form">
+    <div class="field">
+      <label>Spiral</label>
+      <textarea name="matrixTextArea" id="matrixTextArea" style="height: 373px" value="{{matrixValue}}"></textarea>
+    </div>
+  </form>
+  <br/>
+  <br/>
 
 </template>
