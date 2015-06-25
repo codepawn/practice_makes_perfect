@@ -2,9 +2,9 @@
 Sort.attachSchema new SimpleSchema
   number:
     type: Number
-    label: "0 부터 100까지 입력"
+    label: "0 부터 300까지 입력"
     min: 0
-    max: 100
+    max: 300
 
 
 if Meteor.isServer
