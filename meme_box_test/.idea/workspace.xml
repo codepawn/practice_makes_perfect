@@ -20,32 +20,71 @@
     <favorites_list name="meme_box_test" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="n5.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/client/templates/n5/n5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3605707">
-              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-              <folding>
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#form#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="n5.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/client/templates/n5/n5.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-2.1923077">
+                  <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+                  <folding>
+                    <element signature="n#style#0;n#textarea#0;n#div#0;n#form#0;n#template#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="master_layout.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-4.576923">
+                  <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.3307393">
+                  <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="n5.coffee" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/client/templates/n5/n5.coffee">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.021329988">
+                  <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/lib/controllers/home_controller.coffee" />
-        <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
-        <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
         <option value="$PROJECT_DIR$/app/client/templates/n1/n1.html" />
         <option value="$PROJECT_DIR$/app/client/templates/n2/n2.html" />
         <option value="$PROJECT_DIR$/app/client/templates/n3/n3.html" />
         <option value="$PROJECT_DIR$/app/client/templates/n4/n4.html" />
         <option value="$PROJECT_DIR$/app/client/templates/n5/n5.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/n5/n5.coffee" />
       </list>
     </option>
   </component>
@@ -105,7 +144,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="n5&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n5/n5.html&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/layouts/master_layout/master_layout.html&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/home/home.html&#10;n1&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n1/n1.html&#10;n2&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n2/n2.html&#10;n3&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n3/n3.html&#10;n4&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n4/n4.html" />
+    <property name="SearchEverywhereHistoryKey" value="home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/home/home.html&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/layouts/master_layout/master_layout.html&#10;n5&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n5/n5.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/layouts/master_layout/master_layout.html&#10;n1&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n1/n1.html&#10;n2&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n2/n2.html&#10;n3&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n3/n3.html&#10;n4&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n4/n4.html" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -156,14 +195,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08819715">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/n4/n4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26459143">
@@ -196,14 +227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14930992">
@@ -214,11 +237,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/n5/n5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3605707">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state vertical-scroll-proportion="-2.1923077">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#textarea#0;n#div#0;n#form#0;n#template#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3307393">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/n5/n5.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.021329988">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
