@@ -23,21 +23,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="n3.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/client/templates/n3/n3.html">
+          <file leaf-file-name="n4.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/client/templates/n4/n4.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.5">
-                  <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+                <state vertical-scroll-proportion="-7.8461537">
+                  <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="n3_controller.coffee" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/lib/controllers/n3_controller.coffee">
+          <file leaf-file-name="n2.coffee" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/client/templates/n2/n2.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.14800996">
-                  <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+                <state vertical-scroll-proportion="0.21144278">
+                  <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -47,41 +47,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="sort.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/lib/collections/sort.coffee">
+          <file leaf-file-name="n4.coffee" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/client/templates/n4/n4.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="routes.js.coffee" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/lib/routes.js.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.21144278">
-                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="publish.js.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="n3.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/client/templates/n3/n3.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.2960199">
+                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -95,11 +65,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/lib/controllers/home_controller.coffee" />
-        <option value="$PROJECT_DIR$/app/client/templates/n1/n1.html" />
-        <option value="$PROJECT_DIR$/app/client/templates/n4/n4.html" />
-        <option value="$PROJECT_DIR$/app/client/templates/n5/n5.html" />
-        <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
-        <option value="$PROJECT_DIR$/app/client/templates/n5/n5.coffee" />
         <option value="$PROJECT_DIR$/app/client/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
         <option value="$PROJECT_DIR$/app/client/templates/n2/n2.html" />
@@ -111,6 +76,12 @@
         <option value="$PROJECT_DIR$/app/lib/routes.coffee" />
         <option value="$PROJECT_DIR$/app/lib/routes.js.coffee" />
         <option value="$PROJECT_DIR$/app/lib/controllers/n3_controller.coffee" />
+        <option value="$PROJECT_DIR$/app/client/templates/n5/n5.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/n4/n4.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/n1/n1.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/n5/n5.coffee" />
+        <option value="$PROJECT_DIR$/app/client/templates/n4/n4.coffee" />
       </list>
     </option>
   </component>
@@ -230,7 +201,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="n3&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/lib/controllers/n3_controller.coffee&#10;n2&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n2/n2.coffee&#10;sor&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/lib/collections/sort.coffee&#10;n5&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n5/n5.html&#10;n&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n2/n2.html&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/home/home.html&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/layouts/master_layout/master_layout.html&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/layouts/master_layout/master_layout.html&#10;n1&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n1/n1.html&#10;n4&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n4/n4.html" />
+    <property name="SearchEverywhereHistoryKey" value="n2&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n2/n2.coffee&#10;n3&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n3/n3.coffee&#10;n4&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n4/n4.coffee&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/home/home.html&#10;n1&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n1/n1.html&#10;n5&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n5/n5.coffee&#10;sor&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/lib/collections/sort.coffee&#10;n&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/n2/n2.html&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/layouts/master_layout/master_layout.html&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/meme_box_test/app/client/templates/layouts/master_layout/master_layout.html" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -313,6 +284,14 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -326,50 +305,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/client/templates/n4/n4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26459143">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/n1/n1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1763943">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14930992">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24254215">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/n5/n5.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44792974">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/n5/n5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.107652396">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -400,25 +339,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/n2/n2.coffee">
+    <entry file="file://$PROJECT_DIR$/app/lib/routes.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.24751244">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/n3/n3.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5708955">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/collections/sort.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.52860695">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
@@ -426,32 +357,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/server/publish.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.063432835">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/routes.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21144278">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/n3/n3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/controllers/n3_controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14800996">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.38059703">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/n3/n3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2840617">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/n1/n1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.021850899">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/n5/n5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15295629">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3714653">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/n5/n5.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44402984">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/controllers/n4_controller.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/n3/n3.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10572139">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/n4/n4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/n2/n2.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21144278">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/n4/n4.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2960199">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
