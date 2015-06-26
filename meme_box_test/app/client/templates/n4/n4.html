@@ -11,6 +11,21 @@
 
   <br/>
 
-  <p>{{totalSecondPerDay}}</p>
-  <p>{{thirdSecondPerDay}} 초</p>
+  <p>총 {{totalSecondPerDay}} 초중 </p>
+  <br/>
+
+  <div class="ui left action input">
+    <button class="ui teal labeled icon button">
+      Put Second
+    </button>
+    <input type="number" value="{{nValue}}" name="nValue">
+  </div>
+
+  <br/>
+  <br/>
+
+  <div class="ui input focus">
+    <input type="text" value="{{thirdSecondPerDay}} 초" placeholder="Search...">
+  </div>
+
 </template>
