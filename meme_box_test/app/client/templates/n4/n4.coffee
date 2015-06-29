@@ -29,6 +29,7 @@ Template.N4.helpers
   thirdSecondPerDay: ->
     Session.get 'valueSecond'
 
+
 # N4: Lifecycle Hooks 
 Template.N4.created = ->
   Session.setDefault 'setSecond', 3
