@@ -1,19 +1,22 @@
-#FlowRouter.route '/blog/:postId',
+# FlowRouter.route '/blog/:postId',
 #  middlewares: []
 #  subscriptions: (params, queryParams) ->
-##    Meteor.subscribe ''
+# #    Meteor.subscribe ''
 #  action: (params, queryParams) ->
 #    console.log 'Params:', params
 #    console.log 'Query Params:', queryParams
 #  name: '<name for the route>'
 
-#FlowRouter.go '/blog/my-post?comments=on&color=dark'
+# FlowRouter.go '/blog/my-post?comments=on&color=dark'
 
 FlowRouter.route '/',
   subscriptions: () ->
   action: ->
-    FlowLayout.render('layout1', { top: "header", main: "postList" });
-    console.log "home work"
+    FlowLayout.render 'layout1',
+      top: 'header'
+      main: 'postList'
+    console.log "router work"
+  name: 'home'
 
 FlowRouter.route '/singlePost',
   subscriptions: () ->
