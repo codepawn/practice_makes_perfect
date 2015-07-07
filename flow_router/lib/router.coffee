@@ -9,9 +9,14 @@
 
 #FlowRouter.go '/blog/my-post?comments=on&color=dark'
 
-
-FlowRouter.route '/blog',
-  subscriptions: (params) ->
+FlowRouter.route '/',
+  subscriptions: () ->
   action: ->
-    FlowLayout.render 'blog'
-    console.log "work"
+    FlowLayout.render('layout1', { top: "header", main: "postList" });
+    console.log "home work"
+
+FlowRouter.route '/singlePost',
+  subscriptions: () ->
+  action: ->
+    FlowLayout.render 'singlePost'
+    console.log "blog work"

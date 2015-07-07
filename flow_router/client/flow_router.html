@@ -2,22 +2,20 @@
   <title>Leaderboard</title>
 </head>
 
-<body>
-<div class="navbar">
-  <a class="navbar-brand" href="#">Title</a>
-  <ul class="nav navbar-nav">
-    <li class="active">
-      <a href="#">Home</a>
-    </li>
-    <li>
-      <a href="#">Link</a>
-    </li>
-  </ul>
-</div>
-body
-<div id="outer"></div>
-</body>
+<template name="layout1">
+  {{> Template.dynamic template=top}}
+  {{> Template.dynamic template=main}}
+</template>
 
-<template name="blog">
-  blog
+<template name="header">
+  <h1>This is the header</h1>
+  <a href="/singlePost">singlePost</a>
+</template>
+
+<template name="postList">
+  <h2>This is the postList area.</h2>
+</template>
+
+<template name="singlePost">
+  <h2>This is the singlePost area.</h2>
 </template>
