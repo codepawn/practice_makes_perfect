@@ -5,6 +5,11 @@
 <template name="layout1">
   {{> Template.dynamic template=top}}
   {{> Template.dynamic template=main}}
+
+  {{#each posts }}
+    <div>{{title}}</div>
+  {{/each}}
+
 </template>
 
 <template name="header">
@@ -17,6 +22,10 @@
 </template>
 
 <template name="singlePost">
+  
   <h2>This is the singlePost area.</h2>
+  
+  {{> quickForm collection="Posts" id="insertPostForm" type="insert"}}
+  
   <a href="/">home</a>
 </template>

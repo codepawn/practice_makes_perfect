@@ -33,7 +33,6 @@ Profile.attachSchema new SimpleSchema
 #    type: Schema.UserCountry
 #    optional: true
 
-
 if Meteor.isServer
   Profile.allow
     insert: (userId, doc) ->
@@ -42,4 +41,3 @@ if Meteor.isServer
       true
     remove: (userId, doc) ->
       true
-

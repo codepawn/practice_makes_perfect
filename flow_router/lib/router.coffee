@@ -1,7 +1,7 @@
 # FlowRouter.route '/blog/:postId',
 #  middlewares: []
 #  subscriptions: (params, queryParams) ->
-# #    Meteor.subscribe ''
+#     Meteor.subscribe ''
 #  action: (params, queryParams) ->
 #    console.log 'Params:', params
 #    console.log 'Query Params:', queryParams
@@ -10,13 +10,13 @@
 # FlowRouter.go '/blog/my-post?comments=on&color=dark'
 
 FlowRouter.route '/',
-  subscriptions: () ->
+  middlewares: []
+  subscriptions: ->
+    Meteor.subscribe 'posts'
   action: ->
     FlowLayout.render 'layout1',
       top: 'header'
       main: 'postList'
-    console.log "router work"
-  name: 'home'
 
 FlowRouter.route '/singlePost',
   subscriptions: () ->

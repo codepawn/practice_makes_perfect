@@ -24,18 +24,18 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.1923075">
+            <state vertical-scroll-proportion="-5.230769">
               <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="algo0.coffee" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/client/templates/algo0/algo0.coffee">
+      <file leaf-file-name="publish.coffee" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/server/publish.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.07664563">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,18 +64,18 @@
       <file leaf-file-name="master_layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
+            <state vertical-scroll-proportion="0.0">
               <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="algo0.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="algo0.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/client/templates/algo0/algo0.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40812558">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state vertical-scroll-proportion="-32.692307">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,13 +89,13 @@
         <option value="$PROJECT_DIR$/app/lib/controllers/home_controller.coffee" />
         <option value="$PROJECT_DIR$/app/lib/routes.coffee" />
         <option value="$PROJECT_DIR$/app/lib/routes.js.coffee" />
-        <option value="$PROJECT_DIR$/app/client/templates/algo0/algo0.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/algo1/algo1.html" />
         <option value="$PROJECT_DIR$/app/client/templates/home/home.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
         <option value="$PROJECT_DIR$/app/client/templates/algo1/algo1.coffee" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
         <option value="$PROJECT_DIR$/app/client/templates/algo0/algo0.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/algo0/algo0.coffee" />
       </list>
     </option>
   </component>
@@ -197,7 +197,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="algo&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/algo1/algo1.html&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/home/home.coffee&#10;spir&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/.idea/spiral_matrix.iml&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/layouts/master_layout/master_layout.html&#10;algo1&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/algo1/algo1.coffee&#10;al&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/algo0/algo0.html&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/lib/routes.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/layouts/master_layout/master_layout.html" />
+    <property name="SearchEverywhereHistoryKey" value="pub&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/server/publish.coffee&#10;algo&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/algo0/algo0.coffee&#10;home&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/home/home.coffee&#10;spir&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/.idea/spiral_matrix.iml&#10;ma&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/layouts/master_layout/master_layout.html&#10;algo1&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/algo1/algo1.coffee&#10;al&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/algo0/algo0.html&#10;rou&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/lib/routes.coffee&#10;mas&#9;FILE&#9;file:///Users/hyunahn/github/practice_makes_perfect/spiral_matrix/app/client/templates/layouts/master_layout/master_layout.html" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -301,6 +301,54 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/algo0/algo0.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/algo1/algo1.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/algo0/algo0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -488,25 +536,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/algo0/algo0.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.1923075">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           <folding />
         </state>
@@ -522,8 +554,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/algo0/algo0.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40812558">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state vertical-scroll-proportion="-32.692307">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/algo0/algo0.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44454464">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/server/publish.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07664563">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
