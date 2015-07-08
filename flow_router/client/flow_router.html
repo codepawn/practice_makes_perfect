@@ -15,6 +15,10 @@
 <template name="header">
   <h1>This is the header</h1>
   <a href="/singlePost">singlePost</a>
+
+  <div>
+    <a href="/mdl">mdl</a>
+  </div>
 </template>
 
 <template name="postList">
@@ -22,10 +26,10 @@
 </template>
 
 <template name="singlePost">
-  
+
   <h2>This is the singlePost area.</h2>
-  
+
   {{> quickForm collection="Posts" id="insertPostForm" type="insert"}}
-  
+
   <a href="/">home</a>
 </template>

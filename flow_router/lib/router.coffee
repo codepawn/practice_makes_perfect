@@ -23,3 +23,8 @@ FlowRouter.route '/singlePost',
   action: ->
     FlowLayout.render 'singlePost'
     console.log "blog work"
+
+FlowRouter.route '/mdl',
+  subscriptions: () ->
+  action: ->
+    FlowLayout.render 'mdl'

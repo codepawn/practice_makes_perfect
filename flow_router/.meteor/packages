@@ -13,6 +13,6 @@ aldeed:collection2
 aldeed:autoform
 aldeed:simple-schema
 meteorhacks:flow-layout
-twbs:bootstrap
 msavin:mongol
 msavin:jetsetter
+spectrum:material-design-lite
