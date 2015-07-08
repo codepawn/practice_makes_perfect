@@ -9,3 +9,4 @@ Template.layout1.created = ->
 Template.layout1.rendered = ->
 
 Template.layout1.destroyed = ->
+
