@@ -11,6 +11,8 @@
   {{> Template.dynamic template=top}}
   {{> Template.dynamic template=main}}
 
+  {{loadingCheck}}
+
   {{#each posts }}
     <div>{{title}}</div>
   {{/each}}

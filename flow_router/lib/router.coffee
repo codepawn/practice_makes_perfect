@@ -9,7 +9,6 @@ FlowRouter.route '/',
 
 FlowRouter.route '/singlePost',
   subscriptions: () ->
-    @register 'myPost', Meteor.subscribe 'posts'
   action: ->
     FlowLayout.render 'singlePost'
     console.log "blog work"
