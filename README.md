@@ -1,6 +1,9 @@
 practice_makes_perfect
 ======================
 
+![alt tag](img/a.jpg)
+![alt tag](img/b.jpg)
+
 Coding everydays with No! excuse
 
 Even a smallthings
