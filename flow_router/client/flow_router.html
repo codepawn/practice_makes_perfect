@@ -13,8 +13,10 @@
 
   {{loadingCheck}}
 
-  {{#each posts }}
-    <div>{{title}}</div>
+  {{#each posts}}
+    <a href="{{pathFor 'text' id=_id}}">
+      <div>{{title}}</div>
+    </a>
   {{/each}}
 
 </template>

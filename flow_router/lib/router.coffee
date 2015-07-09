@@ -22,3 +22,10 @@ FlowRouter.route '/mdl2',
   subscriptions: () ->
   action: ->
     FlowLayout.render 'mdl2'
+
+FlowRouter.route '/text/:id',
+  subscriptions: () ->
+    @register 'myPost', Meteor.subscribe 'posts'
+  action: ->
+    FlowLayout.render 'mdl2'
+  name: 'text'
