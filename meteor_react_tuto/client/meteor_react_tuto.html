@@ -2,13 +2,9 @@
   <title>meteor_react_tuto</title>
 </head>
 
-<body>
-  <h1>Welcome to Meteor!</h1>
-
-  {{> hello}}
-</body>
-
 <template name="hello">
-  <button>Click Me</button>
+  <button name="addCounter">Click Me</button>
   <p>You've pressed the button {{counter}} times.</p>
+
+  <div class="render-target"></div>
 </template>

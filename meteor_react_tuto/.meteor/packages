@@ -8,3 +8,8 @@ meteor-platform
 autopublish
 insecure
 react
+coffeescript
+meteorhacks:flow-router
+meteorhacks:flow-layout
+meteorhacks:fast-render
+arillo:flow-router-helpers
