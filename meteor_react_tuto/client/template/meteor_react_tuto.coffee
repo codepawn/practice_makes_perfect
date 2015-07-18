@@ -8,3 +8,5 @@ Template.hello.helpers
 
 Template.hello.rendered = ->
   Session.setDefault 'counter', 0
+
+  Session.set 'e', Session.get 'g' +1

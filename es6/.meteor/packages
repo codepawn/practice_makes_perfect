@@ -5,17 +5,5 @@
 # but you can also edit it by hand.
 
 meteor-platform
+autopublish
 insecure
-react
-coffeescript
-meteorhacks:flow-router
-meteorhacks:flow-layout
-meteorhacks:fast-render
-arillo:flow-router-helpers
-msavin:mongol
-msavin:jetsetter
-jhartma:cjsx
-meteorhacks:npm
-
-
-npm-container

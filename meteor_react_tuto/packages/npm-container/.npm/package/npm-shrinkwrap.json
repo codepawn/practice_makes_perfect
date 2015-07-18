@@ -1,0 +1,383 @@
+{
+  "dependencies": {
+    "exposify": {
+      "version": "0.4.3",
+      "dependencies": {
+        "globo": {
+          "version": "1.0.2",
+          "dependencies": {
+            "accessory": {
+              "version": "1.0.1",
+              "dependencies": {
+                "dot-parts": {
+                  "version": "1.0.1"
+                }
+              }
+            },
+            "is-defined": {
+              "version": "1.0.0"
+            },
+            "ternary": {
+              "version": "1.0.0"
+            }
+          }
+        },
+        "has-require": {
+          "version": "1.1.0"
+        },
+        "map-obj": {
+          "version": "1.0.1"
+        },
+        "replace-requires": {
+          "version": "1.0.3",
+          "dependencies": {
+            "detective": {
+              "version": "4.1.1",
+              "dependencies": {
+                "acorn": {
+                  "version": "1.2.2"
+                },
+                "defined": {
+                  "version": "1.0.0"
+                },
+                "escodegen": {
+                  "version": "1.6.1",
+                  "dependencies": {
+                    "estraverse": {
+                      "version": "1.9.3"
+                    },
+                    "esutils": {
+                      "version": "1.1.6"
+                    },
+                    "esprima": {
+                      "version": "1.2.5"
+                    },
+                    "optionator": {
+                      "version": "0.5.0",
+                      "dependencies": {
+                        "prelude-ls": {
+                          "version": "1.1.2"
+                        },
+                        "deep-is": {
+                          "version": "0.1.3"
+                        },
+                        "wordwrap": {
+                          "version": "0.0.3"
+                        },
+                        "type-check": {
+                          "version": "0.3.1"
+                        },
+                        "levn": {
+                          "version": "0.2.5"
+                        },
+                        "fast-levenshtein": {
+                          "version": "1.0.6"
+                        }
+                      }
+                    },
+                    "source-map": {
+                      "version": "0.1.43",
+                      "dependencies": {
+                        "amdefine": {
+                          "version": "1.0.0"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "has-require": {
+              "version": "1.2.1",
+              "dependencies": {
+                "escape-string-regexp": {
+                  "version": "1.0.3"
+                }
+              }
+            },
+            "patch-text": {
+              "version": "1.0.2"
+            },
+            "xtend": {
+              "version": "4.0.0"
+            }
+          }
+        },
+        "through2": {
+          "version": "0.4.2",
+          "dependencies": {
+            "readable-stream": {
+              "version": "1.0.33",
+              "dependencies": {
+                "core-util-is": {
+                  "version": "1.0.1"
+                },
+                "isarray": {
+                  "version": "0.0.1"
+                },
+                "string_decoder": {
+                  "version": "0.10.31"
+                },
+                "inherits": {
+                  "version": "2.0.1"
+                }
+              }
+            },
+            "xtend": {
+              "version": "2.1.2",
+              "dependencies": {
+                "object-keys": {
+                  "version": "0.4.0"
+                }
+              }
+            }
+          }
+        },
+        "transformify": {
+          "version": "0.1.2",
+          "dependencies": {
+            "readable-stream": {
+              "version": "1.1.13",
+              "dependencies": {
+                "core-util-is": {
+                  "version": "1.0.1"
+                },
+                "isarray": {
+                  "version": "0.0.1"
+                },
+                "string_decoder": {
+                  "version": "0.10.31"
+                },
+                "inherits": {
+                  "version": "2.0.1"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "react": {
+      "version": "0.13.3",
+      "dependencies": {
+        "envify": {
+          "version": "3.4.0",
+          "dependencies": {
+            "through": {
+              "version": "2.3.8"
+            },
+            "jstransform": {
+              "version": "10.1.0",
+              "dependencies": {
+                "base62": {
+                  "version": "0.1.1"
+                },
+                "esprima-fb": {
+                  "version": "13001.1001.0-dev-harmony-fb"
+                },
+                "source-map": {
+                  "version": "0.1.31",
+                  "dependencies": {
+                    "amdefine": {
+                      "version": "1.0.0"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "react-masonry-mixin": {
+      "version": "0.5.7",
+      "dependencies": {
+        "masonry": {
+          "version": "git+https://github.com/eiriklv/masonry#bf7535f2a4a0a5338357d1a67d7dcee3fdab95c0",
+          "dependencies": {
+            "get-size": {
+              "version": "git+https://github.com/eiriklv/get-size#c1ebd019815fc6247c094c17a41b61d0e8191b08",
+              "dependencies": {
+                "desandro-get-style-property": {
+                  "version": "git+https://github.com/eiriklv/get-style-property#a5a74ad48d96c7d5ddcf652e9fa5d4283af37823"
+                }
+              }
+            },
+            "outlayer": {
+              "version": "git+https://github.com/eiriklv/outlayer#6ad7e7156914803a5feb56d9bba5d8278544bcec",
+              "dependencies": {
+                "desandro-get-style-property": {
+                  "version": "git+https://github.com/eiriklv/get-style-property#a5a74ad48d96c7d5ddcf652e9fa5d4283af37823"
+                },
+                "doc-ready": {
+                  "version": "git+https://github.com/eiriklv/doc-ready#31c2481101af5dab33311fea4c7fc684b58fa8ad",
+                  "dependencies": {
+                    "eventie": {
+                      "version": "git+https://github.com/eiriklv/eventie#c9d290c6aa57712257dc8c0b6bf21c9374190a3c"
+                    }
+                  }
+                },
+                "eventemitter": {
+                  "version": "git+https://github.com/braznaavtrav/EventEmitter#7169056a2f8b3b55d78ab1b85bad39277e7e88b2"
+                },
+                "eventie": {
+                  "version": "git+https://github.com/eiriklv/eventie#c9d290c6aa57712257dc8c0b6bf21c9374190a3c"
+                },
+                "get-size": {
+                  "version": "git+https://github.com/eiriklv/get-size#c1ebd019815fc6247c094c17a41b61d0e8191b08",
+                  "dependencies": {
+                    "desandro-get-style-property": {
+                      "version": "git+https://github.com/eiriklv/get-style-property#a5a74ad48d96c7d5ddcf652e9fa5d4283af37823"
+                    }
+                  }
+                },
+                "desandro-matches-selector": {
+                  "version": "git+https://github.com/desandro/matches-selector#2d7702eab3393838e8098971a03cbec3fe7f5891"
+                }
+              }
+            }
+          }
+        },
+        "imagesloaded": {
+          "version": "git+https://github.com/eiriklv/imagesloaded#04535a148206e58790927e133f24ca199163b995",
+          "dependencies": {
+            "wolfy87-eventemitter": {
+              "version": "4.2.11"
+            },
+            "eventie": {
+              "version": "1.0.6"
+            }
+          }
+        }
+      }
+    },
+    "react-router": {
+      "version": "0.13.3",
+      "dependencies": {
+        "object-assign": {
+          "version": "2.1.1"
+        },
+        "qs": {
+          "version": "2.4.1"
+        }
+      }
+    },
+    "reactify": {
+      "version": "1.1.1",
+      "dependencies": {
+        "through": {
+          "version": "2.3.8"
+        },
+        "react-tools": {
+          "version": "0.13.3",
+          "dependencies": {
+            "commoner": {
+              "version": "0.10.3",
+              "dependencies": {
+                "q": {
+                  "version": "1.1.2"
+                },
+                "recast": {
+                  "version": "0.10.21",
+                  "dependencies": {
+                    "esprima-fb": {
+                      "version": "15001.1.0-dev-harmony-fb"
+                    },
+                    "source-map": {
+                      "version": "0.4.4",
+                      "dependencies": {
+                        "amdefine": {
+                          "version": "1.0.0"
+                        }
+                      }
+                    },
+                    "ast-types": {
+                      "version": "0.8.3"
+                    }
+                  }
+                },
+                "commander": {
+                  "version": "2.5.1"
+                },
+                "graceful-fs": {
+                  "version": "3.0.8"
+                },
+                "glob": {
+                  "version": "4.2.2",
+                  "dependencies": {
+                    "inflight": {
+                      "version": "1.0.4",
+                      "dependencies": {
+                        "wrappy": {
+                          "version": "1.0.1"
+                        }
+                      }
+                    },
+                    "inherits": {
+                      "version": "2.0.1"
+                    },
+                    "minimatch": {
+                      "version": "1.0.0",
+                      "dependencies": {
+                        "lru-cache": {
+                          "version": "2.6.5"
+                        },
+                        "sigmund": {
+                          "version": "1.0.1"
+                        }
+                      }
+                    },
+                    "once": {
+                      "version": "1.3.2",
+                      "dependencies": {
+                        "wrappy": {
+                          "version": "1.0.1"
+                        }
+                      }
+                    }
+                  }
+                },
+                "mkdirp": {
+                  "version": "0.5.1",
+                  "dependencies": {
+                    "minimist": {
+                      "version": "0.0.8"
+                    }
+                  }
+                },
+                "private": {
+                  "version": "0.1.6"
+                },
+                "install": {
+                  "version": "0.1.8"
+                },
+                "iconv-lite": {
+                  "version": "0.4.11"
+                }
+              }
+            },
+            "jstransform": {
+              "version": "10.1.0",
+              "dependencies": {
+                "base62": {
+                  "version": "0.1.1"
+                },
+                "esprima-fb": {
+                  "version": "13001.1001.0-dev-harmony-fb"
+                },
+                "source-map": {
+                  "version": "0.1.31",
+                  "dependencies": {
+                    "amdefine": {
+                      "version": "1.0.0"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
