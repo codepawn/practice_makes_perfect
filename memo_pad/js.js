@@ -899,14 +899,1014 @@ list();
 
 
 var james = {
-    // add properties to this object!
+  // add properties to this object!
 
 
 };
 
 function Person(job, married) {
-    this.job = job;
-    this.married = married;
+  this.job = job;
+  this.married = married;
 }
 
 // create a "gabby" object using the Person constructor!
+
+
+var a = function() {
+  return 'e';
+};
+
+var google = function() {
+  return 'google';
+};
+console.log(google());
+
+//.DS_Store
+
+
+
+
+var james = {
+  job: 'programmer',
+  married: false
+};
+
+function Person(job, married) {
+  this.job = job;
+  this.married = married;
+}
+
+// create a "gabby" object using the Person constructor!
+
+var gabby = new Person('student', true);
+
+//
+
+
+function Person(job, married) {
+  this.job = job;
+  this.married = married;
+  // add a "speak" method to Person!
+  this.speak = function() {
+    console.log('Hello!');
+  };
+}
+
+var user = new Person("Codecademy Student", false);
+user.speak();
+
+
+var james = {
+  job: "programmer",
+  married: false,
+  speak: function(argu) {
+    switch (argu) {
+      case 'great':
+        console.log('Hello, I am feeling great');
+        break;
+      case 'just okay':
+        console.log('Hello, I am feeling just okay');
+        break;
+    }
+  }
+};
+
+james.speak("great");
+james.speak("just okay");
+
+//.DS_Store
+
+
+var james = {
+  job: "programmer",
+  married: false,
+  sayJob: function() {
+    console.log("Hi, I work as a " + this.job);
+  }
+};
+
+// james' first job
+james.sayJob();
+
+// change james' job to "super programmer" here
+james.job = 'super programmer';
+
+// james' second job
+james.sayJob();
+
+//.DS_Store
+
+
+
+var james = {
+  job: "programmer",
+  married: false
+};
+
+// set to the first property name of "james"
+var aProperty = "job";
+
+// print the value of the first property of "james"
+// using the variable "aProperty"
+console.log(james[aProperty]);
+
+//.DS_Store
+
+
+
+// complete these definitions so that they will have
+// the appropriate types
+var anObj = {
+  job: "I'm an object!"
+};
+var aNumber = 42;
+var aString = "I'm a string!";
+
+console.log(typeof anObj); // should print "object"
+console.log(typeof aNumber); // should print "number"
+console.log(typeof aString); // should print "string"
+
+var index = 5;
+var result = (typeof index);
+console.log(result);
+// Output: true
+
+//
+
+
+var myObj = {
+  // finish myObj
+
+};
+
+console.log(myObj.hasOwnProperty('name')); // should print true
+console.log(myObj.hasOwnProperty('nickname')); // should print false
+
+
+var myObj = {
+  // finish myObj
+  name: 'hyun'
+
+};
+
+console.log(myObj.hasOwnProperty('name')); // should print true
+console.log(myObj.hasOwnProperty('nickname')); // should print false
+
+
+var suitcase = {
+  shirt: "Hawaiian"
+};
+
+if (suitcase.hasOwnProperty('shirt')) {
+  console.log(suitcase.shirt);
+} else {
+  suitcase.shirt = 'Cool';
+}
+//.DS_Store
+
+
+var nyc = {
+  fullName: "New York City",
+  mayor: "Bill de Blasio",
+  population: 8000000,
+  boroughs: 5
+};
+
+for (var prop in nyc) {
+  console.log(nyc[prop]);
+}
+
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+// Let's make bob again, using our constructor
+var bob = new Person("Bob Smith", 30);
+var susan = new Person("Susan Jordan", 35);
+
+// make your own class here
+var Circle = function(radius) {
+  this.radius = radius;
+};
+
+//
+
+function Dog(breed) {
+  this.breed = breed;
+}
+
+// here we make buddy and teach him how to bark
+var buddy = new Dog("Golden Retriever");
+buddy.bark = function() {
+  console.log("Woof");
+};
+buddy.bark();
+
+// here we make snoopy
+var snoopy = new Dog("Beagle");
+// we need you to teach snoopy how to bark here
+snoopy.bark = function() {
+  console.log('Meow');
+};
+// this causes an error, because snoopy doesn't know how to bark!
+snoopy.bark();
+
+//
+
+
+
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+// a function that prints the name of any given person
+var printPersonName = function(p) {
+  console.log(p.name);
+};
+
+var bob = new Person("Bob Smith", 30);
+printPersonName(bob);
+
+// make a person called me with your name and age
+// then use printPersonName to print your name
+var me = new Person('Hyun', 30);
+printPersonName(me);
+
+//
+
+
+function Dog(breed) {
+  this.breed = breed;
+  this.google = 'google';
+}
+Dog.goo = 'google';
+Dog.prototype.bark = function() {
+  console.log('Woof');
+};
+
+var buddy = new Dog("golden Retriever");
+var snoopy = new Dog("Beagle");
+console.log(buddy);
+
+
+//.DS_Store
+
+
+function Cat(name, breed) {
+  this.name = name;
+  this.breed = breed;
+}
+
+// let's make some cats!
+var cheshire = new Cat("Cheshire Cat", "British Shorthair");
+var gary = new Cat("Gary", "Domestic Shorthair");
+
+// add a method "meow" to the Cat class that will allow
+// all cats to print "Meow!" to the console
+
+Cat.prototype.meow = function() {
+  console.log('Meow!');
+};
+
+// add code here to make the cats meow!
+
+cheshire.meow();
+gary.meow();
+
+
+//.DS_Store
+
+
+
+// create your Animal class here
+
+var Animal = function(name, numLegs) {
+  this.name = name;
+  this.numLegs = numLegs;
+};
+
+// create the sayName method for Animal
+
+Animal.prototype.sayName = function() {
+  console.log('Hi my name is ' + this.name);
+};
+
+// provided code to test above constructor and method
+var penguin = new Animal("Captain Cook", 2);
+penguin.sayName();
+
+//
+
+
+function Animal(name, numLegs) {
+  this.name = name;
+  this.numLegs = numLegs;
+}
+Animal.prototype.sayName = function() {
+  console.log("Hi my name is " + this.name);
+};
+
+
+// create a Penguin constructor here
+var Penguin = function(name, numLegs) {
+  this.name = name;
+  this.numLegs = numLegs;
+};
+
+// create a sayName method for Penguins here
+Penguin.prototype.sayName = function() {
+  console.log("Hi my name is " + this.name);
+};
+
+// our test code
+var theCaptain = new Penguin("Captain Cook", 2);
+theCaptain.sayName();
+
+
+
+//
+
+
+// the original Animal class and sayName method
+function Animal(name, numLegs) {
+  this.name = name;
+  this.numLegs = numLegs;
+}
+Animal.prototype.sayName = function() {
+  console.log("Hi my name is " + this.name);
+};
+
+// define a Penguin class
+
+var Penguin = function(name) {
+  this.name = name;
+  this.numLegs = 2;
+};
+// set its prototype to be a new instance of Animal
+Penguin.prototype = new Animal();
+
+
+//
+
+// the original Animal class and sayName method
+function Animal(name, numLegs) {
+  this.name = name;
+  this.numLegs = numLegs;
+}
+Animal.prototype.sayName = function() {
+  console.log("Hi my name is " + this.name);
+};
+
+// define a Penguin class
+
+var Penguin = function(name) {
+  this.name = name;
+  this.numLegs = 2;
+};
+
+Penguin.prototype = new Animal();
+
+var penguin = new Penguin('goo');
+penguin.sayName();
+
+
+//.DS_Store
+
+
+function Penguin(name) {
+  this.name = name;
+  this.numLegs = 2;
+}
+
+// create your Emperor class here and make it inherit from Penguin
+var Emperor = new Penguin();
+Emperor.prototype = new Penguin();
+
+// create an "emperor" object and print the number of legs it has
+var emperor = new Emperor('foo');
+console.log(emperor.numLegs);
+
+
+
+function Penguin(name) {
+  this.name = name;
+  this.numLegs = 2;
+}
+
+// create your Emperor class here and make it inherit from Penguin
+function Emperor(name) {
+  this.name = name;
+}
+Emperor.prototype = new Penguin();
+
+// create an "emperor" object and print the number of legs it has
+var emperor = new Emperor("Linda");
+
+console.log(emperor.name);
+console.log(emperor.numLegs);
+
+//.DS_Store
+
+
+
+
+// original classes
+function Animal(name, numLegs) {
+  this.name = name;
+  this.numLegs = numLegs;
+  this.isAlive = true;
+}
+
+function Penguin(name) {
+  this.name = name;
+  this.numLegs = 2;
+}
+
+function Emperor(name) {
+  this.name = name;
+  this.saying = "Waddle waddle";
+}
+
+// set up the prototype chain
+Penguin.prototype = new Animal();
+Emperor.prototype = new Penguin();
+
+var myEmperor = new Emperor("Jules");
+
+console.log(myEmperor.saying); // should print "Waddle waddle"
+console.log(myEmperor.numLegs); // should print 2
+console.log(myEmperor.isAlive); // should print true
+
+
+//.DS_Store
+
+
+// original classes
+function Animal(name) {
+  this.name = name;
+  this.isAlive = true;
+}
+
+function Penguin() {
+  this.numLegs = 2;
+}
+
+function Emperor() {
+  this.saying = "Waddle waddle";
+}
+
+// set up the prototype chain
+Penguin.prototype = new Animal('hem');
+Emperor.prototype = new Penguin();
+
+var myEmperor = new Emperor();
+
+console.log(myEmperor.saying); // should print "Waddle waddle"
+console.log(myEmperor.numLegs); // should print 2
+console.log(myEmperor.isAlive); // should print true
+console.log(myEmperor.name); // should print true
+
+
+//.DS_Store
+
+function Person(first, last, age) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+}
+
+var john = new Person('John', 'Smith', 30);
+var myFirst = john.firstName;
+var myLast = john.lastName;
+
+//declare variable myAge set to the age of the john object.
+
+var myAge = john.age;
+
+
+function Person(first, last, age) {
+  this.firstname = first;
+  this.lastname = last;
+  this.age = age;
+  var bankBalance = 7500;
+}
+
+// create your Person
+
+var john = new Person('john', 'kim', 28);
+
+// try to print his bankBalance
+
+console.log(john.backBalance);
+//.DS_Store
+
+
+function Person(first, last, age) {
+  this.firstname = first;
+  this.lastname = last;
+  this.age = age;
+  var bankBalance = 7500;
+
+  this.getBalance = function() {
+    // your code should return the bankBalance
+    return bankBalance;
+  };
+}
+
+var john = new Person('John', 'Smith', 30);
+console.log(john.bankBalance);
+
+// create a new variable myBalance that calls getBalance()
+console.log(john.getBalance());
+
+
+
+//.DS_Store
+
+
+function bank() {
+  var privateAccount = 7500;
+
+  function getPrivate() {
+    console.log(privateAccount);
+  }
+  return getPrivate;
+}
+
+var banka = bank();
+banka();
+
+
+
+//.DS_Store
+
+
+function init() {
+  var name = "Mozilla";
+  return displayName;
+
+  function displayName() {
+    console.log(name);
+  }
+}
+dis = init();
+dis();
+
+//
+
+
+
+function makeFunc() {
+  var name = "Mozilla";
+
+  function displayName() {
+    console.log(name);
+  }
+  return displayName;
+}
+
+makeFunc();
+
+
+var foo = function() {
+  var bar = function() {
+    console.log("hey, I'am bar");
+  };
+};
+
+foo.bar();
+
+
+
+function Person(first, last, age) {
+  this.firstname = first;
+  this.lastname = last;
+  this.age = age;
+  var bankBalance = 7500;
+
+  var returnBalance = function() {
+    return bankBalance;
+  };
+
+  // create the new function here
+  this.askTeller = function() {
+    return returnBalance;
+  };
+}
+
+var john = new Person('John', 'Smith', 30);
+console.log(john.returnBalance);
+var myBalanceMethod = john.askTeller();
+var myBalance = myBalanceMethod();
+console.log(myBalance);
+
+//.DS_Store
+
+
+function Person(first, last, age) {
+  this.firstname = first;
+  this.lastname = last;
+  this.age = age;
+  var bankBalance = 7500;
+
+  this.askTeller = function(pass) {
+    if (pass == 1234) return bankBalance;
+    else return "Wrong password.";
+  };
+}
+
+var john = new Person('John', 'Smith', 30);
+/* the variable myBalance should access askTeller()
+   with a password as an argument  */
+
+var pass = john.askTeller(1234);
+console.log(pass);
+
+//
+
+
+var languages = {
+  english: "Hello!",
+  french: "Bonjour!",
+  notALanguage: 4,
+  spanish: "Hola!"
+};
+
+// print hello in the 3 different languages
+for (var prop in languages) {
+  if (typeof languages[prop] === 'string') {
+    console.log(languages[prop]);
+  }
+}
+
+//
+
+
+function Dog(breed) {
+  this.breed = breed;
+}
+
+// add the sayHello method to the Dog class
+// so all dogs now can say hello
+Dog.prototype.sayHello = function() {
+  console.log();
+};
+
+var yourDog = new Dog("golden retriever");
+yourDog.sayHello();
+
+var myDog = new Dog("dachshund");
+myDog.sayHello();
+
+
+// what is this "Object.prototype" anyway...?
+var prototypeType = typeof Object.prototype;
+console.log(prototypeType);
+
+// now let's examine it!
+var hasOwn = Object.prototype.hasOwnProperty('hasOwnProperty');
+console.log(hasOwn);
+
+//
+
+function StudentReport() {
+  this.grade1 = 4;
+  this.grade2 = 2;
+  this.grade3 = 1;
+  this.getGPA = function() {
+    return (this.grade1 + this.grade2 + this.grade3) / 3;
+  };
+}
+
+var myStudentReport = new StudentReport();
+
+for (var x in myStudentReport) {
+  if (typeof myStudentReport[x] !== "function") {
+    console.log("Muahaha! " + myStudentReport[x]);
+  }
+}
+
+console.log("Your overall GPA is " + myStudentReport.getGPA());
+
+//
+
+function StudentReport() {
+  var grade1 = 4;
+  var grade2 = 2;
+  var grade3 = 1;
+  this.getGPA = function() {
+    return (grade1 + grade2 + grade3) / 3;
+  };
+}
+
+var myStudentReport = new StudentReport();
+
+for (var x in myStudentReport) {
+  if (typeof myStudentReport[x] !== "function") {
+    console.log("Muahaha! " + myStudentReport[x]);
+  }
+}
+
+console.log("Your overall GPA is " + myStudentReport.getGPA());
+
+
+//
+var cashRegister = {
+  total: 0
+};
+
+cashRegister.total = 2.99;
+//
+
+var cashRegister = {
+  total: 0,
+  add: function(itemCost) {
+    this.total += itemCost;
+  }
+};
+
+
+//call the add method for our items
+cashRegister.add(0.98);
+cashRegister.add(1.23);
+cashRegister.add(4.99);
+cashRegister.add(0.45);
+
+//Show the total bill
+console.log('Your bill is ' + cashRegister.total);
+
+//
+
+
+var cashRegister = {
+  total: 0,
+  //insert the add method here
+  add: function(itemCost) {
+    this.total += itemCost;
+  },
+  scan: function(item) {
+    switch (item) {
+      case "eggs":
+        this.add(0.98);
+        break;
+      case "milk":
+        this.add(1.23);
+        break;
+      case 'magazine':
+        this.add(4.99);
+        break;
+      case 'chocolate':
+        this.add(0.45);
+        break;
+    }
+    return true;
+  }
+};
+cashRegister.scan('eggs');
+cashRegister.scan('eggs');
+cashRegister.scan('magazine');
+cashRegister.scan('magazine');
+cashRegister.scan('magazine');
+//Scan 2 eggs and 3 magazines
+
+//Show the total bill
+console.log('Your bill is ' + cashRegister.total);
+
+
+//
+
+
+var cashRegister = {
+  total: 0,
+  add: function(itemCost) {
+    this.total += itemCost;
+  },
+  scan: function(item, quantity) {
+    switch (item) {
+      case "eggs":
+        this.add(0.98 * quantity);
+        break;
+      case "milk":
+        this.add(1.23 * quantity);
+        break;
+      case "magazine":
+        this.add(4.99 * quantity);
+        break;
+      case "chocolate":
+        this.add(0.45 * quantity);
+        break;
+    }
+  }
+};
+
+// scan each item 4 times
+cashRegister.scan('eggs', 4);
+cashRegister.scan('milk', 4);
+cashRegister.scan('magazine', 4);
+cashRegister.scan('chocolate', 4);
+
+//Show the total bill
+console.log('Your bill is ' + cashRegister.total);
+
+
+//
+
+
+var cashRegister = {
+  total: 0,
+  lastTransactionAmount: 0,
+  //Dont forget to add your property
+  add: function(itemCost) {
+    this.total += itemCost;
+    lastTransactionAmount = itemCost;
+  },
+  scan: function(item, quantity) {
+    switch (item) {
+      case "eggs":
+        this.add(0.98 * quantity);
+        break;
+      case "milk":
+        this.add(1.23 * quantity);
+        break;
+      case "magazine":
+        this.add(4.99 * quantity);
+        break;
+      case "chocolate":
+        this.add(0.45 * quantity);
+        break;
+    }
+    return true;
+  },
+  //Add the voidLastTransaction Method here
+  voidLastTransaction: function() {
+    this.total -= lastTransactionAmount;
+  }
+
+};
+
+cashRegister.scan('eggs', 1);
+cashRegister.scan('milk', 1);
+cashRegister.scan('magazine', 1);
+cashRegister.scan('chocolate', 4);
+
+//Void the last transaction and then add 3 instead
+cashRegister.voidLastTransaction();
+cashRegister.scan('chocolate', 3);
+
+//Show the total bill
+console.log('Your bill is ' + cashRegister.total);
+
+//
+
+
+// create a constructor for the StaffMember class
+var StaffMember = function(name, discountPercent) {
+  this.name = name;
+  this.discountPercent = discountPercent;
+};
+
+var sally = new StaffMember("Sally", 5);
+var bob = new StaffMember("Bob", 10);
+var me = new StaffMember("me", 20);
+
+//Create a StaffMember for yourself called me
+
+
+
+
+
+
+
+
+
+//
+
+
+
+
+function StaffMember(name, discountPercent) {
+  this.name = name;
+  this.discountPercent = discountPercent;
+}
+
+var sally = new StaffMember("Sally", 5);
+var bob = new StaffMember("Bob", 10);
+var me = new StaffMember('me', 20);
+
+var cashRegister = {
+  total: 0,
+  lastTransactionAmount: 0,
+  add: function(itemCost) {
+    this.total += (itemCost || 0);
+    this.lastTransactionAmount = itemCost;
+  },
+  scan: function(item, quantity) {
+    switch (item) {
+      case "eggs":
+        this.add(0.98 * quantity);
+        break;
+      case "milk":
+        this.add(1.23 * quantity);
+        break;
+      case "magazine":
+        this.add(4.99 * quantity);
+        break;
+      case "chocolate":
+        this.add(0.45 * quantity);
+        break;
+    }
+    return true;
+  },
+  voidLastTransaction: function() {
+    this.total -= this.lastTransactionAmount;
+    this.lastTransactionAmount = 0;
+  },
+  // Create a new method applyStaffDiscount here
+  applyStaffDiscount: function(employee) {
+    console.log(employee.discountPercent);
+    this.total -= (this.total * (employee.discountPercent / 100));
+  }
+
+};
+
+cashRegister.scan('eggs', 1);
+cashRegister.scan('milk', 1);
+cashRegister.scan('magazine', 3);
+// Apply your staff discount by passing the 'me' object
+// to applyStaffDiscount
+cashRegister.applyStaffDiscount(me);
+
+// Show the total bill
+console.log('Your bill is ' + cashRegister.total.toFixed(2));
+
+
+
+
+
+
+//
+
+
+function StaffMember(name, discountPercent) {
+  this.name = name;
+  this.discountPercent = discountPercent;
+}
+
+var sally = new StaffMember("Sally", 5);
+var bob = new StaffMember("Bob", 10);
+
+// Create yourself again as 'me' with a staff discount of 20%
+
+var me = new StaffMember('Me', 20);
+
+var cashRegister = {
+  total: 0,
+  lastTransactionAmount: 0,
+
+  add: function(itemCost) {
+    this.total += (itemCost || 0);
+    this.lastTransactionAmount = itemCost;
+  },
+
+  scan: function(item, quantity) {
+    switch (item) {
+      case "eggs":
+        this.add(0.98 * quantity);
+        break;
+      case "milk":
+        this.add(1.23 * quantity);
+        break;
+      case "magazine":
+        this.add(4.99 * quantity);
+        break;
+      case "chocolate":
+        this.add(0.45 * quantity);
+        break;
+    }
+    return true;
+  },
+
+  voidLastTransaction: function() {
+    this.total -= this.lastTransactionAmount;
+    this.lastTransactionAmount = 0;
+  },
+
+  // Create a new method applyStaffDiscount here
+  applyStaffDiscount: function(employee) {
+    console.log(employee.discountPercent);
+    this.total -= (this.total * (employee.discountPercent / 100));
+  }
+};
+
+cashRegister.scan('eggs', 1);
+cashRegister.scan('milk', 1);
+cashRegister.scan('magazine', 3);
+// Apply your staff discount by passing the 'me' object
+// to applyStaffDiscount
+
+cashRegister.applyStaffDiscount(me);
+
+
+// Show the total bill
+console.log('Your bill is ' + cashRegister.total.toFixed(2));
