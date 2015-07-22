@@ -1910,3 +1910,99 @@ cashRegister.applyStaffDiscount(me);
 
 // Show the total bill
 console.log('Your bill is ' + cashRegister.total.toFixed(2));
+
+
+
+
+var app = (function() {
+  var privateVar = 'private';
+  return privateVar;
+}());
+console.log(app);
+
+var goo = (function() {
+  var privateGoo = 'google';
+  return {
+    gru: privateGoo
+  };
+}());
+console.log(goo.gru);
+
+
+var hyun = {
+  total: 0,
+  goo: 'goo',
+  work: function() {
+    console.log(this.total);
+  },
+  add: function() {
+    this.total += 1;
+  }
+};
+
+console.log(hyun.goo);
+console.log(hyun.total);
+hyun.work();
+hyun.add();
+console.log(hyun.total);
+
+
+
+
+var clerk = (function() {
+    var name = 'Teo';
+    var sex = '남자';
+    var position = '수석 엔지니어';
+    // salary private
+    var salary = 2000;
+    var taxSalary = 200;
+    var totalBonus = 100;
+    var taxBonus = 10;
+
+    var payBonus = function() {
+        totalBonus = totalBonus - taxBonus;
+        return totalBonus;
+    };
+    var paySalary = function() {
+        return salary - taxSalary;
+    };
+
+    // Public 속성, 메소드
+    return {
+        name : name,
+        sex : sex,
+        position : position,
+        paySalary : paySalary,
+        payBonus : payBonus
+    };
+}());
+
+// name 속성은 public
+console.log(clerk.name); // 'Teo' 출력
+// salary 변수는 즉시실행함수 내부 변수이므로 private
+console.log(clerk.salary); // undefined 출력
+
+// paySalary 메소드는 public
+console.log(clerk.paySalary()); // 1800 출력
+
+// payBonus 메소드는 public
+console.log(clerk.payBonus()); // 90 출력
+console.log(clerk.payBonus()); // 80 출력
+
+
+
+var Module5 = (function() {
+    var root = this;
+    var version = '1.0';
+    var Module;
+    if(typeof exports !== 'undefined') {
+        Module = exports;
+    } else {
+        Module = root.Module = {};
+    }
+    Module.getVersion = function() {
+        return version;
+    }
+    return Module;
+}());
+console.log(Module5.getVersion());
