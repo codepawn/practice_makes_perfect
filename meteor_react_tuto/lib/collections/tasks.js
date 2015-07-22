@@ -2,13 +2,13 @@ Tasks = new Meteor.Collection('tasks');
 
 if (Meteor.isServer) {
   Tasks.allow({
-    insert: function() {
+    insert: function () {
       return true;
     },
-    update: function() {
+    update: function () {
       return true;
     },
-    remove: function() {
+    remove: function () {
       return true;
     }
   });
