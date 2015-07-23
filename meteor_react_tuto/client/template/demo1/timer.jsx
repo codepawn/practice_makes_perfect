@@ -13,7 +13,7 @@ Timer = React.createClass({
   },
   render: function () {
     return (
-      <div>Seconds Elapsed: {this.state.secondsElapsed}</div>
+      <div>시간 {this.state.secondsElapsed}</div>
     );
   }
 });

@@ -15,6 +15,7 @@ App2 = React.createClass({
         <input type='text' onChange={this.googleisgood}/>
 
         <h1>{this.state.txt}</h1>
+
         <h1>{this.props.txt}</h1>
       </div>
     )

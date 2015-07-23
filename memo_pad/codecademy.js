@@ -32,19 +32,17 @@ var phonebookEntry = {};
 
 phonebookEntry.name = 'Oxnard Montalvo';
 phonebookEntry.number = '(555) 555-5555';
-phonebookEntry.phone = function() {
+phonebookEntry.phone = function () {
   console.log('Calling ' + this.name + ' at ' + this.number + '...');
 };
 
 phonebookEntry.phone();
 
 
-
-
 var me = {
   name: 'hyun',
   age: 20,
-  say: function() {
+  say: function () {
     console.log(this.name);
   }
 };
@@ -113,8 +111,6 @@ var myOwnObject = {
 };
 
 
-
-
 var friends = {};
 friends.bill = {
   firstName: "Bill",
@@ -146,13 +142,13 @@ var friends = {
   }
 };
 
-var list = function(obj) {
+var list = function (obj) {
   for (var prop in obj) {
     console.log(prop);
   }
 };
 
-var search = function(name) {
+var search = function (name) {
   for (var prop in friends) {
     if (friends[prop].firstName === name) {
       // console.log(friends[prop]);
@@ -164,8 +160,6 @@ var search = function(name) {
 list(friends);
 // search("Bill");
 console.log(search("Bill"));
-
-
 
 
 var friends = {
@@ -189,13 +183,13 @@ var friends = {
   }
 };
 
-var list = function(obj) {
+var list = function (obj) {
   for (var prop in obj) {
     console.log(prop);
   }
 };
 
-var search = function(name) {
+var search = function (name) {
   for (var prop in friends) {
     if (friends[prop].firstName === name) {
       console.log(friends[prop]);
@@ -235,11 +229,11 @@ var review = {
 
 console.log(review.ToyStory2);
 
-var getReview = function(movie) {
+var getReview = function (movie) {
 
 };
 
-var getReview = function(movie) {
+var getReview = function (movie) {
   switch (movie) {
     case 'Toy Story 2':
       return 'Great story Mean prospector.';
@@ -255,7 +249,7 @@ var getReview = function(movie) {
 getReview('Toy Story 2');
 
 
-var getReview = function(movie) {
+var getReview = function (movie) {
 
   switch (movie) {
     case "Toy Story 2":
@@ -341,14 +335,14 @@ var bicycle = {
 };
 
 // Accepts a number x as input and returns its square
-var square = function(x) {
+var square = function (x) {
   return x * x;
 };
 
 // Write the function multiply below
 // It should take two parameters and return the product
 
-var multiply = function(x, y) {
+var multiply = function (x, y) {
   return x * y;
 };
 
@@ -363,7 +357,7 @@ bob.age = 30;
 console.log(bob);
 console.log(bob.age);
 // this time we have added a method, setAge
-bob.setAge = function(newAge) {
+bob.setAge = function (newAge) {
   bob.age = newAge;
 };
 // here we set bob's age to 40
@@ -376,19 +370,18 @@ console.log(bob);
 var bob = {};
 bob.age = 17;
 // this time we have added a method, setAge
-bob.setAge = function(newAge) {
+bob.setAge = function (newAge) {
   bob.age = newAge;
 };
 
-bob.getYearOfBirth = function() {
+bob.getYearOfBirth = function () {
   return 2015 - bob.age;
 };
 console.log(bob.getYearOfBirth());
 
 
-
 // here we define our method using "this", before we even introduce bob
-var setAge = function(newAge) {
+var setAge = function (newAge) {
   this.age = newAge;
 };
 // now we make bob
@@ -400,7 +393,7 @@ bob.setAge = setAge;
 // change bob's age to 50 here
 
 // here we define our method using "this", before we even introduce bob
-var setAge = function(newAge) {
+var setAge = function (newAge) {
   this.age = newAge;
   console.log(this.age);
 };
@@ -421,11 +414,11 @@ var rectangle = {};
 rectangle.height = 3;
 rectangle.width = 4;
 // here is our method to set the height
-rectangle.setHeight = function(newHeight) {
+rectangle.setHeight = function (newHeight) {
   this.height = newHeight;
 };
 // help by finishing this method
-rectangle.setWidth = function(newWidth) {
+rectangle.setWidth = function (newWidth) {
   this.width = newWidth;
 };
 
@@ -437,11 +430,11 @@ rectangle.setWidth(8);
 
 var square = {};
 square.sideLength = 6;
-square.calcPerimeter = function() {
+square.calcPerimeter = function () {
   return this.sideLength * 4;
 };
 // help us define an area method here
-square.calcArea = function() {
+square.calcArea = function () {
   return this.sideLength * this.sideLength;
 };
 
@@ -495,11 +488,11 @@ console.log("holden's species is " + holden.species + " and he is " + holden.age
 function Rectangle(height, width) {
   this.height = height;
   this.width = width;
-  this.calcArea = function() {
+  this.calcArea = function () {
     return this.height * this.width;
   };
   // put our perimeter function here!
-  this.calcPerimeter = function() {
+  this.calcPerimeter = function () {
     return this.height * 2 + this.width * 2;
   };
 
@@ -515,7 +508,7 @@ console.log(perimeter);
 
 function Rabbit(adjective) {
   this.adjective = adjective;
-  this.describeMyself = function() {
+  this.describeMyself = function () {
     console.log("I am a " + this.adjective + " rabbit");
   };
 }
@@ -545,7 +538,6 @@ family[2] = new Person("michelle", 8);
 family[3] = new Person('timmy', 6);
 
 
-
 // Our Person constructor
 
 function Person(name, age) {
@@ -567,7 +559,6 @@ for (var prop in family) {
 }
 
 
-
 // Our person constructor
 function Person(name, age) {
   this.name = name;
@@ -576,7 +567,7 @@ function Person(name, age) {
 
 // We can make a function which takes persons as arguments
 // This one computes the difference in ages between two people
-var ageDifference = function(person1, person2) {
+var ageDifference = function (person1, person2) {
   return person1.age - person2.age;
 };
 
@@ -597,26 +588,19 @@ aPerson = new Person('e', 2);
 console.log(aPerson);
 
 
-
-
-
-
-
-
-
 function Person(name, age) {
   this.name = name;
   this.age = age;
 }
 // We can make a function which takes persons as arguments
 // This one computes the difference in ages between two people
-var ageDifference = function(person1, person2) {
+var ageDifference = function (person1, person2) {
   return person1.age - person2.age;
 };
 
 // Make a new function, olderAge, to return the age of
 // the older of two people
-var olderAge = function(person1, person2) {
+var olderAge = function (person1, person2) {
   if (person1.age > person2.age) {
     return person1.age;
   } else {
@@ -672,12 +656,12 @@ var the_hobbit = new Book(320, 'J.R.R. Tolkien');
 
 function Circle(radius) {
   this.radius = radius;
-  this.area = function() {
+  this.area = function () {
     return Math.PI * this.radius * this.radius;
 
   };
   // define a perimeter method here
-  this.perimeter = function() {
+  this.perimeter = function () {
     return 2 * Math.PI * this.radius;
   };
 }
@@ -732,7 +716,7 @@ var contacts = [bob, mary];
 // printPerson added here
 
 
-var printPerson = function(person) {
+var printPerson = function (person) {
   console.log(person.firstName + ' ' + person.lastName);
 };
 
@@ -743,12 +727,12 @@ printPerson(contacts);
 console.log(printPerson);
 
 //
-var Person = function(a, b, c, d) {
+var Person = function (a, b, c, d) {
   this.firstName = a;
   this.lastName = b;
   this.phoneNumber = c;
   this.email = d;
-  this.printPerson = function() {
+  this.printPerson = function () {
     console.log(this.firstName + '' + this.lastName);
   };
 };
@@ -786,7 +770,7 @@ function printPerson(person) {
   console.log(person.firstName + " " + person.lastName);
 }
 
-var list = function() {
+var list = function () {
   var contacktsLength = contacts;
   for (i = 0; i < contacktsLength.length; i++) {
     printPerson(contacts[i]);
@@ -797,7 +781,6 @@ list();
 
 
 //.DS_Store
-
 
 
 var bob = {
@@ -828,9 +811,9 @@ function list() {
 }
 
 /*Create a search function
-then call it passing "Jones"*/
+ then call it passing "Jones"*/
 
-var search = function(lastName) {
+var search = function (lastName) {
   var contactsLength = contacts.length;
   for (var prop in contacts) {
     if (contacts[prop].lastName === lastName) {
@@ -872,9 +855,9 @@ function list() {
 }
 
 /*Create a search function
-then call it passing "Jones"*/
+ then call it passing "Jones"*/
 
-var search = function(lastName) {
+var search = function (lastName) {
   for (var prop in contacts) {
     if (contacts[prop].lastName === lastName) {
       printPerson(contacts[prop]);
@@ -882,7 +865,7 @@ var search = function(lastName) {
   }
 };
 
-var add = function(a, b, c, d) {
+var add = function (a, b, c, d) {
   this.firstName = a;
   this.lastName = b;
   this.phoneNumber = c;
@@ -912,18 +895,16 @@ function Person(job, married) {
 // create a "gabby" object using the Person constructor!
 
 
-var a = function() {
+var a = function () {
   return 'e';
 };
 
-var google = function() {
+var google = function () {
   return 'google';
 };
 console.log(google());
 
 //.DS_Store
-
-
 
 
 var james = {
@@ -947,7 +928,7 @@ function Person(job, married) {
   this.job = job;
   this.married = married;
   // add a "speak" method to Person!
-  this.speak = function() {
+  this.speak = function () {
     console.log('Hello!');
   };
 }
@@ -959,7 +940,7 @@ user.speak();
 var james = {
   job: "programmer",
   married: false,
-  speak: function(argu) {
+  speak: function (argu) {
     switch (argu) {
       case 'great':
         console.log('Hello, I am feeling great');
@@ -980,7 +961,7 @@ james.speak("just okay");
 var james = {
   job: "programmer",
   married: false,
-  sayJob: function() {
+  sayJob: function () {
     console.log("Hi, I work as a " + this.job);
   }
 };
@@ -997,7 +978,6 @@ james.sayJob();
 //.DS_Store
 
 
-
 var james = {
   job: "programmer",
   married: false
@@ -1011,7 +991,6 @@ var aProperty = "job";
 console.log(james[aProperty]);
 
 //.DS_Store
-
 
 
 // complete these definitions so that they will have
@@ -1086,7 +1065,7 @@ var bob = new Person("Bob Smith", 30);
 var susan = new Person("Susan Jordan", 35);
 
 // make your own class here
-var Circle = function(radius) {
+var Circle = function (radius) {
   this.radius = radius;
 };
 
@@ -1098,7 +1077,7 @@ function Dog(breed) {
 
 // here we make buddy and teach him how to bark
 var buddy = new Dog("Golden Retriever");
-buddy.bark = function() {
+buddy.bark = function () {
   console.log("Woof");
 };
 buddy.bark();
@@ -1106,7 +1085,7 @@ buddy.bark();
 // here we make snoopy
 var snoopy = new Dog("Beagle");
 // we need you to teach snoopy how to bark here
-snoopy.bark = function() {
+snoopy.bark = function () {
   console.log('Meow');
 };
 // this causes an error, because snoopy doesn't know how to bark!
@@ -1115,13 +1094,12 @@ snoopy.bark();
 //
 
 
-
 function Person(name, age) {
   this.name = name;
   this.age = age;
 }
 // a function that prints the name of any given person
-var printPersonName = function(p) {
+var printPersonName = function (p) {
   console.log(p.name);
 };
 
@@ -1141,7 +1119,7 @@ function Dog(breed) {
   this.google = 'google';
 }
 Dog.goo = 'google';
-Dog.prototype.bark = function() {
+Dog.prototype.bark = function () {
   console.log('Woof');
 };
 
@@ -1165,7 +1143,7 @@ var gary = new Cat("Gary", "Domestic Shorthair");
 // add a method "meow" to the Cat class that will allow
 // all cats to print "Meow!" to the console
 
-Cat.prototype.meow = function() {
+Cat.prototype.meow = function () {
   console.log('Meow!');
 };
 
@@ -1178,17 +1156,16 @@ gary.meow();
 //.DS_Store
 
 
-
 // create your Animal class here
 
-var Animal = function(name, numLegs) {
+var Animal = function (name, numLegs) {
   this.name = name;
   this.numLegs = numLegs;
 };
 
 // create the sayName method for Animal
 
-Animal.prototype.sayName = function() {
+Animal.prototype.sayName = function () {
   console.log('Hi my name is ' + this.name);
 };
 
@@ -1203,26 +1180,25 @@ function Animal(name, numLegs) {
   this.name = name;
   this.numLegs = numLegs;
 }
-Animal.prototype.sayName = function() {
+Animal.prototype.sayName = function () {
   console.log("Hi my name is " + this.name);
 };
 
 
 // create a Penguin constructor here
-var Penguin = function(name, numLegs) {
+var Penguin = function (name, numLegs) {
   this.name = name;
   this.numLegs = numLegs;
 };
 
 // create a sayName method for Penguins here
-Penguin.prototype.sayName = function() {
+Penguin.prototype.sayName = function () {
   console.log("Hi my name is " + this.name);
 };
 
 // our test code
 var theCaptain = new Penguin("Captain Cook", 2);
 theCaptain.sayName();
-
 
 
 //
@@ -1233,13 +1209,13 @@ function Animal(name, numLegs) {
   this.name = name;
   this.numLegs = numLegs;
 }
-Animal.prototype.sayName = function() {
+Animal.prototype.sayName = function () {
   console.log("Hi my name is " + this.name);
 };
 
 // define a Penguin class
 
-var Penguin = function(name) {
+var Penguin = function (name) {
   this.name = name;
   this.numLegs = 2;
 };
@@ -1254,13 +1230,13 @@ function Animal(name, numLegs) {
   this.name = name;
   this.numLegs = numLegs;
 }
-Animal.prototype.sayName = function() {
+Animal.prototype.sayName = function () {
   console.log("Hi my name is " + this.name);
 };
 
 // define a Penguin class
 
-var Penguin = function(name) {
+var Penguin = function (name) {
   this.name = name;
   this.numLegs = 2;
 };
@@ -1288,7 +1264,6 @@ var emperor = new Emperor('foo');
 console.log(emperor.numLegs);
 
 
-
 function Penguin(name) {
   this.name = name;
   this.numLegs = 2;
@@ -1307,8 +1282,6 @@ console.log(emperor.name);
 console.log(emperor.numLegs);
 
 //.DS_Store
-
-
 
 
 // original classes
@@ -1408,7 +1381,7 @@ function Person(first, last, age) {
   this.age = age;
   var bankBalance = 7500;
 
-  this.getBalance = function() {
+  this.getBalance = function () {
     // your code should return the bankBalance
     return bankBalance;
   };
@@ -1421,7 +1394,6 @@ console.log(john.bankBalance);
 console.log(john.getBalance());
 
 
-
 //.DS_Store
 
 
@@ -1431,12 +1403,12 @@ function bank() {
   function getPrivate() {
     console.log(privateAccount);
   }
+
   return getPrivate;
 }
 
 var banka = bank();
 banka();
-
 
 
 //.DS_Store
@@ -1456,27 +1428,26 @@ dis();
 //
 
 
-
 function makeFunc() {
   var name = "Mozilla";
 
   function displayName() {
     console.log(name);
   }
+
   return displayName;
 }
 
 makeFunc();
 
 
-var foo = function() {
-  var bar = function() {
+var foo = function () {
+  var bar = function () {
     console.log("hey, I'am bar");
   };
 };
 
 foo.bar();
-
 
 
 function Person(first, last, age) {
@@ -1485,12 +1456,12 @@ function Person(first, last, age) {
   this.age = age;
   var bankBalance = 7500;
 
-  var returnBalance = function() {
+  var returnBalance = function () {
     return bankBalance;
   };
 
   // create the new function here
-  this.askTeller = function() {
+  this.askTeller = function () {
     return returnBalance;
   };
 }
@@ -1510,7 +1481,7 @@ function Person(first, last, age) {
   this.age = age;
   var bankBalance = 7500;
 
-  this.askTeller = function(pass) {
+  this.askTeller = function (pass) {
     if (pass == 1234) return bankBalance;
     else return "Wrong password.";
   };
@@ -1518,7 +1489,7 @@ function Person(first, last, age) {
 
 var john = new Person('John', 'Smith', 30);
 /* the variable myBalance should access askTeller()
-   with a password as an argument  */
+ with a password as an argument  */
 
 var pass = john.askTeller(1234);
 console.log(pass);
@@ -1549,7 +1520,7 @@ function Dog(breed) {
 
 // add the sayHello method to the Dog class
 // so all dogs now can say hello
-Dog.prototype.sayHello = function() {
+Dog.prototype.sayHello = function () {
   console.log();
 };
 
@@ -1574,7 +1545,7 @@ function StudentReport() {
   this.grade1 = 4;
   this.grade2 = 2;
   this.grade3 = 1;
-  this.getGPA = function() {
+  this.getGPA = function () {
     return (this.grade1 + this.grade2 + this.grade3) / 3;
   };
 }
@@ -1595,7 +1566,7 @@ function StudentReport() {
   var grade1 = 4;
   var grade2 = 2;
   var grade3 = 1;
-  this.getGPA = function() {
+  this.getGPA = function () {
     return (grade1 + grade2 + grade3) / 3;
   };
 }
@@ -1621,7 +1592,7 @@ cashRegister.total = 2.99;
 
 var cashRegister = {
   total: 0,
-  add: function(itemCost) {
+  add: function (itemCost) {
     this.total += itemCost;
   }
 };
@@ -1642,10 +1613,10 @@ console.log('Your bill is ' + cashRegister.total);
 var cashRegister = {
   total: 0,
   //insert the add method here
-  add: function(itemCost) {
+  add: function (itemCost) {
     this.total += itemCost;
   },
-  scan: function(item) {
+  scan: function (item) {
     switch (item) {
       case "eggs":
         this.add(0.98);
@@ -1679,10 +1650,10 @@ console.log('Your bill is ' + cashRegister.total);
 
 var cashRegister = {
   total: 0,
-  add: function(itemCost) {
+  add: function (itemCost) {
     this.total += itemCost;
   },
-  scan: function(item, quantity) {
+  scan: function (item, quantity) {
     switch (item) {
       case "eggs":
         this.add(0.98 * quantity);
@@ -1717,11 +1688,11 @@ var cashRegister = {
   total: 0,
   lastTransactionAmount: 0,
   //Dont forget to add your property
-  add: function(itemCost) {
+  add: function (itemCost) {
     this.total += itemCost;
     lastTransactionAmount = itemCost;
   },
-  scan: function(item, quantity) {
+  scan: function (item, quantity) {
     switch (item) {
       case "eggs":
         this.add(0.98 * quantity);
@@ -1739,7 +1710,7 @@ var cashRegister = {
     return true;
   },
   //Add the voidLastTransaction Method here
-  voidLastTransaction: function() {
+  voidLastTransaction: function () {
     this.total -= lastTransactionAmount;
   }
 
@@ -1761,7 +1732,7 @@ console.log('Your bill is ' + cashRegister.total);
 
 
 // create a constructor for the StaffMember class
-var StaffMember = function(name, discountPercent) {
+var StaffMember = function (name, discountPercent) {
   this.name = name;
   this.discountPercent = discountPercent;
 };
@@ -1773,16 +1744,7 @@ var me = new StaffMember("me", 20);
 //Create a StaffMember for yourself called me
 
 
-
-
-
-
-
-
-
 //
-
-
 
 
 function StaffMember(name, discountPercent) {
@@ -1797,11 +1759,11 @@ var me = new StaffMember('me', 20);
 var cashRegister = {
   total: 0,
   lastTransactionAmount: 0,
-  add: function(itemCost) {
+  add: function (itemCost) {
     this.total += (itemCost || 0);
     this.lastTransactionAmount = itemCost;
   },
-  scan: function(item, quantity) {
+  scan: function (item, quantity) {
     switch (item) {
       case "eggs":
         this.add(0.98 * quantity);
@@ -1818,12 +1780,12 @@ var cashRegister = {
     }
     return true;
   },
-  voidLastTransaction: function() {
+  voidLastTransaction: function () {
     this.total -= this.lastTransactionAmount;
     this.lastTransactionAmount = 0;
   },
   // Create a new method applyStaffDiscount here
-  applyStaffDiscount: function(employee) {
+  applyStaffDiscount: function (employee) {
     console.log(employee.discountPercent);
     this.total -= (this.total * (employee.discountPercent / 100));
   }
@@ -1839,10 +1801,6 @@ cashRegister.applyStaffDiscount(me);
 
 // Show the total bill
 console.log('Your bill is ' + cashRegister.total.toFixed(2));
-
-
-
-
 
 
 //
@@ -1864,12 +1822,12 @@ var cashRegister = {
   total: 0,
   lastTransactionAmount: 0,
 
-  add: function(itemCost) {
+  add: function (itemCost) {
     this.total += (itemCost || 0);
     this.lastTransactionAmount = itemCost;
   },
 
-  scan: function(item, quantity) {
+  scan: function (item, quantity) {
     switch (item) {
       case "eggs":
         this.add(0.98 * quantity);
@@ -1887,13 +1845,13 @@ var cashRegister = {
     return true;
   },
 
-  voidLastTransaction: function() {
+  voidLastTransaction: function () {
     this.total -= this.lastTransactionAmount;
     this.lastTransactionAmount = 0;
   },
 
   // Create a new method applyStaffDiscount here
-  applyStaffDiscount: function(employee) {
+  applyStaffDiscount: function (employee) {
     console.log(employee.discountPercent);
     this.total -= (this.total * (employee.discountPercent / 100));
   }
@@ -1912,15 +1870,13 @@ cashRegister.applyStaffDiscount(me);
 console.log('Your bill is ' + cashRegister.total.toFixed(2));
 
 
-
-
-var app = (function() {
+var app = (function () {
   var privateVar = 'private';
   return privateVar;
 }());
 console.log(app);
 
-var goo = (function() {
+var goo = (function () {
   var privateGoo = 'google';
   return {
     gru: privateGoo
@@ -1932,10 +1888,10 @@ console.log(goo.gru);
 var hyun = {
   total: 0,
   goo: 'goo',
-  work: function() {
+  work: function () {
     console.log(this.total);
   },
-  add: function() {
+  add: function () {
     this.total += 1;
   }
 };
@@ -1947,34 +1903,32 @@ hyun.add();
 console.log(hyun.total);
 
 
+var clerk = (function () {
+  var name = 'Teo';
+  var sex = '남자';
+  var position = '수석 엔지니어';
+  // salary private
+  var salary = 2000;
+  var taxSalary = 200;
+  var totalBonus = 100;
+  var taxBonus = 10;
 
+  var payBonus = function () {
+    totalBonus = totalBonus - taxBonus;
+    return totalBonus;
+  };
+  var paySalary = function () {
+    return salary - taxSalary;
+  };
 
-var clerk = (function() {
-    var name = 'Teo';
-    var sex = '남자';
-    var position = '수석 엔지니어';
-    // salary private
-    var salary = 2000;
-    var taxSalary = 200;
-    var totalBonus = 100;
-    var taxBonus = 10;
-
-    var payBonus = function() {
-        totalBonus = totalBonus - taxBonus;
-        return totalBonus;
-    };
-    var paySalary = function() {
-        return salary - taxSalary;
-    };
-
-    // Public 속성, 메소드
-    return {
-        name : name,
-        sex : sex,
-        position : position,
-        paySalary : paySalary,
-        payBonus : payBonus
-    };
+  // Public 속성, 메소드
+  return {
+    name: name,
+    sex: sex,
+    position: position,
+    paySalary: paySalary,
+    payBonus: payBonus
+  };
 }());
 
 // name 속성은 public
@@ -1990,19 +1944,18 @@ console.log(clerk.payBonus()); // 90 출력
 console.log(clerk.payBonus()); // 80 출력
 
 
-
-var Module5 = (function() {
-    var root = this;
-    var version = '1.0';
-    var Module;
-    if(typeof exports !== 'undefined') {
-        Module = exports;
-    } else {
-        Module = root.Module = {};
-    }
-    Module.getVersion = function() {
-        return version;
-    }
-    return Module;
+var Module5 = (function () {
+  var root = this;
+  var version = '1.0';
+  var Module;
+  if (typeof exports !== 'undefined') {
+    Module = exports;
+  } else {
+    Module = root.Module = {};
+  }
+  Module.getVersion = function () {
+    return version;
+  };
+  return Module;
 }());
 console.log(Module5.getVersion());
