@@ -1,4 +1,4 @@
-App = React.createClass({
+MongoTodos = React.createClass({
   mixins: [ReactMeteorData],
   getMeteorData() {
     return {

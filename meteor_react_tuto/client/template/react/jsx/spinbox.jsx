@@ -1,4 +1,4 @@
-Spinbox = React.createClass({
+SpinBox = React.createClass({
   getInitialState: function () {
     return {
       value: 200
