@@ -1,18 +1,18 @@
-App2 = React.createClass({
+NameType = React.createClass({
   getInitialState: function () {
     return {
       txt: 'the state txt',
-      id: 3
+      id: 1
     }
   },
-  googleisgood: function (e) {
-    this.setState({txt: e.target.value});
+  changeText: function (evt) {
+    this.setState({txt: evt.target.value});
     //console.log('goo');
   },
   render: function () {
     return (
       <div>
-        <input type='text' onChange={this.googleisgood}/>
+        <input type='text' onChange={this.changeText}/>
 
         <h1>{this.state.txt}</h1>
 
