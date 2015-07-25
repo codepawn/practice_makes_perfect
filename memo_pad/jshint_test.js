@@ -11,3 +11,14 @@ aMap = array.map(function(n) {
   return n * 2;
 });
 console.log(aMap);
+
+
+var exArray = [1, 2, 3, 4];
+exArray.concat(53,3);
+console.log(exArray);
+
+console.log(window.prototype.concat);
+
+this.setState({
+  list: this.state.list.concat([newObject])
+});

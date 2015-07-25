@@ -7,7 +7,6 @@ SpinBox = React.createClass({
   render: function () {
     return (
         <div>
-          <h1>Hello React</h1>
           <input type="text" value={this.state.value}/>
           <button onClick={this.decrease}>▼</button>
           <button onClick={this.increase}>▲</button>

@@ -3,7 +3,7 @@ TodoApp = React.createClass({
     return {
       items: [],
       text: ''
-    };
+    }
   },
   onChange: function (e) {
     this.setState({text: e.target.value});
@@ -18,8 +18,6 @@ TodoApp = React.createClass({
     return (
         <div>
           <h3>TODO</h3>
-
-          <h1>Google</h1>
           <TodoList items={this.state.items}/>
 
           <form onSubmit={this.handleSubmit}>

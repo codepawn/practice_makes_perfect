@@ -10,7 +10,7 @@ MongoTodos2 = React.createClass({
   },
   render: function () {
     return (
-        <div>work</div>
+        <div></div>
     )
   }
 });

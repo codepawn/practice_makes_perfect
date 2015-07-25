@@ -1,5 +1,5 @@
 Template.react1.helpers({
-  nameType2: function () {
+  spinBox2: function () {
     return SpinBox2;
   },
   mongoTodos2: function () {
@@ -8,8 +8,8 @@ Template.react1.helpers({
   timer2: function () {
     return Timer2;
   },
-  todoList2: function () {
-    return TodoList2;
+  todoApp2: function () {
+    return TodoApp2;
   },
   markdownEditor2: function () {
     return MarkdownEditor2;

@@ -10,5 +10,8 @@ Template.react.helpers({
   },
   nameType: function () {
     return NameType;
+  },
+  markdownEditor: function () {
+    return MarkdownEditor;
   }
 });

@@ -15,7 +15,7 @@ MarkdownEditor2 = React.createClass({
               <label className="mdl-textfield__label" htmlFor="sample5">{this.state.defaultText}</label>
             </div>
           </form>
-          <div>{this.state.value}</div>
+          <h1>{this.state.value}</h1>
         </div>
     )
   },
@@ -23,5 +23,4 @@ MarkdownEditor2 = React.createClass({
     this.setState({value: evt.target.value})
     console.log('work');
   }
-
 });

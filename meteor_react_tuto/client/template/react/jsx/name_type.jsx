@@ -1,7 +1,7 @@
 NameType = React.createClass({
   getInitialState: function () {
     return {
-      txt: 'the state txt',
+      txt: '바뀝니다',
       id: 1
     }
   },
@@ -15,8 +15,6 @@ NameType = React.createClass({
         <input type='text' onChange={this.changeText}/>
 
         <h1>{this.state.txt}</h1>
-
-        <h1>{this.props.txt}</h1>
       </div>
     )
   }
