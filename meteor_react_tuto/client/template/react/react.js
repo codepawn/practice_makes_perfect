@@ -13,5 +13,8 @@ Template.react.helpers({
   },
   markdownEditor: function () {
     return MarkdownEditor;
+  },
+  timer: function () {
+    return Timer;
   }
 });

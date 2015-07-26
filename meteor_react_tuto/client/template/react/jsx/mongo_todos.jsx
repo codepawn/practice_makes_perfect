@@ -13,7 +13,7 @@ MongoTodos = React.createClass({
   renderTasks() {
     // Get tasks from this.data.tasks
     return this.data.tasks.map((task) => {
-      return <Task key={task._id} task={task}/>;
+      return <MongoTask key={task._id} task={task}/>;
     });
   },
 
@@ -23,10 +23,14 @@ MongoTodos = React.createClass({
     // Find the text field via the React ref
     var text = React.findDOMNode(this.refs.textInput).value.trim();
 
-    Tasks.insert({
-      text: text,
-      createdAt: new Date() // current time
-    });
+    if(text !== ''){
+      Tasks.insert({
+        text: text,
+        createdAt: new Date() // current time
+      });
+    }else{
+      alert('Put anything');
+    }
 
     // Clear form
     React.findDOMNode(this.refs.textInput).value = "";
@@ -52,8 +56,8 @@ MongoTodos = React.createClass({
 });
 
 
-// Task component - represents a single todo item
-Task = React.createClass({
+// MongoTask component - represents a single todo item
+MongoTask = React.createClass({
   propTypes: {
     // This component gets the task to display through a React prop.
     // We can use propTypes to indicate it is required
