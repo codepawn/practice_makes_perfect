@@ -23,34 +23,33 @@ MongoTodos = React.createClass({
     // Find the text field via the React ref
     var text = React.findDOMNode(this.refs.textInput).value.trim();
 
-    if(text !== ''){
+    if (text !== '') {
       Tasks.insert({
         text: text,
         createdAt: new Date() // current time
       });
-    }else{
+    } else {
       alert('Put anything');
     }
 
     // Clear form
     React.findDOMNode(this.refs.textInput).value = "";
   },
-
   render() {
     return (
-      <div className="container">
-        <header>
-          <h1>Todo List</h1>
+        <div className="container">
+          <header>
+            <h1>Todo List</h1>
 
-          <form className="new-task" onSubmit={this.handleSubmit}>
-            <input type="text" ref="textInput" placeholder="Type to add new tasks"/>
-          </form>
-        </header>
+            <form className="new-task" onSubmit={this.handleSubmit}>
+              <input type="text" ref="textInput" placeholder="Type to add new tasks"/>
+            </form>
+          </header>
 
-        <ul>
-          {this.renderTasks()}
-        </ul>
-      </div>
+          <ul>
+            {this.renderTasks()}
+          </ul>
+        </div>
     );
   }
 });
@@ -63,9 +62,13 @@ MongoTask = React.createClass({
     // We can use propTypes to indicate it is required
     task: React.PropTypes.object.isRequired
   },
+  remove(evt){
+    evt.preventDefault();
+    Tasks.remove(this.props.task._id);
+  },
   render() {
     return (
-      <li>{this.props.task.text}</li>
+        <li onClick={this.remove}>{this.props.task.text}</li>
     );
   }
 });

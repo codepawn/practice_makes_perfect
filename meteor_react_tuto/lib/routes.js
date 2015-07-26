@@ -53,7 +53,7 @@ FlowRouter.route('/react1', {
 FlowRouter.route('/react2', {
   middlewares: [],
   subscriptions: function (param) {
-    this.register('todos', Meteor.subscribe('todos'));
+    this.register('todos2', Meteor.subscribe('todos2'));
   },
   action: function () {
     return FlowLayout.render('masterLayout', {

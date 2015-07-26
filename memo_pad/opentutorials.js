@@ -1,6 +1,5 @@
 var foo = function() {
   console.log('goo');
-  var b = b;
 };
 
 foo();
@@ -299,73 +298,10 @@ function makeFunc() {
   var name = "Mozilla";
 
   function displayName() {
-    console.log(name);
+    alert(name);
   }
   return displayName;
 }
 
 var myFunc = makeFunc();
 myFunc();
-
-
-//Create the object called cashRegister
-//and initialize its total property
-
-var cashRegister = {
-  total: 0
-};
-
-//Using dot notation change the total property
-cashRegister.total = 2.99;
-
-//
-
-
-var cashRegister = {
-  total: 0,
-  add: function(itemCost) {
-    this.total += itemCost;
-  }
-};
-
-cashRegister.add(0.98);
-cashRegister.add(1.23);
-cashRegister.add(4.99);
-cashRegister.add(0.45);
-
-console.log('Your bill is ' + cashRegister.total);
-
-//``
-
-var cashRegister = (function() {
-  var privateValue = 'goo';
-  var total = 0;
-  testCall();
-  var add = function(itemCost) {
-    this.total += itemCost;
-  };
-  var getPrivate = function() {
-    return privateValue;
-  };
-  function testCall(){
-    console.log('Call!');
-  }
-  var testCall2 = function(){
-    console.log('Call!');
-  };
-
-  return {
-    total: total,
-    add: add,
-    getPrivate: getPrivate
-  };
-}());
-
-
-
-cashRegister.add(0.98);
-cashRegister.add(1.23);
-cashRegister.add(4.99);
-cashRegister.add(0.45);
-console.log(cashRegister.getPrivate());
-console.log('Your bill is ' + cashRegister.total);

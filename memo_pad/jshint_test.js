@@ -14,11 +14,29 @@ console.log(aMap);
 
 
 var exArray = [1, 2, 3, 4];
-exArray.concat(53,3);
+exArray.concat(53, 3);
 console.log(exArray);
 
 console.log(window.prototype.concat);
 
 this.setState({
   list: this.state.list.concat([newObject])
+});
+
+
+var a = [
+  "Hydrogen",
+  "Helium",
+  "Lithium",
+  "Beryllium"
+];
+
+var a2 = a.map(function(s) {
+  return s.length;
+});
+
+console.log(a2);
+
+a.map(function(goo) {
+  return console.log(goo);
 });
