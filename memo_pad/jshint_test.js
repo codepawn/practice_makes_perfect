@@ -40,3 +40,19 @@ console.log(a2);
 a.map(function(goo) {
   return console.log(goo);
 });
+
+
+var forMap = [
+  "preppy",
+  "style",
+  "campus",
+  "club"
+];
+
+console.log(forMap.map(function(i) {
+  return i.length;
+}));
+
+for (var i in forMap) {
+  console.log(forMap[i]);
+}

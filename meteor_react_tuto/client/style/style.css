@@ -33,3 +33,7 @@
   margin-bottom: 40px;
   z-index: 900;
 }
+
+.checked {
+  color: red;
+}
