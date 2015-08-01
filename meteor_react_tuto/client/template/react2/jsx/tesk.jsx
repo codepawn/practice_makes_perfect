@@ -17,7 +17,7 @@ Task = React.createClass({
   renderMongo(){
     return this.data.tasks.map((task)=> {
       return (
-          <List key={task._id} task={task}></List>
+        <List key={task._id} task={task}></List>
       )
     })
   },
@@ -49,9 +49,9 @@ Task = React.createClass({
   },
   render() {
     return (
-        <div>
-          <button className="" onClick={this.addMore}>Press to add</button>
-          <button className="" onClick={this.removeAll}>Press to remove</button>
+      <div>
+        <button className="" onClick={this.addMore}>Press to add</button>
+        <button className="" onClick={this.removeAll}>Press to remove</button>
           <span className="mdl-badge" data-badge={this.state.counter}>
             <button onClick={this.addCounter}
                     className="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
@@ -59,15 +59,15 @@ Task = React.createClass({
             </button>
           </span>
 
-          <form className="new-task" onSubmit={this.handleSubmit}>
-            <input
-                type="text"
-                ref="textInput"
-                placeholder="Type to add new tasks"/>
-          </form>
-          {this.renderTasks()}
-          {this.renderMongo()}
-        </div>
+        <form className="new-task" onSubmit={this.handleSubmit}>
+          <input
+            type="text"
+            ref="textInput"
+            placeholder="Type to add new tasks"/>
+        </form>
+        {this.renderTasks()}
+        {this.renderMongo()}
+      </div>
     )
   },
   handleSubmit(evt){
@@ -83,13 +83,13 @@ List = React.createClass({
   render: function () {
     const taskClassName = this.props.task.checked ? "checked" : "";
     return (
-        <div key={this.props.key}>
+      <div key={this.props.key}>
           <span className={taskClassName} onClick={this.removeOne}>
           <div>{this.props.task._id}</div>
           <span>{this.props.task.title} - {this.props.task.text} </span>
           </span>
-          <input type="checkbox" readOnly={true} checked={this.props.task.checked} onClick={this.toggleChecked}/>
-        </div>
+        <input type="checkbox" readOnly={true} checked={this.props.task.checked} onClick={this.toggleChecked}/>
+      </div>
     )
   },
   toggleChecked(){
