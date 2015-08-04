@@ -329,9 +329,121 @@ print greater_less_equal_5(6)
 
 def the_flying_circus():
   if 3 > 2 and 5 > 8:
-    print 'a'
-  elif or:
-    print 'a'
+    print 'asdf'
+  elif 3 > 2 or False:
+    print 'asdf2'
   else:
-    print 'a'
-the_flying_circus()
+    print 'asdf3'
+  return True
+print the_flying_circus()
+
+print 'Pig Latin'
+
+name = raw_input("What's your name?")
+print name
+
+original = raw_input("Enter a word:")
+if len(original) > 0:
+  print original
+else:
+  print "empty"
+
+print 'Welcome to the Pig Latin Translator!'
+
+# Start coding here!
+original = raw_input("Enter a word:")
+if len(original) > 0 and original.isalpha():
+  print original
+else:
+  print "empty"
+
+pyg = 'ay'
+
+original = raw_input("Enter a word:")
+if len(original) > 0 and original.isalpha():
+  word = original.lower()
+  first = word[0]
+  new_word = word + first + pyg
+  new_word = new_word[1:len(new_word)]
+  print original
+else:
+  print "empty"
+
+
+word = "google"
+
+print word[1:len(word)]
+
+
+def tax(bill):
+  bill *= 1.08
+  print "With tax: %f" % bill
+  return bill
+
+
+def tip(bill):
+  bill *= 1.15
+  print "With tip: %f" % bill
+  return bill
+
+meal_cost = 100
+meal_with_tax = tax(meal_cost)
+meal_with_tip = tip(meal_with_tax)
+
+# Define your spam function starting on line 5. You
+# can leave the code on line 11 alone for now--we'll
+# explain it soon!
+
+
+def spam():
+  """ Prints Eggs!"""
+  print "Eggs!"
+
+
+# Define the spam function above this line.
+spam()
+
+
+def square(n):
+  """Returns the square of a number."""
+  squared = n**2
+  print "%d squared is %d." % (n, squared)
+  return squared
+
+# Call the square function on line 9! Make sure to
+# include the number 10 between the parentheses.
+
+square(10)
+
+
+def power(base, exponent):  # Add your parameters here!
+  result = base**exponent
+  print "%d to the power of %d is %d." % (base, exponent, result)
+
+power(37, 4)  # Add your arguments here!
+
+
+def one_good_turn(n):
+  return n + 1
+
+
+def deserves_another(n):
+  return one_good_turn(n) + 2
+
+
+def cube(number):
+  return number * number * number
+
+def by_three(number):
+  if(number % 3 == 0):
+    return cube(number)
+  else:
+    return False
+
+from math import *
+
+print sqrt(25)
+
+import math            # Imports the math module
+everything = dir(math) # Sets everything to a list of things from math
+print everything       # Prints 'em all!
