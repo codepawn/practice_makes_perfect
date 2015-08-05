@@ -22,11 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mem2.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mem2.rb">
+      <file leaf-file-name="mem.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mem.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.12569316">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mem3.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mem3.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.296296">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,8 +54,10 @@
         <option value="$PROJECT_DIR$/goo2.rb" />
         <option value="$PROJECT_DIR$/goo4.rb" />
         <option value="$PROJECT_DIR$/goo3.rb" />
-        <option value="$PROJECT_DIR$/mem.rb" />
+        <option value="$PROJECT_DIR$/mem3.rb" />
+        <option value="$PROJECT_DIR$/mem4.rb" />
         <option value="$PROJECT_DIR$/mem2.rb" />
+        <option value="$PROJECT_DIR$/mem.rb" />
       </list>
     </option>
   </component>
@@ -367,18 +379,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mem.rb">
+    <entry file="file://$PROJECT_DIR$/mem2.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09426987">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.84842885">
+          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mem2.rb">
+    <entry file="file://$PROJECT_DIR$/mem3.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="11" />
+        <state vertical-scroll-proportion="-6.296296">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mem.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12569316">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
         </state>
       </provider>

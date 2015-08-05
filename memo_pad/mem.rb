@@ -1,6 +1,9 @@
-text = gets.chomp
-words = text.split(" ")
-frequencies = Hash.new(0)
-words.each{ |word| frequencies[word] +=1}
-puts frequencies
+def alphabetize (value, rev = false)
+  if rev
 
+  else
+
+  end
+end
+
+books = ["Heart of Darkness", "Code Complete", "The Lorax", "The Prophet", "Absalom, Absalom!"]
