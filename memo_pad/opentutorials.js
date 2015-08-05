@@ -305,3 +305,13 @@ function makeFunc() {
 
 var myFunc = makeFunc();
 myFunc();
+
+result = true && false;
+result1 = false || false;
+result2 = false || true;
+console.log(result);
+console.log(result1);
+console.log(result2);
+// false
+// false
+// true
