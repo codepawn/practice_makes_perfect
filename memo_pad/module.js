@@ -337,9 +337,9 @@ console.log(me);
 var StaffMember = (function(name, discountPercent) {
   this.name = name;
   this.discountPercent = discountPercent;
-  return{
-    name : name,
-    discountPercent:discountPercent
+  return {
+    name: name,
+    discountPercent: discountPercent
   };
 }());
 
@@ -395,3 +395,11 @@ cashRegister.applyStaffDiscount(me);
 
 // Show the total bill
 console.log('Your bill is ' + cashRegister.total.toFixed(2));
+
+
+var total = 0;
+
+for (var i = 1; i <= 6; i++) {
+  total += i;
+}
+console.log(total);
