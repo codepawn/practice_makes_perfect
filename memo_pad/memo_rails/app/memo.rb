@@ -10,7 +10,9 @@ puts name
 
 print "What's your first name?"
 first_name = gets.chomp
+first_name = 'hyun'
 first_name.capitalize!
+puts first_name
 
 print "What's your last name?"
 last_name = gets.chomp

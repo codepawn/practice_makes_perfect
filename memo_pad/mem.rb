@@ -152,7 +152,7 @@ movie_ratings = {
 }
 # Add your code below!
 
-movie_ratings.each_key { |k| puts k}
+movie_ratings.each_key { |k| puts k }
 
 my_hash = {
   one: 1,
@@ -166,15 +166,13 @@ my_hash.each_key { |k| print k, ' ' }
 my_hash.each_value { |v| print v, ' ' }
 # ==> 1 2 3
 
-
-
 movies = {
   Memento: 3,
   Primer: 4,
   Ishtar: 1
 }
 
-puts "What would you like to do?"
+puts 'What would you like to do?'
 puts "-- Type 'add' to add a movie."
 puts "-- Type 'update' to update a movie."
 puts "-- Type 'display' to display all movies."
@@ -182,8 +180,9 @@ puts "-- Type 'delete' to delete a movie."
 
 choice = gets.chomp.downcase
 case choice
+
 when 'add'
-  puts "What movie do you want to add?"
+  puts 'What movie do you want to add?'
   title = gets.chomp
   if movies[title.to_sym].nil?
     puts "What's the rating? (Type a number 0 to 4.)"
@@ -193,26 +192,29 @@ when 'add'
   else
     puts "That movie already exists! Its rating is #{movies[title.to_sym]}."
   end
+
 when 'update'
-  puts "What movie do you want to update?"
+  puts 'What movie do you want to update?'
   title = gets.chomp
   if movies[title.to_sym].nil?
-    puts "Movie not found!"
+    puts 'Movie not found!'
   else
     puts "What's the new rating? (Type a number 0 to 4.)"
     rating = gets.chomp
     movies[title.to_sym] = rating.to_i
     puts "#{title} has been updated with new rating of #{rating}."
   end
+
 when 'display'
   movies.each do |movie, rating|
     puts "#{movie}: #{rating}"
   end
+
 when 'delete'
-  puts "What movie do you want to delete?"
+  puts 'What movie do you want to delete?'
   title = gets.chomp
   if movies[title.to_sym].nil?
-    puts "Movie not found!"
+    puts 'Movie not found!'
   else
     movies.delete(title.to_sym)
     puts "#{title} has been removed."
@@ -220,3 +222,38 @@ when 'delete'
 else
   puts "Sorry, I didn't understand you."
 end
+
+
+
+movies = {
+  Laputan: 5,
+  Cola: 3,
+  Lagenka: 5
+}
+
+puts 'add, update, display, delete'
+choice = gets.chomp
+
+case choice
+when 'add'
+  puts 'insert title'
+  title = gets.chomp
+  rating = gets.chomp
+  movies[title.to_sym] = rating.to_i
+  puts "done #{title} #{rating}"
+when 'update'
+  puts 'Updated!'
+when 'display'
+  puts 'Movies!'
+when 'delete'
+  puts 'Deleted!'
+else
+  puts 'Error!'
+end
+
+
+ruby_is_eloquent = true
+ruby_is_ugly = false
+
+puts "Ruby is eloquent!" if ruby_is_eloquent
+puts "Ruby's not ugly!" unless ruby_is_ugly
