@@ -1,8 +1,8 @@
 practice_makes_perfect
 ======================
 
-![alt tag](img/a.jpg)
-![alt tag](img/b.jpg)
+![alt tag](img/proto.jpg)
+![alt tag](img/proto1.jpg)
 
 Coding everydays with No! excuse
 
