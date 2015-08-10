@@ -1,0 +1,17 @@
+<%= form_for(@testscaffold) do |f| %>
+  <% if @testscaffold.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@testscaffold.errors.count, "error") %> prohibited this testscaffold from being saved:</h2>
+
+      <ul>
+      <% @testscaffold.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

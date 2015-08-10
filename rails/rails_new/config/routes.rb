@@ -1,9 +1,18 @@
 Rails.application.routes.draw do
 
+  resources :testscaffolds
+  resources :posts
+  get 'welcome/index'
+
   root 'pages#home'
   get 'messages' => 'messages#index'
   get 'messages/new' => 'messages#new'
   post 'messages' => 'messages#create'
+
+  get 'welcome/index'
+
+  resources :posts
+  resources :testscaffolds
   # get 'messages' =>
 
   # The priority is based upon order of creation: first created -> highest priority.
