@@ -5,7 +5,7 @@
 'use strict';
 
 var React = require('react-native');
-var Main = require('./App/Components/Main')
+var Main = require('./App/Components/Main');
 
 var {
   AppRegistry,
@@ -13,28 +13,28 @@ var {
   NavigatorIOS,
   Text,
   View
-} = React;
+  } = React;
+
+var styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#111111'
+  }
+});
 
 class egghead_tutorial extends React.Component {
   render() {
     return (
       <NavigatorIOS
-        styles={styles.container}
+        style={styles.container}
         initialRoute={{
-        title: '후미유',
+        title: 'Github Note Taker',
         component: Main
-      }}
-      />
+      }}/>
     );
   }
 }
 
-var styles = StyleSheet.create({
-  container:{
-    flex:1,
-    backgroundColor: '#111111'
-  }
-});
 
 // var styles = StyleSheet.create({
 //   container: {
