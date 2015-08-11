@@ -5,49 +5,57 @@
 'use strict';
 
 var React = require('react-native');
+var Main = require('./App/Components/Main')
+
 var {
   AppRegistry,
   StyleSheet,
+  NavigatorIOS,
   Text,
-  View,
+  View
 } = React;
 
-var egghead_tutorial = React.createClass({
+class egghead_tutorial extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to 후미유!
-        </Text>
-        <Text style={styles.instructions}>
-          사랑하는 후미와 헴이
-        </Text>
-        <Text style={styles.instructions}>
-          사랑하는 남자친구 미르,
-          e
-        </Text>
-      </View>
+      <NavigatorIOS
+        styles={styles.container}
+        initialRoute={{
+        title: '후미유',
+        component: Main
+      }}
+      />
     );
+  }
+}
+
+var styles = StyleSheet.create({
+  container:{
+    flex:1,
+    backgroundColor: '#111111'
   }
 });
 
-var styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
+// var styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     justifyContent: 'center',
+//     alignItems: 'center',
+//     backgroundColor: '#F5FCFF'
+//   },
+//   welcome: {
+//     fontSize: 20,
+//     textAlign: 'center',
+//     margin: 10
+//   },
+//   instructions: {
+//     textAlign: 'center',
+//     color: '#333333',
+//     marginBottom: 5
+//   },
+//   right: {
+//     textAlign: 'right'
+//   }
+// });
 
 AppRegistry.registerComponent('egghead_tutorial', () => egghead_tutorial);
