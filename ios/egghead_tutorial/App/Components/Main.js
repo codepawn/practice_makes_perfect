@@ -1,6 +1,7 @@
 var React = require('react-native');
 var api = require('../Utils/api');
 var Dashboard = require('./Dashboard');
+var Mock = require('./Mock');
 
 var {
   View,
@@ -98,7 +99,18 @@ class Main extends React.Component {
       });
   }
 
+  navi() {
+    this.props.navigator.push({
+      title: 'mockup yeah',
+      component: Mock
+    });
+    console.log('Press');
+  }
+
   render() {
+    var showErr = (
+      this.state.error ? <Text> {this.state.error} </Text> : <View></View>
+    );
     return (
       <View style={styles.mainContainer}>
         <Text style={styles.title}> Search for a Github</Text>
@@ -113,7 +125,14 @@ class Main extends React.Component {
           underlayColor="white">
           <Text style={styles.buttonText}>Search</Text>
         </TouchableHighlight>
-
+        <ActivityIndicatorIOS
+          animating={this.state.isLoading}
+          color="#111"
+          size="large"></ActivityIndicatorIOS>
+        <TouchableHighlight onPress={this.navi.bind(this)}>
+          <Text style={styles.button}>goo</Text>
+        </TouchableHighlight>
+        {showErr}
       </View>
     )
   }
