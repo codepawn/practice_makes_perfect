@@ -1,5 +1,6 @@
 var React = require('react-native');
 var Badge = require('./Badge');
+var Separator = require('./Helpers/Separator');
 
 var {
   Text,
@@ -22,7 +23,8 @@ var styles = StyleSheet.create({
     padding: 10
   },
   rowTitle: {
-    padding: 10
+    color: '#48BBEC',
+    fontSize: 16
   },
   rowContent: {
     fontSize: 19
@@ -34,6 +36,7 @@ class Profile extends React.Component {
     item = (item === 'public_repos') ? item.replace('_', ' ') : item;
     return item[0] ? item[0].toUpperCase() + item.slice(1) : item;
   }
+
   render() {
     var userInfo = this.props.userInfo;
     var topicArr = ['company', 'location', 'followers', 'following', 'email', 'bio', 'public_repos'];
@@ -47,6 +50,7 @@ class Profile extends React.Component {
               <Text style={styles.rowTitle}> {this.getRowTitle(userInfo, item)} </Text>
               <Text style={styles.rowContent}> {userInfo[item]}</Text>
             </View>
+            <Separator />
           </View>
         )
       }

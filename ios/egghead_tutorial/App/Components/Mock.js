@@ -7,13 +7,11 @@ var {
   View,
   StyleSheet,
   Image,
-  ScrollView,
-  ListView
+  ScrollView
   } = React;
 
 var styles = StyleSheet.create({
   container: {
-    marginTop: 65,
     flex: 1
   },
   image: {
@@ -32,7 +30,7 @@ var styles = StyleSheet.create({
 class Mock extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
+      <ScrollView style={styles.container}>
         <Text>mock</Text>
         <Image
           style={styles.logo}
@@ -42,7 +40,11 @@ class Mock extends React.Component {
           style={styles.logo}
           source={{uri: 'http://facebook.github.io/react/img/logo_og.png'}}
           />
-      </View>
+        <Image
+          style={styles.logo}
+          source={{uri: 'http://facebook.github.io/react/img/logo_og.png'}}
+          />
+      </ScrollView>
     )
   }
 }
