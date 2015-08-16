@@ -29,3 +29,14 @@ monty_python = python**2
 meal=44.50
 a=meal%6.75
 print a
+
+
+def speak(message):
+    return message
+
+if happy():
+    speak("I'm happy!")
+elif sad():
+    speak("I'm sad.")
+else:
+    speak("I don't know what I'm feeling.")

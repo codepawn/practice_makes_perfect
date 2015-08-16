@@ -1,6 +1,7 @@
 var React = require('react-native');
 var Badge = require('./Badge');
 var Separator = require('./Helpers/Separator');
+var Web = require('./Helpers/WebView');
 
 var {
   View,
@@ -37,7 +38,11 @@ var styles = StyleSheet.create({
 
 class Repositories extends React.Component {
   openPage(url) {
-    console.log(url);
+    this.props.navigator.push({
+      component: Web,
+      title: 'Web View',
+      passProps: {url}
+    });
   }
 
   render() {
