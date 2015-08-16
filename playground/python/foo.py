@@ -30,6 +30,18 @@ meal = 44.50
 a = meal % 6.75
 print a
 
+print 858012 % 3 == 0
+
+print 10**7
+print 7**3
+
+print 857 % 2 == 0
+print 857 % 2 == 0
+
+a = 1
+b = 2
+print "({:d} goals, ${:d})".format(b, a)
+
 
 def speak(message):
     return message
@@ -68,12 +80,14 @@ abs(-2)  # 2
 def cal(arg1, arg2):
     value1 = []
     value2 = []
-    for num in range(1,arg2):
+    for num in range(2, arg1):
         if arg1 % num == 0:
-            value1.push(num)
-    for num in range(1,arg2):
+            value1.append(num)
+    for num in range(2, arg2):
         if arg2 % num == 0:
-            value2.push(num)
+            value2.append(num)
     print value1
     print value2
-cal(24, 6)
+
+cal(54, 35)
+54 / 35
