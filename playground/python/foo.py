@@ -88,6 +88,36 @@ def cal(arg1, arg2):
             value2.append(num)
     print value1
     print value2
+cal(29, 33)
 
-cal(54, 35)
-54 / 35
+
+def cal(arg1, arg2):
+    value1 = []
+    value2 = []
+    for num in range(2, arg1):
+        if arg1 % num == 0:
+            value1.append(num)
+    for num in range(2, arg2):
+        if arg2 % num == 0:
+            value2.append(num)
+    for num in value1:
+        for num2 in value2:
+            if num == num2:
+                print num
+cal(4, 25)
+
+import math
+print math.sqrt(7 * 3)
+print 2937**2893
+
+print 18 * 30
+
+25 - 20 1
+
+
+def converterF(i):
+    print 9.0 / 5.0 * i + 32
+
+converterF(25)
+
+print 1000 + 300 + 50+7+0.9+0.08
