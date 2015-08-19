@@ -88,7 +88,8 @@ def cal(arg1, arg2):
             value2.append(num)
     print value1
     print value2
-cal(29, 33)
+cal(7, 49)
+
 
 
 def cal(arg1, arg2):
@@ -104,7 +105,7 @@ def cal(arg1, arg2):
         for num2 in value2:
             if num == num2:
                 print num
-cal(4, 25)
+cal(12, 45)
 
 import math
 print math.sqrt(7 * 3)
@@ -120,4 +121,57 @@ def converterF(i):
 
 converterF(25)
 
-print 1000 + 300 + 50+7+0.9+0.08
+print 1000 + 300 + 50 + 7 + 0.9 + 0.08
+
+28 / 2
+
+14
+
+import math
+print math.sqrt(46)
+
+
+7 / 4
+3 / 2
+2 5 / 8
+21 / 8
+
+5 / 3
+4 / 3
+20
+9
+
+2 2 / 9
+print 5**49
+print -1 * 0
+
+4 = d
+
+import math
+print math.sqrt(8)
+
+11 / 4
+8 / 1
+
+88 / 4
+
+print 2**4
+
+35 / 4 1 / 5
+
+35
+20
+
+3 2 / 4
+
+
+def one_to_ten():
+    total = 0
+    for num in range(1, 100):
+        if num % 4 == 0:
+            pass
+        else:
+            total += num
+    print total
+
+one_to_ten()
