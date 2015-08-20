@@ -88,7 +88,7 @@ def cal(arg1, arg2):
             value2.append(num)
     print value1
     print value2
-cal(7, 49)
+cal(13, 18)
 
 
 
@@ -164,6 +164,18 @@ print 2**4
 
 3 2 / 4
 
+2/3
+9/2
+18/6
+
+2/3
+9/2
+
+18/6
+3
+
+3/28
+3/4
 
 def one_to_ten():
     total = 0
@@ -175,3 +187,6 @@ def one_to_ten():
     print total
 
 one_to_ten()
+
+import math
+print math.sqrt(72)

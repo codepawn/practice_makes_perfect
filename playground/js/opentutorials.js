@@ -315,3 +315,4 @@ console.log(result2);
 // false
 // false
 // true
+console.log(math.pi);
