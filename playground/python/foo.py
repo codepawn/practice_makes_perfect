@@ -88,7 +88,7 @@ def cal(arg1, arg2):
             value2.append(num)
     print value1
     print value2
-cal(13, 18)
+cal(5, 21)
 
 
 
@@ -190,3 +190,7 @@ one_to_ten()
 
 import math
 print math.sqrt(72)
+
+5/2
+1/3
+5/6

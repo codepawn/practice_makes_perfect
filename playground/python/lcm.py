@@ -73,3 +73,11 @@ print 23.0/4.0
 print 0.48+1.4- 9.0/10.0
 
 print math.pow(10.0,-5.0)
+
+
+15/4
+4/3
+60/12
+
+import math
+print math.prime(5)

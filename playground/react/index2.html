@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hello React</title>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js'></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="bundle.js"></script>
+</head>
+<body>
+
+<script type="text/jsx">
+  "use strict";
+  var App = React.createClass({
+    render: function () {
+      return (
+        <div>
+          <button className="btn btn-default">{this.props.children}</button>
+          <button>{this.props.children}</button>
+        </div>
+      )
+    }
+  });
+
+  //  var Heart = React.createClass({
+  //    return span
+  //  });
+
+  React.render(<App />, document.body);
+
+</script>
+
+
+</body>
+</html>
