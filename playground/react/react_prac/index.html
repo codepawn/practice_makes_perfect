@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hello React</title>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js'></script>
+
+</head>
+<body>
+
+<script type="text/jsx">
+  "use strict";
+  let goo = 'g';
+  console.log(goo);
+  var App = React.createClass({
+    getInitialState(){
+      return {
+        red: 128,
+        green: 128,
+        blue: 128
+      }
+    },
+    update(){
+      this.setState({
+        red: React.findDOMNode(this.refs.red.refs.inp).value,
+        green: React.findDOMNode(this.refs.green.refs.inp).value,
+        blue: React.findDOMNode(this.refs.blue.refs.inp).value
+      })
+    },
+    render(){
+      return (
+        <div>
+          <hr />
+          <Slider ref="red" update={this.update.bind(this,'red')}/>
+          <label>{this.state.red}</label>
+          <Slider ref="green" update={this.update}/>
+          <label>{this.state.green}</label>
+          <Slider ref="blue" update={this.update}/>
+          <label>{this.state.blue}</label>
+        </div>
+      )
+    }
+  });
+
+  var Slider = React.createClass({
+    render(){
+      return (
+        <div>
+          <input ref="inp" type="range" min="0" max="255" onChange={this.props.update}/>
+        </div>
+      )
+    }
+  });
+
+  React.render(<App />, document.body);
+</script>
+
+
+</body>
+</html>
