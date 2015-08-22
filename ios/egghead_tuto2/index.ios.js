@@ -10,26 +10,15 @@ var {
   StyleSheet,
   Text,
   View,
-} = React;
+  } = React;
 
-var egghead_tuto2 = React.createClass({
-  render: function() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
-    );
+class TabApp extends React.Component {
+  render() {
+    return(
+      <Text>google</Text>
+    )
   }
-});
+}
 
 var styles = StyleSheet.create({
   container: {
@@ -50,4 +39,4 @@ var styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('egghead_tuto2', () => egghead_tuto2);
+AppRegistry.registerComponent('TabApp', () => TabApp);
