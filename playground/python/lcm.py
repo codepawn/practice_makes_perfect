@@ -26,8 +26,8 @@ def average(arr):
     result = total / len(arr)
     print "Average", result
 
-average([70, 95, 65, 75, 75])
-average([85, 60, 80, 90, 85])
+average([70, 95, 95, 90, 60])
+average([90, 95, 75, 100, 70])
 -7 / 9
 7 / 2
 
@@ -80,4 +80,9 @@ print math.pow(10.0,-5.0)
 60/12
 
 import math
-print math.prime(5)
+print math.pi*2
+print math.sqrt(50)
+8/9
+3/2
+24/18
+-7/45

@@ -217,6 +217,9 @@ print math.sqrt(72)
 4.23
 
 import math
-print math.sqrt(17)
+print math.sqrt(0.28)
 1.666666667
 2/3 2
+
+0.5
+0.58
