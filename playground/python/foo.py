@@ -88,9 +88,9 @@ def cal(arg1, arg2):
             value2.append(num)
     print value1
     print value2
-cal(5, 21)
+cal(45, 70)
 
-
+9
 
 def cal(arg1, arg2):
     value1 = []

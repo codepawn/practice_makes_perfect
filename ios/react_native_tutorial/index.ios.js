@@ -5,14 +5,15 @@
 'use strict';
 
 var React = require('react-native');
+
 var {
-    AppRegistry,
-    Image,
-    ListView,
-    StyleSheet,
-    Text,
-    View,
-    } = React;
+  AppRegistry,
+  Image,
+  ListView,
+  StyleSheet,
+  Text,
+  View,
+  } = React;
 
 var AwesomeProject = React.createClass({
   render: function () {
@@ -21,36 +22,36 @@ var AwesomeProject = React.createClass({
     }
 
     return (
-        <ListView
-            dataSource={this.state.dataSource}
-            renderRow={this.renderMovie}
-            style={styles.listView}
-            />
+      <ListView
+        dataSource={this.state.dataSource}
+        renderRow={this.renderMovie}
+        style={styles.listView}
+        />
     );
   },
 
   renderLoadingView: function () {
     return (
-        <View style={styles.container}>
-          <Text>
-            Loading movies...
-          </Text>
-        </View>
+      <View style={styles.container}>
+        <Text>
+          Loading movies...
+        </Text>
+      </View>
     );
   },
 
   renderMovie: function (movie) {
     return (
-        <View style={styles.container}>
-          <Image
-              source={{uri: movie.posters.thumbnail}}
-              style={styles.thumbnail}
-              />
-          <View style={styles.rightContainer}>
-            <Text style={styles.title}>{movie.title}</Text>
-            <Text style={styles.year}>{movie.year}</Text>
-          </View>
+      <View style={styles.container}>
+        <Image
+          source={{uri: movie.posters.thumbnail}}
+          style={styles.thumbnail}
+          />
+        <View style={styles.rightContainer}>
+          <Text style={styles.title}>{movie.title}</Text>
+          <Text style={styles.year}>{movie.year}</Text>
         </View>
+      </View>
     );
   },
   getInitialState: function () {
@@ -66,14 +67,14 @@ var AwesomeProject = React.createClass({
   },
   fetchData: function () {
     fetch(REQUEST_URL)
-        .then((response) => response.json())
-        .then((responseData) => {
-          this.setState({
-            dataSource: this.state.dataSource.cloneWithRows(responseData.movies),
-            loaded: true,
-          });
-        })
-        .done();
+      .then((response) => response.json())
+      .then((responseData) => {
+        this.setState({
+          dataSource: this.state.dataSource.cloneWithRows(responseData.movies),
+          loaded: true,
+        });
+      })
+      .done();
   },
 });
 
