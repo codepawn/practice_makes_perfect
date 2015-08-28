@@ -44,7 +44,6 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	document.write("It works.");
 	__webpack_require__(1);
 
 
@@ -83,7 +82,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n    background: yellow;\n}\n", ""]);
+	exports.push([module.id, "body {\n  background: green;\n}\nbutton {\n  background: #f6f7f8 url(/images/button/background.png) repeat-x;\n  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);\n  border-radius: 2px;\n  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);\n}\n.button-depredded {\n  background-color: #4e69a2;\n  border-color: #c6c7ca;\n  color: #5890ff;\n}\n", ""]);
 
 	// exports
 

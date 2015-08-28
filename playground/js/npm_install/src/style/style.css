@@ -1,3 +1,14 @@
 body {
-    background: yellow;
+  background: green;
+}
+button {
+  background: #f6f7f8 url(/images/button/background.png) repeat-x;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.button-depredded {
+  background-color: #4e69a2;
+  border-color: #c6c7ca;
+  color: #5890ff;
 }

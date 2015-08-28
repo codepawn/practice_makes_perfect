@@ -5,38 +5,53 @@
 'use strict';
 
 var React = require('react-native');
+var SearchPage = require('./app/SearchPage');
+
 var {
   AppRegistry,
   StyleSheet,
   Text,
   View,
+  NavigatorIOS,
+  TextInput,
+  TouchableHighlight,
+  ActivityIndicatorIOS,
+  Image,
+  Component
   } = React;
 
-class TabApp extends React.Component {
+class HelloWorld extends Component {
   render() {
-    return(
-      <Text>google</Text>
+    return (
+      <Text style={styles.text}>Hello World (Again)</Text>
+
     )
   }
 }
 
+class egghead_tuto2 extends React.Component {
+  render() {
+    return (
+      <NavigatorIOS
+        style={styles.container}
+        initialRoute={{
+          title: 'Property Finder',
+          component: SearchPage,
+        }}/>
+    );
+  }
+}
+
 var styles = StyleSheet.create({
+  text: {
+    color: 'black',
+    backgroundColor: 'white',
+    fontSize: 25,
+    margin: 80
+  },
   container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+    flex: 1
+  }
 });
 
-AppRegistry.registerComponent('TabApp', () => TabApp);
+AppRegistry.registerComponent('egghead_tuto2', () => egghead_tuto2);
