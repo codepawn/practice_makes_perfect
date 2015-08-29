@@ -7,6 +7,6 @@ def cal(arg1, arg2):
     else:
         return arg1 ** arg2
 
-print cal(107, 1)
+print cal(22, 15)
 
 print 2^2

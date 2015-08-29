@@ -88,7 +88,7 @@ def cal(arg1, arg2):
             value2.append(num)
     print value1
     print value2
-cal(45, 70)
+cal(22, 15)
 
 9
 

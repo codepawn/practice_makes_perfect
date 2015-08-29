@@ -9,7 +9,7 @@ def lcm(x, y):
             break
         greater += 1
     return lcm
-print lcm(7, 12)
+print lcm(12, 20)
 
 12 18 24 30 36 42
 14 21 28 35 42
@@ -89,3 +89,15 @@ print math.sqrt(50)
 
 import math
 print math.sqrt(52)
+
+7/3
+5/3
+35/9
+3 8/9
+
+6*4 + 6*6
+
+3*5
+
+
+-0.04-1.29+0.25
