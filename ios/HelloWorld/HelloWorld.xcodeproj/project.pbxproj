@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F030B221B92FC22008192B6 /* foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F030B211B92FC22008192B6 /* foo.swift */; };
 		9FA9CF851B908D9500A062D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9CF841B908D9500A062D0 /* AppDelegate.swift */; };
 		9FA9CF871B908D9500A062D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9CF861B908D9500A062D0 /* ViewController.swift */; };
 		9FA9CF8A1B908D9500A062D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA9CF881B908D9500A062D0 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F030B211B92FC22008192B6 /* foo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foo.swift; sourceTree = "<group>"; };
 		9FA9CF7F1B908D9500A062D0 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA9CF831B908D9500A062D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FA9CF841B908D9500A062D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				9FA9CF841B908D9500A062D0 /* AppDelegate.swift */,
 				9FA9CF861B908D9500A062D0 /* ViewController.swift */,
+				9F030B211B92FC22008192B6 /* foo.swift */,
 				9FA9CF881B908D9500A062D0 /* Main.storyboard */,
 				9FA9CF8B1B908D9500A062D0 /* Images.xcassets */,
 				9FA9CF8D1B908D9500A062D0 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F030B221B92FC22008192B6 /* foo.swift in Sources */,
 				9FA9CF871B908D9500A062D0 /* ViewController.swift in Sources */,
 				9FA9CF851B908D9500A062D0 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				9FA9CFA01B908D9500A062D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FA9CFA11B908D9500A062D0 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				9FA9CFA31B908D9500A062D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

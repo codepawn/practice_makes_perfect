@@ -111,7 +111,7 @@ square_list = []
 
 # Your code here!
 for num in start_list:
-    square_list.append(num**2)
+    square_list.append(num ** 2)
 
 square_list.sort()
 print square_list
@@ -206,10 +206,99 @@ inventory['burlap bag'] = ['apple', 'small ruby', 'three-toed sloth']
 inventory['pouch'].sort()
 
 # Your code here
-inventory['pocket'] = ['seashell','strange berry', 'lint']
+inventory['pocket'] = ['seashell', 'strange berry', 'lint']
 inventory['backpack'].sort()
 
 inventory['backpack'].remove('dagger')
 
 inventory['gold'] = 50
 print inventory['gold']
+
+names = ["Adam", "Alex", "Mariah", "Martine", "Columbus"]
+
+for item in names:
+    print item
+
+webster = {
+	"Aardvark": "A star of a popular children's cartoon show.",
+    "Baa": "The sound a goat makes.",
+    "Carpet": "Goes on the floor.",
+    "Dab": "A small amount."
+}
+
+# Add your code below!
+for key in webster:
+    print webster[key]
+
+
+a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+for item in a:
+    if item % 2 == 0:
+        print item
+
+def count_small(numbers):
+    total = 0
+    for n in numbers:
+        if n < 10:
+            total = total + 1
+    return total
+
+lost = [4, 8, 15, 16, 23, 42]
+small = count_small(lost)
+print small
+
+
+def count_small(numbers):
+    total = 0
+    for n in numbers:
+        if n < 10:
+            total += 1
+    return total
+
+lost = [4, 8, 15, 16, 23, 42]
+small = count_small(lost)
+print small
+
+def fizz_count(x):
+    count = 0
+    for item in x:
+        if 'fizz' == item:
+            count += 1
+    return count
+
+print fizz_count(["fizz", "cat", "fizz"])
+
+for letter in "Codecademy":
+    print letter
+
+# Empty lines to make the output pretty
+print
+print
+
+word = "Programming is fun!"
+
+for letter in word:
+    # Only print out the letter i
+    if letter == "i":
+        print letter
+
+animal_counts = {
+    'ant': 3,
+    'bear': 6,
+    'crow': 2
+}
+
+price = {
+    'banana': 4,
+    'apple': 2,
+    'orange': 1.5,
+    'pear': 3
+}
+
+stock = {
+    'banana': 6,
+    'apple': 0,
+    'orange': 32
+    'pear': 15
+}

@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>06689584-0598-486E-87EC-C32B518069EB</string>
+	<string>57F59FF3-AC33-49CF-8BF6-7D1A78729447</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Hello_world2</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>3866F983D71FF7253D9C4E2E4F096436E9DDA80B</key>
 		<string>https://github.com/codepawn/practice_makes_perfect.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ios/Hello_world2/Hello_world2.xcodeproj</string>
+	<string>ios/Quiz/Quiz.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3866F983D71FF7253D9C4E2E4F096436E9DDA80B</key>
