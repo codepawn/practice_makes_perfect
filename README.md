@@ -1,16 +1,16 @@
-Project done.
+Everyday coding project.
 
-I don't need this anymore :)
+No longer maintained.
 
-I got the habit
+Here is newone.
+
+https://github.com/rationality6/codecore_2016_cohorts
+
 
 
 
 practice_makes_perfect
 ======================
-
-![alt tag](img/proto.jpg)
-![alt tag](img/proto1.jpg)
 
 Coding everydays with No! excuse
 
