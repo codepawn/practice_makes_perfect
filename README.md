@@ -1,10 +1,10 @@
-Everyday coding project.
-
-No longer maintained.
+# Everyday coding project.
 
 Here is newone.
 
 https://github.com/rationality6/codecore_2016_cohorts
+
+### No longer maintained.
 
 
 
@@ -32,65 +32,65 @@ Even a smallthings
 
 7/14/15 - meteor react preview
 
-http://meteorreactpre.meteor.com
+~~http://meteorreactpre.meteor.com~~
 
 7/2/15 - flowrouter
 
-http://flowrouterplay.meteor.com
+~~http://flowrouterplay.meteor.com~~
 
 6/27/15 - memebox test
 
-http://memeboxtest.meteor.com/
+~~http://memeboxtest.meteor.com/~~
 
 6/18/15 - lab80 test
 
-http://spiralma.meteor.com/
+~~http://spiralma.meteor.com/~~
 
 6/9/15 - slingshot
 
-http://slingdrop.meteor.com/sling
+~~http://slingdrop.meteor.com/sling~~
 
 6/2/15 - humew layout
 
-http://humewww.meteor.com/
+~~http://humewww.meteor.com/~~
 
 5/19/15 - fileupload
 
-http://filepickkertesto.meteor.com/
+~~http://filepickkertesto.meteor.com/~~
 
 4/12/15 - leveluptut
 
-http://leveluptuts.meteor.com
+~~http://leveluptuts.meteor.com~~
 
 4/10/15 - autoform
 
-http://autoformtutorial.meteor.com
+~~http://autoformtutorial.meteor.com~~
 
 4/9/15 - eventedmind tuto
 
-http://eventedmindfirstone.meteor.com
+~~http://eventedmindfirstone.meteor.com~~
 
 4/1/15 - leaderboard
 
-http://myfirstleaderboadrd.meteor.com
+~~http://myfirstleaderboadrd.meteor.com~~
 
 3/28/15 - issuetracker
 
-http://mediumissuetracker.meteor.com
+~~http://mediumissuetracker.meteor.com~~
 
 3/27/15 - eventedmind blog
 
-http://ironrouterblog.meteor.com
+~~http://ironrouterblog.meteor.com~~
 
 3/23/15 eventedmind
 
-http://irongettingstart.meteor.com
+~~http://irongettingstart.meteor.com~~
 
 3/6/15 sidebar tests
 
-http://sidebarforfix.meteor.com
-http://sidebarforfix2.meteor.com
+~~http://sidebarforfix.meteor.com~~
+~~http://sidebarforfix2.meteor.com~~
 
 1/15/15 humew pics
 
-http://projecthumew.meteor.com
+~~http://projecthumew.meteor.com~~
